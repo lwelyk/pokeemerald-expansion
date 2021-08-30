@@ -106,6 +106,7 @@
 	create_movement_action show_reflection
 	create_movement_action walk_down_start_affine
 	create_movement_action walk_down_affine
+	create_movement_action headbutt_tree_shake
 
 	enum_start 0x8C
 	create_movement_action walk_diag_northwest
