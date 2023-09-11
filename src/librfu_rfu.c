@@ -1,6 +1,14 @@
 #include <limits.h>
 #include "librfu.h"
 
+// If expanding the length of the player name and wireless link functionality is
+// desired, ensure that the name string is limited in size when it's copied from the
+// saveblock to any Rfu-related fields (e.g. in SetHostRfuUsername).
+// If wireless link functionality is not desired ignore or delete this warning.
+#if RFU_USER_NAME_LENGTH < (PLAYER_NAME_LENGTH + 1)
+#warning "The Wireless Adapter hardware expects a username of no more than 8 bytes."
+#endif
+
 struct LLSFStruct
 {
     u8 frameSize;
@@ -8,7 +16,7 @@ struct LLSFStruct
     u8 connSlotFlagShift;
     u8 slotStateShift;
     u8 ackShift;
-    u8 phaseShit;
+    u8 phaseShift;
     u8 nShift;
     u8 recvFirstMask;
     u8 connSlotFlagMask;
@@ -81,7 +89,7 @@ static const struct LLSFStruct llsf_struct[2] = {
         .connSlotFlagShift = 0,
         .slotStateShift = 10,
         .ackShift = 9,
-        .phaseShit = 5,
+        .phaseShift = 5,
         .nShift = 7,
         .recvFirstMask = 2,
         .connSlotFlagMask = 0,
@@ -97,7 +105,7 @@ static const struct LLSFStruct llsf_struct[2] = {
         .connSlotFlagShift = 18,
         .slotStateShift = 14,
         .ackShift = 13,
-        .phaseShit = 9,
+        .phaseShift = 9,
         .nShift = 11,
         .recvFirstMask = 3,
         .connSlotFlagMask = 15,
@@ -131,7 +139,7 @@ u16 rfu_initializeAPI(u32 *APIBuffer, u16 buffByteSize, IntrFunc *sioIntrTable_p
     u16 buffByteSizeMax;
 
     // is in EWRAM?
-    if (((uintptr_t)APIBuffer & 0xF000000) == 0x2000000 && copyInterruptToRam)
+    if (((uintptr_t)APIBuffer & 0xF000000) == EWRAM_START && copyInterruptToRam)
         return ERR_RFU_API_BUFF_ADR;
     // is not 4-byte aligned?
     if ((u32)APIBuffer & 3)
@@ -161,7 +169,7 @@ u16 rfu_initializeAPI(u32 *APIBuffer, u16 buffByteSize, IntrFunc *sioIntrTable_p
         gRfuSlotStatusNI[i] = &gRfuSlotStatusNI[i - 1][1];
         gRfuSlotStatusUNI[i] = &gRfuSlotStatusUNI[i - 1][1];
     }
-    // remaining space in API buffer is used for `struct RfuIntrStruct`. 
+    // remaining space in API buffer is used for `struct RfuIntrStruct`.
     gRfuFixed->STWIBuffer = (struct RfuIntrStruct *)&gRfuSlotStatusUNI[3][1];
     STWI_init_all((struct RfuIntrStruct *)&gRfuSlotStatusUNI[3][1], sioIntrTable_p, copyInterruptToRam);
     rfu_STC_clearAPIVariables();
@@ -330,7 +338,7 @@ u16 rfu_getRFUStatus(u8 *rfuState)
 u16 rfu_MBOOT_CHILD_inheritanceLinkStatus(void)
 {
     const char *s1 = str_checkMbootLL;
-    char *s2 = (char *)0x30000F0;
+    char *s2 = (char *)(IWRAM_START + 0xF0);
     u16 checksum;
     u16 *mb_buff_iwram_p;
     u8 i;
@@ -339,15 +347,15 @@ u16 rfu_MBOOT_CHILD_inheritanceLinkStatus(void)
     while (*s1 != '\0')
         if (*s1++ != *s2++)
             return 1;
-    mb_buff_iwram_p = (u16 *)0x3000000;
+    mb_buff_iwram_p = (u16 *)IWRAM_START;
 
     // The size of struct RfuLinkStatus is 180
     checksum = 0;
     for (i = 0; i < 180/2; ++i)
         checksum += *mb_buff_iwram_p++;
-    if (checksum != *(u16 *)0x30000FA)
+    if (checksum != *(u16 *)(IWRAM_START + 0xFA))
         return 1;
-    CpuCopy16((u16 *)0x3000000, gRfuLinkStatus, sizeof(struct RfuLinkStatus));
+    CpuCopy16((u16 *)IWRAM_START, gRfuLinkStatus, sizeof(struct RfuLinkStatus));
     gRfuStatic->flags |= 0x80; // mboot
     return 0;
 }
@@ -1801,7 +1809,7 @@ static u16 rfu_STC_NI_constructLLSF(u8 bm_slot_id, u8 **dest_pp, struct NIComm *
     }
     frame = (NI_comm->state & 0xF) << llsf->slotStateShift
          | NI_comm->ack << llsf->ackShift
-         | NI_comm->phase << llsf->phaseShit
+         | NI_comm->phase << llsf->phaseShift
          | NI_comm->n[NI_comm->phase] << llsf->nShift
          | size;
     if (gRfuLinkStatus->parentChild == MODE_PARENT)
@@ -1970,7 +1978,7 @@ static u16 rfu_STC_analyzeLLSF(u8 slot_id, const u8 *src, u16 last_frame)
     llsf_NI.connSlotFlag = (frames >> llsf_p->connSlotFlagShift) & llsf_p->connSlotFlagMask;
     llsf_NI.slotState = (frames >> llsf_p->slotStateShift) & llsf_p->slotStateMask;
     llsf_NI.ack = (frames >> llsf_p->ackShift) & llsf_p->ackMask;
-    llsf_NI.phase = (frames >> llsf_p->phaseShit) & llsf_p->phaseMask;
+    llsf_NI.phase = (frames >> llsf_p->phaseShift) & llsf_p->phaseMask;
     llsf_NI.n = (frames >> llsf_p->nShift) & llsf_p->nMask;
     llsf_NI.frame = (frames  & llsf_p->framesMask) & frames;
     retVal = llsf_NI.frame + llsf_p->frameSize;

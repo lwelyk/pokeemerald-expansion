@@ -7,9 +7,9 @@ BattleFrontier_BattlePikeThreePathRoom_MapScripts::
 	.byte 0
 
 BattleFrontier_BattlePikeThreePathRoom_OnFrame:
-	map_script_2 VAR_TEMP_0, 0, BattleFrontier_BattlePikeThreePathRoom_EventScript_GetChallengeStatus
-	map_script_2 VAR_TEMP_0, CHALLENGE_STATUS_SAVING, BattleFrontier_BattlePikeThreePathRoom_EventScript_WarpToLobby
-	map_script_2 VAR_TEMP_0, CHALLENGE_STATUS_PAUSED, BattleFrontier_BattlePikeThreePathRoom_EventScript_ResumeChallenge
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, 0, BattleFrontier_BattlePikeThreePathRoom_EventScript_GetChallengeStatus
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, CHALLENGE_STATUS_SAVING, BattleFrontier_BattlePikeThreePathRoom_EventScript_WarpToLobby
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, CHALLENGE_STATUS_PAUSED, BattleFrontier_BattlePikeThreePathRoom_EventScript_ResumeChallenge
 	map_script_2 VAR_TEMP_5, 0, BattleFrontier_BattlePikeThreePathRoom_EventScript_SetHintRoom
 	map_script_2 VAR_TEMP_5, 1, BattleFrontier_BattlePikeThreePathRoom_EventScript_GivePikeQueenHint
 	.2byte 0
@@ -28,7 +28,7 @@ BattleFrontier_BattlePikeThreePathRoom_EventScript_GetChallengeStatus::
 	end
 
 BattleFrontier_BattlePikeThreePathRoom_EventScript_WarpToLobby::
-	warp MAP_BATTLE_FRONTIER_BATTLE_PIKE_LOBBY, 255, 5, 6
+	warp MAP_BATTLE_FRONTIER_BATTLE_PIKE_LOBBY, 5, 6
 	waitstate
 	end
 
@@ -40,7 +40,7 @@ BattleFrontier_BattlePikeThreePathRoom_EventScript_ResumeChallenge::
 	playse SE_SAVE
 	waitse
 	frontier_set FRONTIER_DATA_PAUSED, FALSE
-	setvar VAR_TEMP_0, 255
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
 	special SavePlayerParty
 	frontier_setpartyorder FRONTIER_PARTY_SIZE
 	msgbox BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge, MSGBOX_DEFAULT
@@ -151,8 +151,7 @@ BattleFrontier_BattlePikeThreePathRoom_EventScript_AskRetireChallenge::
 
 BattleFrontier_BattlePikeThreePathRoom_EventScript_SetHintRoom::
 	pike_sethintroom
-	compare VAR_RESULT, TRUE
-	goto_if_eq BattleFrontier_BattlePikeThreePathRoom_EventScript_SetPikeQueenHint
+	goto_if_eq VAR_RESULT, TRUE, BattleFrontier_BattlePikeThreePathRoom_EventScript_SetPikeQueenHint
 	setvar VAR_TEMP_5, 255
 	end
 
@@ -173,8 +172,7 @@ BattleFrontier_BattlePikeThreePathRoom_EventScript_GivePikeQueenHint::
 
 BattleFrontier_BattlePikeThreePathRoom_EventScript_HintGiver::
 	pike_gethint
-	compare VAR_RESULT, PIKE_HINT_BRAIN
-	goto_if_eq BattleFrontier_BattlePikeThreePathRoom_EventScript_GiveBrainHint
+	goto_if_eq VAR_RESULT, PIKE_HINT_BRAIN, BattleFrontier_BattlePikeThreePathRoom_EventScript_GiveBrainHint
 	lock
 	faceplayer
 	msgbox BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose, MSGBOX_YESNO

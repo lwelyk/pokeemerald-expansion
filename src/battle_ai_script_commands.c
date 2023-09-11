@@ -13,16 +13,13 @@
 #include "constants/abilities.h"
 #include "constants/battle_ai.h"
 #include "constants/battle_move_effects.h"
+#include "constants/items.h"
 #include "constants/moves.h"
 
-#define AI_ACTION_DONE          0x0001
-#define AI_ACTION_FLEE          0x0002
-#define AI_ACTION_WATCH         0x0004
-#define AI_ACTION_DO_NOT_ATTACK 0x0008
-#define AI_ACTION_UNK5          0x0010
-#define AI_ACTION_UNK6          0x0020
-#define AI_ACTION_UNK7          0x0040
-#define AI_ACTION_UNK8          0x0080
+#define AI_ACTION_DONE          (1 << 0)
+#define AI_ACTION_FLEE          (1 << 1)
+#define AI_ACTION_WATCH         (1 << 2)
+#define AI_ACTION_DO_NOT_ATTACK (1 << 3)
 
 #define AI_THINKING_STRUCT ((struct AI_ThinkingStruct *)(gBattleResources->ai))
 #define BATTLE_HISTORY ((struct BattleHistory *)(gBattleResources->battleHistory))
@@ -274,7 +271,7 @@ static const u16 sIgnoredPowerfulMoveEffects[] =
     EFFECT_SKY_ATTACK,
     EFFECT_RECHARGE,
     EFFECT_SKULL_BASH,
-    EFFECT_SOLARBEAM,
+    EFFECT_SOLAR_BEAM,
     EFFECT_SPIT_UP,
     EFFECT_FOCUS_PUNCH,
     EFFECT_SUPERPOWER,
@@ -283,7 +280,6 @@ static const u16 sIgnoredPowerfulMoveEffects[] =
     IGNORED_MOVES_END
 };
 
-// code
 void BattleAI_HandleItemUseBeforeAISetup(u8 defaultScoreMoves)
 {
     s32 i;
@@ -302,7 +298,7 @@ void BattleAI_HandleItemUseBeforeAISetup(u8 defaultScoreMoves)
     {
         for (i = 0; i < MAX_TRAINER_ITEMS; i++)
         {
-            if (gTrainers[gTrainerBattleOpponent_A].items[i] != 0)
+            if (gTrainers[gTrainerBattleOpponent_A].items[i] != ITEM_NONE)
             {
                 BATTLE_HISTORY->trainerItems[BATTLE_HISTORY->itemsNo] = gTrainers[gTrainerBattleOpponent_A].items[i];
                 BATTLE_HISTORY->itemsNo++;
@@ -334,7 +330,7 @@ void BattleAI_SetupAIData(u8 defaultScoreMoves)
         defaultScoreMoves >>= 1;
     }
 
-    moveLimitations = CheckMoveLimitations(gActiveBattler, 0, 0xFF);
+    moveLimitations = CheckMoveLimitations(gActiveBattler, 0, MOVE_LIMITATIONS_ALL);
 
     // Ignore moves that aren't possible to use.
     for (i = 0; i < MAX_MON_MOVES; i++)
@@ -351,14 +347,14 @@ void BattleAI_SetupAIData(u8 defaultScoreMoves)
     // Decide a random target battlerId in doubles.
     if (gBattleTypeFlags & BATTLE_TYPE_DOUBLE)
     {
-        gBattlerTarget = (Random() & BIT_FLANK) + (GetBattlerSide(gActiveBattler) ^ BIT_SIDE);
+        gBattlerTarget = (Random() & BIT_FLANK) + BATTLE_OPPOSITE(GetBattlerSide(gActiveBattler));
         if (gAbsentBattlerFlags & gBitTable[gBattlerTarget])
             gBattlerTarget ^= BIT_FLANK;
     }
     // There's only one choice in single battles.
     else
     {
-        gBattlerTarget = sBattler_AI ^ BIT_SIDE;
+        gBattlerTarget = BATTLE_OPPOSITE(sBattler_AI);
     }
 
     // Choose proper trainer ai scripts.
@@ -482,9 +478,9 @@ static u8 ChooseMoveOrAction_Doubles(void)
         else
         {
             if (gBattleTypeFlags & BATTLE_TYPE_PALACE)
-                BattleAI_SetupAIData(gBattleStruct->palaceFlags >> 4);
+                BattleAI_SetupAIData(gBattleStruct->palaceFlags >> MAX_BATTLERS_COUNT);
             else
-                BattleAI_SetupAIData((1 << MAX_MON_MOVES) - 1);
+                BattleAI_SetupAIData(ALL_MOVES_MASK);
 
             gBattlerTarget = i;
 
@@ -541,7 +537,7 @@ static u8 ChooseMoveOrAction_Doubles(void)
                 bestMovePointsForTarget[i] = mostViableMovesScores[0];
 
                 // Don't use a move against ally if it has less than 100 points.
-                if (i == (sBattler_AI ^ BIT_FLANK) && bestMovePointsForTarget[i] < 100)
+                if (i == BATTLE_PARTNER(sBattler_AI) && bestMovePointsForTarget[i] < 100)
                 {
                     bestMovePointsForTarget[i] = -1;
                     mostViableMovesScores[0] = mostViableMovesScores[0]; // Needed to match.
@@ -1151,9 +1147,9 @@ static u8 BattleAI_GetWantedBattler(u8 wantedBattler)
     default:
         return gBattlerTarget;
     case AI_USER_PARTNER:
-        return sBattler_AI ^ BIT_FLANK;
+        return BATTLE_PARTNER(sBattler_AI);
     case AI_TARGET_PARTNER:
-        return gBattlerTarget ^ BIT_FLANK;
+        return BATTLE_PARTNER(gBattlerTarget);
     }
 }
 
@@ -1316,7 +1312,7 @@ static void Cmd_count_usable_party_mons(void)
     {
         u32 position;
         battlerOnField1 = gBattlerPartyIndexes[battlerId];
-        position = GetBattlerPosition(battlerId) ^ BIT_FLANK;
+        position = BATTLE_PARTNER(GetBattlerPosition(battlerId));
         battlerOnField2 = gBattlerPartyIndexes[GetBattlerAtPosition(position)];
     }
     else // In singles there's only one battlerId by side.
@@ -1329,8 +1325,8 @@ static void Cmd_count_usable_party_mons(void)
     {
         if (i != battlerOnField1 && i != battlerOnField2
          && GetMonData(&party[i], MON_DATA_HP) != 0
-         && GetMonData(&party[i], MON_DATA_SPECIES2) != SPECIES_NONE
-         && GetMonData(&party[i], MON_DATA_SPECIES2) != SPECIES_EGG)
+         && GetMonData(&party[i], MON_DATA_SPECIES_OR_EGG) != SPECIES_NONE
+         && GetMonData(&party[i], MON_DATA_SPECIES_OR_EGG) != SPECIES_EGG)
         {
             AI_THINKING_STRUCT->funcResult++;
         }
@@ -1379,24 +1375,24 @@ static void Cmd_get_ability(void)
             return;
         }
 
-        if (gBaseStats[gBattleMons[battlerId].species].abilities[0] != ABILITY_NONE)
+        if (gSpeciesInfo[gBattleMons[battlerId].species].abilities[0] != ABILITY_NONE)
         {
-            if (gBaseStats[gBattleMons[battlerId].species].abilities[1] != ABILITY_NONE)
+            if (gSpeciesInfo[gBattleMons[battlerId].species].abilities[1] != ABILITY_NONE)
             {
                 // AI has no knowledge of opponent, so it guesses which ability.
                 if (Random() & 1)
-                    AI_THINKING_STRUCT->funcResult = gBaseStats[gBattleMons[battlerId].species].abilities[0];
+                    AI_THINKING_STRUCT->funcResult = gSpeciesInfo[gBattleMons[battlerId].species].abilities[0];
                 else
-                    AI_THINKING_STRUCT->funcResult = gBaseStats[gBattleMons[battlerId].species].abilities[1];
+                    AI_THINKING_STRUCT->funcResult = gSpeciesInfo[gBattleMons[battlerId].species].abilities[1];
             }
             else
             {
-                AI_THINKING_STRUCT->funcResult = gBaseStats[gBattleMons[battlerId].species].abilities[0]; // It's definitely ability 1.
+                AI_THINKING_STRUCT->funcResult = gSpeciesInfo[gBattleMons[battlerId].species].abilities[0]; // It's definitely ability 1.
             }
         }
         else
         {
-            AI_THINKING_STRUCT->funcResult = gBaseStats[gBattleMons[battlerId].species].abilities[1]; // AI can't actually reach this part since no pokemon has ability 2 and no ability 1.
+            AI_THINKING_STRUCT->funcResult = gSpeciesInfo[gBattleMons[battlerId].species].abilities[1]; // AI can't actually reach this part since no pokemon has ability 2 and no ability 1.
         }
     }
     else
@@ -1427,15 +1423,15 @@ static void Cmd_check_ability(void)
         {
             ability = gBattleMons[battlerId].ability;
         }
-        else if (gBaseStats[gBattleMons[battlerId].species].abilities[0] != ABILITY_NONE)
+        else if (gSpeciesInfo[gBattleMons[battlerId].species].abilities[0] != ABILITY_NONE)
         {
-            if (gBaseStats[gBattleMons[battlerId].species].abilities[1] != ABILITY_NONE)
+            if (gSpeciesInfo[gBattleMons[battlerId].species].abilities[1] != ABILITY_NONE)
             {
                 u8 abilityDummyVariable = ability; // Needed to match.
-                if (gBaseStats[gBattleMons[battlerId].species].abilities[0] != abilityDummyVariable
-                && gBaseStats[gBattleMons[battlerId].species].abilities[1] != abilityDummyVariable)
+                if (gSpeciesInfo[gBattleMons[battlerId].species].abilities[0] != abilityDummyVariable
+                && gSpeciesInfo[gBattleMons[battlerId].species].abilities[1] != abilityDummyVariable)
                 {
-                    ability = gBaseStats[gBattleMons[battlerId].species].abilities[0];
+                    ability = gSpeciesInfo[gBattleMons[battlerId].species].abilities[0];
                 }
                 else
                 {
@@ -1444,12 +1440,12 @@ static void Cmd_check_ability(void)
             }
             else
             {
-                ability = gBaseStats[gBattleMons[battlerId].species].abilities[0];
+                ability = gSpeciesInfo[gBattleMons[battlerId].species].abilities[0];
             }
         }
         else
         {
-            ability = gBaseStats[gBattleMons[battlerId].species].abilities[1]; // AI can't actually reach this part since no pokemon has ability 2 and no ability 1.
+            ability = gSpeciesInfo[gBattleMons[battlerId].species].abilities[1]; // AI can't actually reach this part since no pokemon has ability 2 and no ability 1.
         }
     }
     else
@@ -1632,13 +1628,13 @@ static void Cmd_if_status_not_in_party(void)
 
 static void Cmd_get_weather(void)
 {
-    if (gBattleWeather & WEATHER_RAIN_ANY)
+    if (gBattleWeather & B_WEATHER_RAIN)
         AI_THINKING_STRUCT->funcResult = AI_WEATHER_RAIN;
-    if (gBattleWeather & WEATHER_SANDSTORM_ANY)
+    if (gBattleWeather & B_WEATHER_SANDSTORM)
         AI_THINKING_STRUCT->funcResult = AI_WEATHER_SANDSTORM;
-    if (gBattleWeather & WEATHER_SUN_ANY)
+    if (gBattleWeather & B_WEATHER_SUN)
         AI_THINKING_STRUCT->funcResult = AI_WEATHER_SUN;
-    if (gBattleWeather & WEATHER_HAIL_ANY)
+    if (gBattleWeather & B_WEATHER_HAIL)
         AI_THINKING_STRUCT->funcResult = AI_WEATHER_HAIL;
 
     gAIScriptPtr += 1;
@@ -1799,7 +1795,7 @@ static void Cmd_if_has_move(void)
             gAIScriptPtr = T1_READ_PTR(gAIScriptPtr + 4);
         break;
     case AI_USER_PARTNER:
-        if (gBattleMons[sBattler_AI ^ BIT_FLANK].hp == 0)
+        if (gBattleMons[BATTLE_PARTNER(sBattler_AI)].hp == 0)
         {
             gAIScriptPtr += 8;
             break;
@@ -1808,7 +1804,7 @@ static void Cmd_if_has_move(void)
         {
             for (i = 0; i < MAX_MON_MOVES; i++)
             {
-                if (gBattleMons[sBattler_AI ^ BIT_FLANK].moves[i] == *movePtr)
+                if (gBattleMons[BATTLE_PARTNER(sBattler_AI)].moves[i] == *movePtr)
                     break;
             }
         }
