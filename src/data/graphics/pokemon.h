@@ -13065,6 +13065,14 @@ const u8 gMonFootprint_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mar
 #endif //P_FOOTPRINTS
 #endif //P_FAMILY_PECHARUNT
 
+// Posum
+   const u32 gMonFrontPic_Posum[] = INCBIN_U32("graphics/pokemon/posum/anim_front.4bpp.lz");
+   const u32 gMonBackPic_Posum[] = INCBIN_U32("graphics/pokemon/posum/back.4bpp.lz");
+   const u32 gMonPalette_Posum[] = INCBIN_U32("graphics/pokemon/posum/normal.gbapal.lz");
+   const u32 gMonShinyPalette_Posum[] = INCBIN_U32("graphics/pokemon/posum/shiny.gbapal.lz");
+   const u8 gMonIcon_Posum[] = INCBIN_U8("graphics/pokemon/posum/icon.4bpp");
+   const u8 gMonFootprint_Posum[] = INCBIN_U8("graphics/pokemon/posum/footprint.1bpp");
+
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
     const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
