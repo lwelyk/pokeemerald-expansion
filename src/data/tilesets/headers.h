@@ -836,3 +836,25 @@ const struct Tileset gTileset_CrystalGuardians =
     .metatileAttributes = gMetatileAttributes_CrystalGuardians,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_PorytilesPrimaryTest =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_PorytilesPrimaryTest,
+    .palettes = gTilesetPalettes_PorytilesPrimaryTest,
+    .metatiles = gMetatiles_PorytilesPrimaryTest,
+    .metatileAttributes = gMetatileAttributes_PorytilesPrimaryTest,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_JohtoPrimary =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_JohtoPrimary,
+    .palettes = gTilesetPalettes_JohtoPrimary,
+    .metatiles = gMetatiles_JohtoPrimary,
+    .metatileAttributes = gMetatileAttributes_JohtoPrimary,
+    .callback = NULL,
+};

@@ -210,3 +210,9 @@ const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/
 
 const u16 gMetatiles_CrystalGuardians[] = INCBIN_U16("data/tilesets/primary/crystal_guardians/metatiles.bin");
 const u16 gMetatileAttributes_CrystalGuardians[] = INCBIN_U16("data/tilesets/primary/crystal_guardians/metatile_attributes.bin");
+
+const u16 gMetatiles_PorytilesPrimaryTest[] = INCBIN_U16("data/tilesets/primary/porytiles_primary_test/metatiles.bin");
+const u16 gMetatileAttributes_PorytilesPrimaryTest[] = INCBIN_U16("data/tilesets/primary/porytiles_primary_test/metatile_attributes.bin");
+
+const u16 gMetatiles_JohtoPrimary[] = INCBIN_U16("data/tilesets/primary/johto_primary/metatiles.bin");
+const u16 gMetatileAttributes_JohtoPrimary[] = INCBIN_U16("data/tilesets/primary/johto_primary/metatile_attributes.bin");
