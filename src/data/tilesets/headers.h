@@ -836,3 +836,14 @@ const struct Tileset gTileset_Johto_Primary =
     .metatileAttributes = gMetatileAttributes_Johto_Primary,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Cherrygrove =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Cherrygrove,
+    .palettes = gTilesetPalettes_Cherrygrove,
+    .metatiles = gMetatiles_Cherrygrove,
+    .metatileAttributes = gMetatileAttributes_Cherrygrove,
+    .callback = NULL,
+};

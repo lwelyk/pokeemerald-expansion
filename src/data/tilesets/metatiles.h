@@ -210,3 +210,6 @@ const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/
 
 const u16 gMetatiles_Johto_Primary[] = INCBIN_U16("data/tilesets/primary/johto_primary/metatiles.bin");
 const u16 gMetatileAttributes_Johto_Primary[] = INCBIN_U16("data/tilesets/primary/johto_primary/metatile_attributes.bin");
+
+const u16 gMetatiles_Cherrygrove[] = INCBIN_U16("data/tilesets/secondary/cherrygrove/metatiles.bin");
+const u16 gMetatileAttributes_Cherrygrove[] = INCBIN_U16("data/tilesets/secondary/cherrygrove/metatile_attributes.bin");
