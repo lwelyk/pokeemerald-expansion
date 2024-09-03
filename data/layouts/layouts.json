@@ -4410,6 +4410,66 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHERRYGROVE_CITY",
+      "name": "CherrygroveCity_Layout",
+      "width": 45,
+      "height": 28,
+      "primary_tileset": "gTileset_Johto_Primary",
+      "secondary_tileset": "gTileset_Cherrygrove",
+      "border_filepath": "data/layouts/CherrygroveCity/border.bin",
+      "blockdata_filepath": "data/layouts/CherrygroveCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN",
+      "name": "NewBarkTown_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Johto_Primary",
+      "secondary_tileset": "gTileset_Cherrygrove",
+      "border_filepath": "data/layouts/NewBarkTown/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE29",
+      "name": "Route29_Layout",
+      "width": 58,
+      "height": 18,
+      "primary_tileset": "gTileset_Johto_Primary",
+      "secondary_tileset": "gTileset_Cherrygrove",
+      "border_filepath": "data/layouts/Route29/border.bin",
+      "blockdata_filepath": "data/layouts/Route29/map.bin"
+    },
+    {
+      "id": "LAYOUT_AMITY_MEADOW",
+      "name": "AmityMeadow_Layout",
+      "width": 45,
+      "height": 21,
+      "primary_tileset": "gTileset_Johto_Primary",
+      "secondary_tileset": "gTileset_Cherrygrove",
+      "border_filepath": "data/layouts/AmityMeadow/border.bin",
+      "blockdata_filepath": "data/layouts/AmityMeadow/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE30",
+      "name": "Route30_Layout",
+      "width": 24,
+      "height": 54,
+      "primary_tileset": "gTileset_Johto_Primary",
+      "secondary_tileset": "gTileset_Cherrygrove",
+      "border_filepath": "data/layouts/Route30/border.bin",
+      "blockdata_filepath": "data/layouts/Route30/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE31",
+      "name": "Route31_Layout",
+      "width": 44,
+      "height": 20,
+      "primary_tileset": "gTileset_Johto_Primary",
+      "secondary_tileset": "gTileset_Cherrygrove",
+      "border_filepath": "data/layouts/Route31/border.bin",
+      "blockdata_filepath": "data/layouts/Route31/map.bin"
     }
   ]
 }
