@@ -76,6 +76,13 @@
 #define MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F        (2 | (1 << 8))
 #define MAP_LITTLEROOT_TOWN_MAYS_HOUSE_2F        (3 | (1 << 8))
 #define MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB (4 | (1 << 8))
+#define MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_2F       (5 | (1 << 8))
+#define MAP_NEW_BARK_TOWN_PLAYERS_HOUSE1F        (6 | (1 << 8))
+#define MAP_NEW_BARK_TOWN_ELMS_HOUSE1F           (7 | (1 << 8))
+#define MAP_NEW_BARK_TOWN_NPCHOUSE               (8 | (1 << 8))
+#define MAP_NEW_BARK_TOWN_FRIENDLY_RIVAL_HOUSE1F (9 | (1 << 8))
+#define MAP_NEW_BARK_TOWN_FRIENDLY_RIVAL_HOUSE2F (10 | (1 << 8))
+#define MAP_NEW_BARK_TOWN_ELMS_LAB               (11 | (1 << 8))
 
 // gMapGroup_IndoorOldale
 #define MAP_OLDALE_TOWN_HOUSE1            (0 | (2 << 8))

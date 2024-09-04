@@ -1691,3 +1691,22 @@ const u16 gTilesetPalettes_Johto_Interior[][16] =
 };
 
 const u32 gTilesetTiles_Johto_Interior[] = INCBIN_U32("data/tilesets/primary/johto_interior/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_laboratory[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/laboratory/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_laboratory[] = INCBIN_U32("data/tilesets/secondary/laboratory/tiles.4bpp.lz");

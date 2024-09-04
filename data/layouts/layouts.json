@@ -4424,7 +4424,7 @@
     {
       "id": "LAYOUT_NEW_BARK_TOWN",
       "name": "NewBarkTown_Layout",
-      "width": 20,
+      "width": 25,
       "height": 20,
       "primary_tileset": "gTileset_Johto_Primary",
       "secondary_tileset": "gTileset_Cherrygrove",
@@ -4470,6 +4470,76 @@
       "secondary_tileset": "gTileset_Cherrygrove",
       "border_filepath": "data/layouts/Route31/border.bin",
       "blockdata_filepath": "data/layouts/Route31/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN_PLAYERS_HOUSE_2F",
+      "name": "NewBarkTown_PlayersHouse_2F_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/NewBarkTown_PlayersHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown_PlayersHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN_PLAYERS_HOUSE1F",
+      "name": "NewBarkTown_PlayersHouse1F_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/NewBarkTown_PlayersHouse1F/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown_PlayersHouse1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN_ELMS_HOUSE1F",
+      "name": "NewBarkTown_ElmsHouse1F_Layout",
+      "width": 8,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/NewBarkTown_ElmsHouse1F/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown_ElmsHouse1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN_NPCHOUSE",
+      "name": "NewBarkTown_NPCHouse_Layout",
+      "width": 8,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/NewBarkTown_NPCHouse/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown_NPCHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN_FRIENDLY_RIVAL_HOUSE1F",
+      "name": "NewBarkTown_FriendlyRivalHouse1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/NewBarkTown_FriendlyRivalHouse1F/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown_FriendlyRivalHouse1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN_FRIENDLY_RIVAL_HOUSE2F",
+      "name": "NewBarkTown_FriendlyRivalHouse2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/NewBarkTown_FriendlyRivalHouse2F/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown_FriendlyRivalHouse2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_TOWN_ELMS_LAB",
+      "name": "NewBarkTown_ElmsLab_Layout",
+      "width": 10,
+      "height": 12,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_laboratory",
+      "border_filepath": "data/layouts/NewBarkTown_ElmsLab/border.bin",
+      "blockdata_filepath": "data/layouts/NewBarkTown_ElmsLab/map.bin"
     }
   ]
 }

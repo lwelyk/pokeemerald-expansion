@@ -1086,3 +1086,17 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route30/scripts.inc"
 
 	.include "data/maps/Route31/scripts.inc"
+
+	.include "data/maps/NewBarkTown_PlayersHouse_2F/scripts.inc"
+
+	.include "data/maps/NewBarkTown_PlayersHouse1F/scripts.inc"
+
+	.include "data/maps/NewBarkTown_ElmsHouse1F/scripts.inc"
+
+	.include "data/maps/NewBarkTown_NPCHouse/scripts.inc"
+
+	.include "data/maps/NewBarkTown_FriendlyRivalHouse1F/scripts.inc"
+
+	.include "data/maps/NewBarkTown_FriendlyRivalHouse2F/scripts.inc"
+
+	.include "data/maps/NewBarkTown_ElmsLab/scripts.inc"

@@ -105,7 +105,14 @@
     "LittlerootTown_BrendansHouse_2F",
     "LittlerootTown_MaysHouse_1F",
     "LittlerootTown_MaysHouse_2F",
-    "LittlerootTown_ProfessorBirchsLab"
+    "LittlerootTown_ProfessorBirchsLab",
+    "NewBarkTown_PlayersHouse_2F",
+    "NewBarkTown_PlayersHouse1F",
+    "NewBarkTown_ElmsHouse1F",
+    "NewBarkTown_NPCHouse",
+    "NewBarkTown_FriendlyRivalHouse1F",
+    "NewBarkTown_FriendlyRivalHouse2F",
+    "NewBarkTown_ElmsLab"
   ],
   "gMapGroup_IndoorOldale": [
     "OldaleTown_House1",
