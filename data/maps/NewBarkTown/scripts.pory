@@ -1,0 +1,9 @@
+mapscripts NewBarkTown_MapScripts {
+
+}
+
+script NewBarkTown_TownSign {
+	lockall
+	msgbox(format("NEW BARK TOWN\nThe Town Where Winds of a New Beginning Blow."))
+	releaseall
+}
