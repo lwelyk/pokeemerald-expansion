@@ -850,7 +850,7 @@ static void RotateTile(u8 rotDir)
         else
             sprite->sOrientation = ORIENTATION_270;
     }
-    else if (rotDir == ROTATE_CLOCKWISE)
+    else
     {
         affineAnimation = sprite->sOrientation + 8;
         sprite->sOrientation++;
@@ -863,7 +863,7 @@ static void RotateTile(u8 rotDir)
 
 static void CheckForSolution(void)
 {
-    u8 row, col, tile;
+    u8 row, col;
     for (row = 0; row < NUM_SLIDING_PUZZLE_ROWS; row++)
     {
         for (col = 0; col < NUM_SLIDING_PUZZLE_COLS; col++)
