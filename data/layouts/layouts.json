@@ -4445,7 +4445,7 @@
       "id": "LAYOUT_AMITY_MEADOW",
       "name": "AmityMeadow_Layout",
       "width": 45,
-      "height": 21,
+      "height": 20,
       "primary_tileset": "gTileset_Johto_Primary",
       "secondary_tileset": "gTileset_Cherrygrove",
       "border_filepath": "data/layouts/AmityMeadow/border.bin",

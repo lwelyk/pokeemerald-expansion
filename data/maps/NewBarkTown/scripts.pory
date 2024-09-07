@@ -5,5 +5,8 @@ mapscripts NewBarkTown_MapScripts {
 script NewBarkTown_TownSign {
 	lockall
 	msgbox(format("NEW BARK TOWN\nThe Town Where Winds of a New Beginning Blow."))
+	setflag(FLAG_SYS_POKEMON_GET)
+	setflag(FLAG_RESCUED_BIRCH)
+	givemon(SPECIES_CYNDAQUIL, 20, ITEM_NONE)
 	releaseall
 }
