@@ -4540,6 +4540,16 @@
       "secondary_tileset": "gTileset_laboratory",
       "border_filepath": "data/layouts/NewBarkTown_ElmsLab/border.bin",
       "blockdata_filepath": "data/layouts/NewBarkTown_ElmsLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_REFRESHING_FIELD",
+      "name": "RefreshingField_Layout",
+      "width": 35,
+      "height": 20,
+      "primary_tileset": "gTileset_Johto_Primary",
+      "secondary_tileset": "gTileset_Cherrygrove",
+      "border_filepath": "data/layouts/RefreshingField/border.bin",
+      "blockdata_filepath": "data/layouts/RefreshingField/map.bin"
     }
   ]
 }

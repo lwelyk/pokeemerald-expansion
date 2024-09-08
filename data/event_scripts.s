@@ -1100,3 +1100,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/NewBarkTown_FriendlyRivalHouse2F/scripts.inc"
 
 	.include "data/maps/NewBarkTown_ElmsLab/scripts.inc"
+
+	.include "data/maps/RefreshingField/scripts.inc"

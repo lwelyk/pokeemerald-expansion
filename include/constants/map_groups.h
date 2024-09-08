@@ -69,6 +69,7 @@
 #define MAP_AMITY_MEADOW        (60 | (0 << 8))
 #define MAP_ROUTE30             (61 | (0 << 8))
 #define MAP_ROUTE31             (62 | (0 << 8))
+#define MAP_REFRESHING_FIELD    (63 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))
