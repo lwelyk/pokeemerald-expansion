@@ -9,6 +9,10 @@ static const u8 sText_OutfitDesc_UsualGreen[] = _(
 static const u8 sText_OutfitName_UnusualRed[] = _("UNUSUAL RED");
 static const u8 sText_OutfitDesc_UnusualRed[] = _(
     "Rather unusual,\nbut still basic\nOUTFIT.");
+
+static const u8 sText_OutfitName_GSC[] = _("GSC CLASSIC");
+static const u8 sText_OutfitDesc_GSC[] = _(
+    "The standard\nlook for a GEN II\nOUTFIT.");
 #endif
 
 static const u16 sRegionMapPlayerIcon_BrendanGfx[] = INCBIN_U16("graphics/pokenav/region_map/brendan_icon.4bpp");
@@ -18,6 +22,12 @@ static const u16 sRegionMapPlayerIcon_RSBrendanGfx[] = INCBIN_U16("graphics/poke
 static const u16 sRegionMapPlayerIcon_MayGfx[] = INCBIN_U16("graphics/pokenav/region_map/may_icon.4bpp");
 
 static const u16 sRegionMapPlayerIcon_RSMayGfx[] = INCBIN_U16("graphics/pokenav/region_map/rs_may_icon.4bpp");
+
+static const u16 sRegionMapPlayerIcon_EthanGfx[] = INCBIN_U16("graphics/pokenav/region_map/ethan_icon.4bpp");
+
+static const u16 sRegionMapPlayerIcon_KrisGfx[] = INCBIN_U16("graphics/pokenav/region_map/kris_icon.4bpp");
+
+static const u16 sRegionMapPlayerIcon_LyraGfx[] = INCBIN_U16("graphics/pokenav/region_map/lyra_icon.4bpp");
 
 //! TODO: Should the gfx here be seperated?
 
@@ -173,5 +183,78 @@ const struct Outfit gOutfits[OUTFIT_COUNT] =
         },
         .iconsRM = { sRegionMapPlayerIcon_RSBrendanGfx, sRegionMapPlayerIcon_RSMayGfx },
         .iconsFP = sFrontierPassPlayerIcons_RSBrendanMay_Gfx,
+    },
+    [OUTFIT_GSC] = {
+        //! DESC: if sets to TRUE, it will not be shown in the OUTFIT menu if it's locked.
+        .isHidden = FALSE,
+
+        //! DESC: prices for purchasing them.
+        .prices = { 0, 0 },
+
+        //! agbcc doesnt like COMPOUND_STRING on my end
+        //! DESC: outfit's name
+        #if MODERN == 1
+        .name = COMPOUND_STRING("GSC"),
+        #else
+        .name = sText_OutfitName_GSC,
+        #endif
+
+        //! DESC: outfit's description
+        #if MODERN == 1
+        .desc = COMPOUND_STRING("The standard\nlook for a GEN II\nOUTFIT."),
+        #else
+        .desc = sText_OutfitDesc_UsualGreen,
+        #endif
+
+        //! DESC: trainer front & back pic index
+        //! (see include/constants/trainers.h)
+        .trainerPics = {
+            [MALE] =   { TRAINER_PIC_ETHAN, TRAINER_BACK_PIC_ETHAN, },
+            [FEMALE] = { TRAINER_PIC_KRIS, TRAINER_BACK_PIC_KRIS, },
+        },
+
+        //! DESC: overworld avatars, consisting of: walking, cycling,
+        //! surfing, and underwater. (see include/constants/event_object.h)
+        .avatarGfxIds = {
+           [MALE] = {
+               [PLAYER_AVATAR_STATE_NORMAL] =     OBJ_EVENT_GFX_BRENDAN_NORMAL,
+               [PLAYER_AVATAR_STATE_BIKE] =       OBJ_EVENT_GFX_BRENDAN_ACRO_BIKE,
+               [PLAYER_AVATAR_STATE_SURFING] =    OBJ_EVENT_GFX_BRENDAN_SURFING,
+               [PLAYER_AVATAR_STATE_UNDERWATER] = OBJ_EVENT_GFX_BRENDAN_UNDERWATER
+           },
+           [FEMALE] = {
+               [PLAYER_AVATAR_STATE_NORMAL] =     OBJ_EVENT_GFX_MAY_NORMAL,
+               [PLAYER_AVATAR_STATE_BIKE] =       OBJ_EVENT_GFX_MAY_ACRO_BIKE,
+               [PLAYER_AVATAR_STATE_SURFING] =    OBJ_EVENT_GFX_MAY_SURFING,
+               [PLAYER_AVATAR_STATE_UNDERWATER] = OBJ_EVENT_GFX_MAY_UNDERWATER
+           },
+        },
+
+        //! DESC: overworld anims, consisting of: field move, fishing,
+        //! water, and decorating. (see include/constants/event_object.h)
+        .animGfxIds = {
+            [MALE] = {
+                [PLAYER_AVATAR_GFX_FIELD_MOVE] = OBJ_EVENT_GFX_BRENDAN_FIELD_MOVE,
+                [PLAYER_AVATAR_GFX_FISHING] =    OBJ_EVENT_GFX_BRENDAN_FISHING,
+                [PLAYER_AVATAR_GFX_WATERING] =   OBJ_EVENT_GFX_BRENDAN_WATERING,
+                [PLAYER_AVATAR_GFX_DECORATING] = OBJ_EVENT_GFX_BRENDAN_DECORATING,
+                [PLAYER_AVATAR_GFX_VSSEEKER] =   OBJ_EVENT_GFX_BRENDAN_FIELD_MOVE
+            },
+            [FEMALE] = {
+                [PLAYER_AVATAR_GFX_FIELD_MOVE] = OBJ_EVENT_GFX_MAY_FIELD_MOVE,
+                [PLAYER_AVATAR_GFX_FISHING] =    OBJ_EVENT_GFX_MAY_FISHING,
+                [PLAYER_AVATAR_GFX_WATERING] =   OBJ_EVENT_GFX_MAY_WATERING,
+                [PLAYER_AVATAR_GFX_DECORATING] = OBJ_EVENT_GFX_MAY_DECORATING,
+                [PLAYER_AVATAR_GFX_VSSEEKER] =   OBJ_EVENT_GFX_MAY_FIELD_MOVE
+            },
+        },
+
+        //! DESC: head icons gfx&pal for region map
+        .iconsRM = { sRegionMapPlayerIcon_BrendanGfx, sRegionMapPlayerIcon_MayGfx },
+
+        //! DESC: head icons gfx&pal for frontier pass
+        //! note that frontier pass needs to be in one sprite instead of two,
+        //! unlike region map. (probably should split them tbh)
+        .iconsFP = sFrontierPassPlayerIcons_BrendanMay_Gfx,
     },
 };
