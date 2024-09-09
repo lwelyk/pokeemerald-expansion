@@ -12,8 +12,20 @@ NewBarkTown_TownSign::
 # 9 "data/maps/NewBarkTown/scripts.pory"
 	setflag FLAG_RESCUED_BIRCH
 # 10 "data/maps/NewBarkTown/scripts.pory"
-	givemon SPECIES_CYNDAQUIL, 20, ITEM_NONE
+	setflag FLAG_SYS_B_DASH
 # 11 "data/maps/NewBarkTown/scripts.pory"
+	setflag FLAG_SYS_POKENAV_GET
+# 12 "data/maps/NewBarkTown/scripts.pory"
+	setflag FLAG_RECEIVED_POKENAV
+# 13 "data/maps/NewBarkTown/scripts.pory"
+	setflag FLAG_SYS_POKEDEX_GET
+# 14 "data/maps/NewBarkTown/scripts.pory"
+	special SetUnlockedPokedexFlags
+# 15 "data/maps/NewBarkTown/scripts.pory"
+	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
+# 16 "data/maps/NewBarkTown/scripts.pory"
+	givemon SPECIES_CYNDAQUIL, 20, ITEM_NONE
+# 17 "data/maps/NewBarkTown/scripts.pory"
 	releaseall
 	return
 
