@@ -1,5 +1,29 @@
 {
   "group_order": [
+    "gMapGroup_JohtoTownsAndRoutes",
+    "gMapGroup_IndoorNewBark",
+    "gMapGroup_IndoorCherrygrove",
+    "gMapGroup_IndoorViolet",
+    "gMapGroup_IndoorAzalea",
+    "gMapGroup_IndoorGoldenrod",
+    "gMapGroup_IndoorEcruteak",
+    "gMapGroup_IndoorOlivine",
+    "gMapGroup_IndoorCianwood",
+    "gMapGroup_IndoorMahogany",
+    "gMapGroup_IndoorBlackthorn",
+    "gMapGroup_JohtoDungeons",
+    "gMapGroup_KantoTownsAndRoutes",
+    "gMapGroup_IndoorPallet",
+    "gMapGroup_IndoorViridian",
+    "gMapGroup_IndoorPewter",
+    "gMapGroup_IndoorCerulean",
+    "gMapGroup_IndoorVermillion",
+    "gMapGroup_IndoorLavender",
+    "gMapGroup_IndoorCeladon",
+    "gMapGroup_IndoorFuchsia",
+    "gMapGroup_IndoorSaffron",
+    "gMapGroup_IndoorCinnabar",
+    "gMapGroup_KantoDungeons",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -34,6 +58,24 @@
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
     "gMapGroup_IndoorRoute124"
+  ],
+  "gMapGroup_JohtoTownsAndRoutes": [
+    "CherrygroveCity",
+    "NewBarkTown",
+    "Route29",
+    "AmityMeadow",
+    "Route30",
+    "Route31",
+    "RefreshingField"
+  ],
+  "gMapGroup_IndoorNewBark": [
+    "NewBarkTown_PlayersHouse_2F",
+    "NewBarkTown_PlayersHouse1F",
+    "NewBarkTown_ElmsHouse1F",
+    "NewBarkTown_NPCHouse",
+    "NewBarkTown_FriendlyRivalHouse1F",
+    "NewBarkTown_FriendlyRivalHouse2F",
+    "NewBarkTown_ElmsLab"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -92,28 +134,14 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125",
-    "CherrygroveCity",
-    "NewBarkTown",
-    "Route29",
-    "AmityMeadow",
-    "Route30",
-    "Route31",
-    "RefreshingField"
+    "Underwater_Route125"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
     "LittlerootTown_BrendansHouse_2F",
     "LittlerootTown_MaysHouse_1F",
     "LittlerootTown_MaysHouse_2F",
-    "LittlerootTown_ProfessorBirchsLab",
-    "NewBarkTown_PlayersHouse_2F",
-    "NewBarkTown_PlayersHouse1F",
-    "NewBarkTown_ElmsHouse1F",
-    "NewBarkTown_NPCHouse",
-    "NewBarkTown_FriendlyRivalHouse1F",
-    "NewBarkTown_FriendlyRivalHouse2F",
-    "NewBarkTown_ElmsLab"
+    "LittlerootTown_ProfessorBirchsLab"
   ],
   "gMapGroup_IndoorOldale": [
     "OldaleTown_House1",
