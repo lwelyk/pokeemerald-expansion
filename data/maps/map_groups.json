@@ -77,6 +77,72 @@
     "NewBarkTown_FriendlyRivalHouse2F",
     "NewBarkTown_ElmsLab"
   ],
+  "gMapGroup_IndoorCherrygrove": [
+
+  ],
+  "gMapGroup_IndoorViolet": [
+
+  ],
+  "gMapGroup_IndoorAzalea": [
+
+  ],
+  "gMapGroup_IndoorGoldenrod": [
+
+  ],
+  "gMapGroup_IndoorEcruteak": [
+
+  ],
+  "gMapGroup_IndoorOlivine": [
+
+  ],
+  "gMapGroup_IndoorCianwood": [
+
+  ],
+  "gMapGroup_IndoorMahogany": [
+
+  ],
+  "gMapGroup_IndoorBlackthorn": [
+
+  ],
+  "gMapGroup_JohtoDungeons": [
+
+  ],
+  "gMapGroup_KantoTownsAndRoutes": [
+
+  ],
+  "gMapGroup_IndoorPallet": [
+
+  ],
+  "gMapGroup_IndoorViridian": [
+
+  ],
+  "gMapGroup_IndoorPewter": [
+
+  ],
+  "gMapGroup_IndoorCerulean": [
+
+  ],
+  "gMapGroup_IndoorVermillion": [
+
+  ],
+  "gMapGroup_IndoorLavender": [
+
+  ],
+  "gMapGroup_IndoorCeladon": [
+
+  ],
+  "gMapGroup_IndoorFuchsia": [
+
+  ],
+  "gMapGroup_IndoorSaffron": [
+
+  ],
+  "gMapGroup_IndoorCinnabar": [
+
+  ],
+  "gMapGroup_KantoDungeons": [
+
+  ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
     "SlateportCity",
