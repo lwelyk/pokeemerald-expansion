@@ -217,10 +217,10 @@ NewBarkTown_PlayersHouse1F_NeighborScript_Text_0:
 
 NewBarkTown_PlayersHouse1F_MomScript_Text_0:
 # 17 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	.string "Oh, {PLAYER}…!\p"
-	.string "Our neighbor, PROF. ELM, was looking for\n"
-	.string "you.\p"
-	.string "He said he wanted you to do something\n"
+	.string "Oh, {PLAYER}, you're up!\p"
+	.string "Your friend Lyra was just here, and she\n"
+	.string "said PROF. ELM, was looking for you.\p"
+	.string "She said he wanted you to do something\n"
 	.string "for him.\p"
 	.string "Oh! I almost forgot!\p"
 	.string "Your POKéGEAR is back from the repair\n"

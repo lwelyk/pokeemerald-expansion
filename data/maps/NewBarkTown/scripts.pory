@@ -16,3 +16,27 @@ script NewBarkTown_TownSign {
 	givemon(SPECIES_CYNDAQUIL, 20, ITEM_NONE)
 	releaseall
 }
+
+script NewBarkTown_ElmHouseSign {
+	lockall
+	msgbox(format("ELM'S HOUSE"))
+	releaseall
+}
+
+script NewBarkTown_ElmLabSign {
+	lockall
+	msgbox(format("ELM POKéMON LAB"))
+	releaseall
+}
+
+script NewBarkTown_PlayerHouseSign {
+	lockall
+	msgbox(format("{PLAYER}'S HOUSE"))
+	releaseall
+}
+
+script NewBarkTown_LyraHouseSign {
+	lockall
+	msgbox(format("{PLAYER}'S HOUSE"))
+	releaseall
+}
