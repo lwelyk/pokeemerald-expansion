@@ -266,7 +266,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_{object_event} = {
 def update_spritesheet_rules(data):
     output = []
     objs = data[['Category', 'Width', 'Height', 'Frames', 'FileName']]
-    objs = objs.drop_duplicates(['FileName'], keep='first')
+    objs = objs.drop_duplicates(['FileName','Category'], keep='first')
     for idx, row in objs.iterrows():
         if row["Frames"] == "Still":
             continue
