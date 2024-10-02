@@ -219,3 +219,12 @@ const u16 gMetatileAttributes_Johto_Interior[] = INCBIN_U16("data/tilesets/prima
 
 const u16 gMetatiles_laboratory[] = INCBIN_U16("data/tilesets/secondary/laboratory/metatiles.bin");
 const u16 gMetatileAttributes_laboratory[] = INCBIN_U16("data/tilesets/secondary/laboratory/metatile_attributes.bin");
+
+const u16 gMetatiles_violet[] = INCBIN_U16("data/tilesets/secondary/violet/metatiles.bin");
+const u16 gMetatileAttributes_violet[] = INCBIN_U16("data/tilesets/secondary/violet/metatile_attributes.bin");
+
+const u16 gMetatiles_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatiles.bin");
+const u16 gMetatileAttributes_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatile_attributes.bin");
+
+const u16 gMetatiles_Goldenrod[] = INCBIN_U16("data/tilesets/secondary/goldenrod/metatiles.bin");
+const u16 gMetatileAttributes_Goldenrod[] = INCBIN_U16("data/tilesets/secondary/goldenrod/metatile_attributes.bin");
