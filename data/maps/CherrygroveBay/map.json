@@ -1,7 +1,7 @@
 {
-  "id": "MAP_ECRUTEAK_CITY",
-  "name": "EcruteakCity",
-  "layout": "LAYOUT_ECRUTEAK_CITY",
+  "id": "MAP_CHERRYGROVE_BAY",
+  "name": "CherrygroveBay",
+  "layout": "LAYOUT_CHERRYGROVE_BAY",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
@@ -14,19 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE37",
-      "offset": 10,
-      "direction": "down"
-    },
-    {
-      "map": "MAP_ROUTE38",
-      "offset": 10,
-      "direction": "left"
-    },
-    {
-      "map": "MAP_ROUTE42",
-      "offset": 18,
+      "map": "MAP_CHERRYGROVE_CITY",
+      "offset": 22,
       "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE32",
+      "offset": -36,
+      "direction": "left"
     }
   ],
   "object_events": [

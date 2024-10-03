@@ -22,6 +22,16 @@
       "map": "MAP_RUINS_OF_ALPH",
       "offset": -14,
       "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE33",
+      "offset": 0,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_CHERRYGROVE_BAY",
+      "offset": 36,
+      "direction": "right"
     }
   ],
   "object_events": [

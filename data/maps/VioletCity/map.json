@@ -22,6 +22,16 @@
       "map": "MAP_ROUTE32",
       "offset": -2,
       "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE36",
+      "offset": 6,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_RUINS_OF_ALPH",
+      "offset": 26,
+      "direction": "left"
     }
   ],
   "object_events": [

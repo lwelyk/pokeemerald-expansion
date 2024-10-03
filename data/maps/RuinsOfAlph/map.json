@@ -19,6 +19,11 @@
       "direction": "right"
     },
     {
+      "map": "MAP_VIOLET_CITY",
+      "offset": -26,
+      "direction": "right"
+    },
+    {
       "map": "MAP_ROUTE36",
       "offset": -27,
       "direction": "up"

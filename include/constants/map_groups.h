@@ -42,6 +42,7 @@
 #define MAP_ROUTE45          (33 | (0 << 8))
 #define MAP_ROUTE47          (34 | (0 << 8))
 #define MAP_ROUTE48          (35 | (0 << 8))
+#define MAP_CHERRYGROVE_BAY  (36 | (0 << 8))
 
 // gMapGroup_IndoorNewBark
 #define MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_2F       (0 | (1 << 8))

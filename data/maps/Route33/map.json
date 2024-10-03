@@ -17,6 +17,11 @@
       "map": "MAP_ROUTE32",
       "offset": 0,
       "direction": "up"
+    },
+    {
+      "map": "MAP_AZALEA_TOWN",
+      "offset": 0,
+      "direction": "left"
     }
   ],
   "object_events": [
