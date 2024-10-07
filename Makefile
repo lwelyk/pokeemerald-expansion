@@ -353,7 +353,7 @@ ifeq ($(COMPETITIVE_PARTY_SYNTAX),1)
 %.h: %.party tools ; $(CPP) $(CPPFLAGS) -traditional-cpp - < $< | $(TRAINERPROC) -o $@ -i $< -
 endif
 
-data/%.inc: data/%.pory; $(SCRIPT) -i $< -o $@ -fc tools/poryscript/font_config.json
+data/%.inc: data/%.pory; $(SCRIPT) -i $< -o $@ -fc tools/poryscript/font_config.json -cc tools/poryscript/command_config.json
 
 
 ifeq ($(MODERN),0)

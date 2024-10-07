@@ -1075,3 +1075,91 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/CherrygroveCity/scripts.inc"
+
+	.include "data/maps/NewBarkTown/scripts.inc"
+
+	.include "data/maps/Route29/scripts.inc"
+
+	.include "data/maps/AmityMeadow/scripts.inc"
+
+	.include "data/maps/Route30/scripts.inc"
+
+	.include "data/maps/Route31/scripts.inc"
+
+	.include "data/maps/NewBarkTown_PlayersHouse_2F/scripts.inc"
+
+	.include "data/maps/NewBarkTown_PlayersHouse1F/scripts.inc"
+
+	.include "data/maps/NewBarkTown_ElmsHouse1F/scripts.inc"
+
+	.include "data/maps/NewBarkTown_NPCHouse/scripts.inc"
+
+	.include "data/maps/NewBarkTown_FriendlyRivalHouse1F/scripts.inc"
+
+	.include "data/maps/NewBarkTown_FriendlyRivalHouse2F/scripts.inc"
+
+	.include "data/maps/NewBarkTown_ElmsLab/scripts.inc"
+
+	.include "data/maps/RefreshingField/scripts.inc"
+
+	.include "data/maps/VioletCity/scripts.inc"
+
+	.include "data/maps/Route32/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph/scripts.inc"
+
+	.include "data/maps/Route36/scripts.inc"
+
+	.include "data/maps/Route33/scripts.inc"
+
+	.include "data/maps/AzaleaTown/scripts.inc"
+
+	.include "data/maps/IlexForest/scripts.inc"
+
+	.include "data/maps/Route34/scripts.inc"
+
+	.include "data/maps/GoldenrodCity/scripts.inc"
+
+	.include "data/maps/Route35/scripts.inc"
+
+	.include "data/maps/NationalPark/scripts.inc"
+
+	.include "data/maps/Route37/scripts.inc"
+
+	.include "data/maps/EcruteakCity/scripts.inc"
+
+	.include "data/maps/Route38/scripts.inc"
+
+	.include "data/maps/Route39/scripts.inc"
+
+	.include "data/maps/OlivineCity/scripts.inc"
+
+	.include "data/maps/Route40/scripts.inc"
+
+	.include "data/maps/Route41/scripts.inc"
+
+	.include "data/maps/CianwoodCity/scripts.inc"
+
+	.include "data/maps/Route42/scripts.inc"
+
+	.include "data/maps/MahoganyTown/scripts.inc"
+
+	.include "data/maps/Route43/scripts.inc"
+
+	.include "data/maps/LakeOfRage/scripts.inc"
+
+	.include "data/maps/Route44/scripts.inc"
+
+	.include "data/maps/BlackthornCity/scripts.inc"
+
+	.include "data/maps/Route46/scripts.inc"
+
+	.include "data/maps/Route45/scripts.inc"
+
+	.include "data/maps/Route47/scripts.inc"
+
+	.include "data/maps/Route48/scripts.inc"
+
+	.include "data/maps/CherrygroveBay/scripts.inc"

@@ -207,3 +207,24 @@ const u16 gMetatileAttributes_MysteryEventsHouse[] = INCBIN_U16("data/tilesets/s
 
 const u16 gMetatiles_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatiles.bin");
 const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatile_attributes.bin");
+
+const u16 gMetatiles_Johto_Primary[] = INCBIN_U16("data/tilesets/primary/johto_primary/metatiles.bin");
+const u16 gMetatileAttributes_Johto_Primary[] = INCBIN_U16("data/tilesets/primary/johto_primary/metatile_attributes.bin");
+
+const u16 gMetatiles_Cherrygrove[] = INCBIN_U16("data/tilesets/secondary/cherrygrove/metatiles.bin");
+const u16 gMetatileAttributes_Cherrygrove[] = INCBIN_U16("data/tilesets/secondary/cherrygrove/metatile_attributes.bin");
+
+const u16 gMetatiles_Johto_Interior[] = INCBIN_U16("data/tilesets/primary/johto_interior/metatiles.bin");
+const u16 gMetatileAttributes_Johto_Interior[] = INCBIN_U16("data/tilesets/primary/johto_interior/metatile_attributes.bin");
+
+const u16 gMetatiles_laboratory[] = INCBIN_U16("data/tilesets/secondary/laboratory/metatiles.bin");
+const u16 gMetatileAttributes_laboratory[] = INCBIN_U16("data/tilesets/secondary/laboratory/metatile_attributes.bin");
+
+const u16 gMetatiles_violet[] = INCBIN_U16("data/tilesets/secondary/violet/metatiles.bin");
+const u16 gMetatileAttributes_violet[] = INCBIN_U16("data/tilesets/secondary/violet/metatile_attributes.bin");
+
+const u16 gMetatiles_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatiles.bin");
+const u16 gMetatileAttributes_Azalea[] = INCBIN_U16("data/tilesets/secondary/azalea/metatile_attributes.bin");
+
+const u16 gMetatiles_Goldenrod[] = INCBIN_U16("data/tilesets/secondary/goldenrod/metatiles.bin");
+const u16 gMetatileAttributes_Goldenrod[] = INCBIN_U16("data/tilesets/secondary/goldenrod/metatile_attributes.bin");

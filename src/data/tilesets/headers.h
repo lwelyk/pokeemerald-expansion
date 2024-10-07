@@ -825,3 +825,80 @@ const struct Tileset gTileset_UnionRoom =
     .metatileAttributes = gMetatileAttributes_UnionRoom,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Johto_Primary =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Johto_Primary,
+    .palettes = gTilesetPalettes_Johto_Primary,
+    .metatiles = gMetatiles_Johto_Primary,
+    .metatileAttributes = gMetatileAttributes_Johto_Primary,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Cherrygrove =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Cherrygrove,
+    .palettes = gTilesetPalettes_Cherrygrove,
+    .metatiles = gMetatiles_Cherrygrove,
+    .metatileAttributes = gMetatileAttributes_Cherrygrove,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Johto_Interior =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Johto_Interior,
+    .palettes = gTilesetPalettes_Johto_Interior,
+    .metatiles = gMetatiles_Johto_Interior,
+    .metatileAttributes = gMetatileAttributes_Johto_Interior,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_laboratory =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_laboratory,
+    .palettes = gTilesetPalettes_laboratory,
+    .metatiles = gMetatiles_laboratory,
+    .metatileAttributes = gMetatileAttributes_laboratory,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_violet =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_violet,
+    .palettes = gTilesetPalettes_violet,
+    .metatiles = gMetatiles_violet,
+    .metatileAttributes = gMetatileAttributes_violet,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Azalea =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Azalea,
+    .palettes = gTilesetPalettes_Azalea,
+    .metatiles = gMetatiles_Azalea,
+    .metatileAttributes = gMetatileAttributes_Azalea,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Goldenrod =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Goldenrod,
+    .palettes = gTilesetPalettes_Goldenrod,
+    .metatiles = gMetatiles_Goldenrod,
+    .metatileAttributes = gMetatileAttributes_Goldenrod,
+    .callback = NULL,
+};

@@ -1,0 +1,113 @@
+{
+  "id": "MAP_NEW_BARK_TOWN_PLAYERS_HOUSE1F",
+  "name": "NewBarkTown_PlayersHouse1F",
+  "layout": "LAYOUT_NEW_BARK_TOWN_PLAYERS_HOUSE1F",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MOM",
+      "x": 7,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NewBarkTown_PlayersHouse1F_MomScript",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+      "x": 4,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NewBarkTown_PlayersHouse1F_NeighborScript",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 6,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_NEW_BARK_TOWN",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_NEW_BARK_TOWN",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "elevation": 0,
+      "dest_map": "MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_2F",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_INTRO_STATE",
+      "var_value": "0",
+      "script": "NewBarkTown_PlayersHouse1F_MomLeft"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_INTRO_STATE",
+      "var_value": "0",
+      "script": "NewBarkTown_PlayersHouse1F_MomRight"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 0,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NewBarkTown_PlayersHouse1F_StoveScript"
+    },
+    {
+      "type": "sign",
+      "x": 1,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NewBarkTown_PlayersHouse1F_SinkScript"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NewBarkTown_PlayersHouse1F_FridgeScript"
+    }
+  ]
+}

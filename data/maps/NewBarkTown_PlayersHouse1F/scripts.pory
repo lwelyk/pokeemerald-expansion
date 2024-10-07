@@ -1,0 +1,115 @@
+mapscripts NewBarkTown_PlayersHouse1F_MapScripts {
+
+}
+
+script NewBarkTown_PlayersHouse1F_NeighborScript {
+	lock
+    faceplayer
+	msgbox(format("{PLAYER}, have you heard?\NMy daughter is adamant about becoming PROF. ELM's assistant.\NShe really loves POKéMON!"))
+	release
+}
+
+script NewBarkTown_PlayersHouse1F_MomScript {
+	lock
+    faceplayer
+    switch(var(VAR_INTRO_STATE)){
+        case 0:
+            msgbox(format("Oh, {PLAYER}, you're up!\pYour friend Lyra was just here, and she said PROF. ELM, was looking for you.\pShe said he wanted you to do something for him.\pOh! I almost forgot!\pYour POKéGEAR is back from the repair shop.\pHere you go!"))
+            playfanfare(MUS_OBTAIN_ITEM)
+            setflag(FLAG_SYS_POKENAV_GET)
+            setflag(FLAG_RECEIVED_POKENAV)
+            setflag(FLAG_RECEIVED_RUNNING_SHOES)
+            msgbox(format("You received the POKéGEAR!"))
+            waitfanfare
+            waitbuttonpress
+            msgbox(format("Oh, the time isn't set!\nYou musn't forget that!"))
+            fadescreen(FADE_TO_BLACK)
+            special(StartWallClock)
+            waitstate
+            setflag(FLAG_SET_WALL_CLOCK)
+            setvar(VAR_INTRO_STATE, 1)
+            msgbox(format("PROF. ELM is waiting for you.\N Hurry up, baby!"))
+        case 1:
+            msgbox(format("PROF. ELM is waiting for you.\N Hurry up, baby!"))
+        default:
+            msgbox(format("What up?"))
+           
+    }
+	release
+}
+
+script NewBarkTown_PlayersHouse1F_MomLeft {
+    lock
+    applymovement(LOCALID_MOM, NewBarkTown_PlayersHouse1F_WalkMomLeft)
+    waitmovement(0)
+    release
+    call(NewBarkTown_PlayersHouse1F_MomScript)
+    lock
+    applymovement(LOCALID_MOM, NewBarkTown_PlayersHouse1F_ReturnMomLeft)
+    waitmovement(0)
+    release
+}
+
+script NewBarkTown_PlayersHouse1F_MomRight {
+    lock
+    applymovement(LOCALID_MOM, NewBarkTown_PlayersHouse1F_WalkMomRight)
+    waitmovement(0)
+    release
+    call(NewBarkTown_PlayersHouse1F_MomScript)
+    lock
+    applymovement(LOCALID_MOM, NewBarkTown_PlayersHouse1F_ReturnMomRight)
+    waitmovement(0)
+    release
+}
+
+script NewBarkTown_PlayersHouse1F_StoveScript {
+    lock
+    msgbox(format("Mom's specialty!\NCINNABAR VOLCANO BURGER!"))
+    release
+}
+
+script NewBarkTown_PlayersHouse1F_SinkScript {
+    lock
+    msgbox(format("The sink is spotless! Mom likes it clean."))
+    release
+}
+
+script NewBarkTown_PlayersHouse1F_FridgeScript {
+    lock
+    msgbox(format("Let's see what's in the fridge..."))
+    if(flag(FLAG_GOT_FRIDGE_DRINK)){
+        msgbox(format("Looks like you need more groceries!"))
+    } else{
+        random(3)
+        switch(var(VAR_RESULT)){
+            case 1:
+                giveitem(ITEM_LEMONADE)
+            case 2:
+                giveitem(ITEM_SODA_POP)
+            default:
+                giveitem(ITEM_FRESH_WATER)
+        }
+        setflag(FLAG_GOT_FRIDGE_DRINK)
+    }
+    release
+}
+
+movement NewBarkTown_PlayersHouse1F_WalkMomLeft {
+    emote_question_mark
+    delay_16
+    face_right
+}
+
+movement NewBarkTown_PlayersHouse1F_WalkMomRight {
+    emote_question_mark
+    delay_16
+    walk_right
+}
+
+movement NewBarkTown_PlayersHouse1F_ReturnMomLeft {
+    face_left
+}
+
+movement NewBarkTown_PlayersHouse1F_ReturnMomRight {
+    walk_left
+}

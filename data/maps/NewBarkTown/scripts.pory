@@ -1,0 +1,42 @@
+mapscripts NewBarkTown_MapScripts {
+
+}
+
+script NewBarkTown_TownSign {
+	lockall
+	msgbox(format("NEW BARK TOWN\nThe Town Where Winds of a New Beginning Blow."))
+	setflag(FLAG_SYS_POKEMON_GET)
+	setflag(FLAG_RESCUED_BIRCH)
+	setflag(FLAG_SYS_B_DASH)
+	setflag(FLAG_SYS_POKENAV_GET)
+	setflag(FLAG_RECEIVED_POKENAV)
+	setflag(FLAG_SYS_POKEDEX_GET)
+	special(SetUnlockedPokedexFlags)
+	setflag(FLAG_RECEIVED_POKEDEX_FROM_BIRCH)
+	givemon(SPECIES_CYNDAQUIL, 20, ITEM_NONE)
+	releaseall
+}
+
+script NewBarkTown_ElmHouseSign {
+	lockall
+	msgbox(format("ELM'S HOUSE"))
+	releaseall
+}
+
+script NewBarkTown_ElmLabSign {
+	lockall
+	msgbox(format("ELM POKéMON LAB"))
+	releaseall
+}
+
+script NewBarkTown_PlayerHouseSign {
+	lockall
+	msgbox(format("{PLAYER}'S HOUSE"))
+	releaseall
+}
+
+script NewBarkTown_LyraHouseSign {
+	lockall
+	msgbox(format("{PLAYER}'S HOUSE"))
+	releaseall
+}
