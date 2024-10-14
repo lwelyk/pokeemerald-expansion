@@ -2,9 +2,16 @@ mapscripts NewBarkTown_MapScripts {
 
 }
 
+const RIVAL = 1
+const FAT_MAN = 2
+const WOMAN = 3
+const MARILL = 4
+const LYRA = 5
+
+
 script NewBarkTown_TownSign {
 	lockall
-	msgbox(format("NEW BARK TOWN\nThe Town Where Winds of a New Beginning Blow."))
+	msgbox(format("NEW BARK TOWN\pThe Town Where Winds of a New Beginning Blow."))
 	setflag(FLAG_SYS_POKEMON_GET)
 	setflag(FLAG_RESCUED_BIRCH)
 	setflag(FLAG_SYS_B_DASH)
@@ -39,4 +46,50 @@ script NewBarkTown_LyraHouseSign {
 	lockall
 	msgbox(format("{PLAYER}'S HOUSE"))
 	releaseall
+}
+
+script NewBarkTown_RivalPush {
+	lock
+	msgbox("…\pSo this is the famous ELM POKéMON LAB…")
+	applymovement(RIVAL, RivalTurnsMovement)
+    waitmovement(0)
+	msgbox("…\pWhat are you staring at?")
+	applymovement(OBJ_EVENT_ID_PLAYER, PlayerStepsDown)
+	applymovement(1, RivalStepsLeft)
+	waitmovement(0)
+	delay(16)
+	playSE(SE_LEDGE)
+	applymovement(OBJ_EVENT_ID_PLAYER, PlayerPushedDown)
+	waitmovement(0)
+	applymovement(1, RivalReturns)
+	waitmovement(0)
+	release
+}
+
+movement RivalTurnsMovement {
+    emote_exclamation_mark
+    delay_16
+    face_left
+}
+
+movement RivalStepsLeft {
+	walk_left
+	face_down
+}
+
+movement PlayerStepsDown {
+	face_up
+	lock_facing_direction
+	walk_down
+	unlock_facing_direction
+}
+
+movement PlayerPushedDown {
+	lock_facing_direction
+	jump_2_down
+	unlock_facing_direction
+}
+
+movement RivalReturns {
+	walk_right
 }
