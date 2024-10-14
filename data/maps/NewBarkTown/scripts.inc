@@ -8,147 +8,127 @@ NewBarkTown_TownSign::
 # 14 "data/maps/NewBarkTown/scripts.pory"
 	msgbox NewBarkTown_TownSign_Text_0
 # 15 "data/maps/NewBarkTown/scripts.pory"
-	setflag FLAG_SYS_POKEMON_GET
-# 16 "data/maps/NewBarkTown/scripts.pory"
-	setflag FLAG_RESCUED_BIRCH
-# 17 "data/maps/NewBarkTown/scripts.pory"
-	setflag FLAG_SYS_B_DASH
-# 18 "data/maps/NewBarkTown/scripts.pory"
-	setflag FLAG_SYS_POKENAV_GET
-# 19 "data/maps/NewBarkTown/scripts.pory"
-	setflag FLAG_RECEIVED_POKENAV
-# 20 "data/maps/NewBarkTown/scripts.pory"
-	setflag FLAG_SYS_POKEDEX_GET
-# 21 "data/maps/NewBarkTown/scripts.pory"
-	special SetUnlockedPokedexFlags
-# 22 "data/maps/NewBarkTown/scripts.pory"
-	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
-# 23 "data/maps/NewBarkTown/scripts.pory"
-	givemon SPECIES_CYNDAQUIL, 20, ITEM_NONE
-# 24 "data/maps/NewBarkTown/scripts.pory"
 	releaseall
 	return
 
 
 NewBarkTown_ElmHouseSign::
-# 28 "data/maps/NewBarkTown/scripts.pory"
+# 19 "data/maps/NewBarkTown/scripts.pory"
 	lockall
-# 29 "data/maps/NewBarkTown/scripts.pory"
+# 20 "data/maps/NewBarkTown/scripts.pory"
 	msgbox NewBarkTown_ElmHouseSign_Text_0
-# 30 "data/maps/NewBarkTown/scripts.pory"
+# 21 "data/maps/NewBarkTown/scripts.pory"
 	releaseall
 	return
 
 
 NewBarkTown_ElmLabSign::
-# 34 "data/maps/NewBarkTown/scripts.pory"
+# 25 "data/maps/NewBarkTown/scripts.pory"
 	lockall
-# 35 "data/maps/NewBarkTown/scripts.pory"
+# 26 "data/maps/NewBarkTown/scripts.pory"
 	msgbox NewBarkTown_ElmLabSign_Text_0
-# 36 "data/maps/NewBarkTown/scripts.pory"
+# 27 "data/maps/NewBarkTown/scripts.pory"
 	releaseall
 	return
 
 
 NewBarkTown_PlayerHouseSign::
-# 40 "data/maps/NewBarkTown/scripts.pory"
+# 31 "data/maps/NewBarkTown/scripts.pory"
 	lockall
-# 41 "data/maps/NewBarkTown/scripts.pory"
+# 32 "data/maps/NewBarkTown/scripts.pory"
 	msgbox NewBarkTown_PlayerHouseSign_Text_0
-# 42 "data/maps/NewBarkTown/scripts.pory"
+# 33 "data/maps/NewBarkTown/scripts.pory"
 	releaseall
 	return
 
 
 NewBarkTown_LyraHouseSign::
-# 46 "data/maps/NewBarkTown/scripts.pory"
+# 37 "data/maps/NewBarkTown/scripts.pory"
 	lockall
-# 47 "data/maps/NewBarkTown/scripts.pory"
+# 38 "data/maps/NewBarkTown/scripts.pory"
 	msgbox NewBarkTown_PlayerHouseSign_Text_0
-# 48 "data/maps/NewBarkTown/scripts.pory"
+# 39 "data/maps/NewBarkTown/scripts.pory"
 	releaseall
 	return
 
 
 NewBarkTown_RivalPush::
-# 52 "data/maps/NewBarkTown/scripts.pory"
+# 43 "data/maps/NewBarkTown/scripts.pory"
 	lock
-# 53 "data/maps/NewBarkTown/scripts.pory"
+# 44 "data/maps/NewBarkTown/scripts.pory"
 	msgbox NewBarkTown_RivalPush_Text_0
-# 54 "data/maps/NewBarkTown/scripts.pory"
+# 45 "data/maps/NewBarkTown/scripts.pory"
 	applymovement 1, RivalTurnsMovement
-# 55 "data/maps/NewBarkTown/scripts.pory"
+# 46 "data/maps/NewBarkTown/scripts.pory"
 	waitmovement 0
-# 56 "data/maps/NewBarkTown/scripts.pory"
+# 47 "data/maps/NewBarkTown/scripts.pory"
 	msgbox NewBarkTown_RivalPush_Text_1
-# 57 "data/maps/NewBarkTown/scripts.pory"
+# 48 "data/maps/NewBarkTown/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, PlayerStepsDown
-# 58 "data/maps/NewBarkTown/scripts.pory"
+# 49 "data/maps/NewBarkTown/scripts.pory"
 	applymovement 1, RivalStepsLeft
-# 59 "data/maps/NewBarkTown/scripts.pory"
+# 50 "data/maps/NewBarkTown/scripts.pory"
 	waitmovement 0
-# 60 "data/maps/NewBarkTown/scripts.pory"
+# 51 "data/maps/NewBarkTown/scripts.pory"
 	delay 16
-# 61 "data/maps/NewBarkTown/scripts.pory"
+# 52 "data/maps/NewBarkTown/scripts.pory"
 	playSE SE_LEDGE
-# 62 "data/maps/NewBarkTown/scripts.pory"
+# 53 "data/maps/NewBarkTown/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, PlayerPushedDown
-# 63 "data/maps/NewBarkTown/scripts.pory"
+# 54 "data/maps/NewBarkTown/scripts.pory"
 	waitmovement 0
-# 64 "data/maps/NewBarkTown/scripts.pory"
+# 55 "data/maps/NewBarkTown/scripts.pory"
 	applymovement 1, RivalReturns
-# 65 "data/maps/NewBarkTown/scripts.pory"
+# 56 "data/maps/NewBarkTown/scripts.pory"
 	waitmovement 0
-# 66 "data/maps/NewBarkTown/scripts.pory"
+# 57 "data/maps/NewBarkTown/scripts.pory"
 	release
 	return
 
 
-# 69 "data/maps/NewBarkTown/scripts.pory"
+# 60 "data/maps/NewBarkTown/scripts.pory"
 RivalTurnsMovement:
-# 70 "data/maps/NewBarkTown/scripts.pory"
+# 61 "data/maps/NewBarkTown/scripts.pory"
 	emote_exclamation_mark
-# 71 "data/maps/NewBarkTown/scripts.pory"
+# 62 "data/maps/NewBarkTown/scripts.pory"
 	delay_16
-# 72 "data/maps/NewBarkTown/scripts.pory"
+# 63 "data/maps/NewBarkTown/scripts.pory"
 	face_left
 	step_end
 
-# 75 "data/maps/NewBarkTown/scripts.pory"
+# 66 "data/maps/NewBarkTown/scripts.pory"
 RivalStepsLeft:
-# 76 "data/maps/NewBarkTown/scripts.pory"
+# 67 "data/maps/NewBarkTown/scripts.pory"
 	walk_left
-# 77 "data/maps/NewBarkTown/scripts.pory"
+# 68 "data/maps/NewBarkTown/scripts.pory"
 	face_down
 	step_end
 
-# 80 "data/maps/NewBarkTown/scripts.pory"
+# 71 "data/maps/NewBarkTown/scripts.pory"
 PlayerStepsDown:
-# 81 "data/maps/NewBarkTown/scripts.pory"
+# 72 "data/maps/NewBarkTown/scripts.pory"
 	face_up
-# 82 "data/maps/NewBarkTown/scripts.pory"
+# 73 "data/maps/NewBarkTown/scripts.pory"
 	lock_facing_direction
-# 83 "data/maps/NewBarkTown/scripts.pory"
+# 74 "data/maps/NewBarkTown/scripts.pory"
 	walk_down
-# 84 "data/maps/NewBarkTown/scripts.pory"
+# 75 "data/maps/NewBarkTown/scripts.pory"
 	unlock_facing_direction
 	step_end
 
-# 87 "data/maps/NewBarkTown/scripts.pory"
+# 78 "data/maps/NewBarkTown/scripts.pory"
 PlayerPushedDown:
-# 88 "data/maps/NewBarkTown/scripts.pory"
+# 79 "data/maps/NewBarkTown/scripts.pory"
 	lock_facing_direction
-# 89 "data/maps/NewBarkTown/scripts.pory"
+# 80 "data/maps/NewBarkTown/scripts.pory"
 	jump_2_down
-# 90 "data/maps/NewBarkTown/scripts.pory"
+# 81 "data/maps/NewBarkTown/scripts.pory"
 	unlock_facing_direction
 	step_end
 
-# 93 "data/maps/NewBarkTown/scripts.pory"
+# 84 "data/maps/NewBarkTown/scripts.pory"
 RivalReturns:
-# 94 "data/maps/NewBarkTown/scripts.pory"
-	walk_up
-# 95 "data/maps/NewBarkTown/scripts.pory"
+# 85 "data/maps/NewBarkTown/scripts.pory"
 	walk_right
 	step_end
 
@@ -159,21 +139,21 @@ NewBarkTown_TownSign_Text_0:
 	.string "Blow.$"
 
 NewBarkTown_ElmHouseSign_Text_0:
-# 29 "data/maps/NewBarkTown/scripts.pory"
+# 20 "data/maps/NewBarkTown/scripts.pory"
 	.string "ELM'S HOUSE$"
 
 NewBarkTown_ElmLabSign_Text_0:
-# 35 "data/maps/NewBarkTown/scripts.pory"
+# 26 "data/maps/NewBarkTown/scripts.pory"
 	.string "ELM POKéMON LAB$"
 
 NewBarkTown_PlayerHouseSign_Text_0:
-# 41 "data/maps/NewBarkTown/scripts.pory"
+# 32 "data/maps/NewBarkTown/scripts.pory"
 	.string "{PLAYER}'S HOUSE$"
 
 NewBarkTown_RivalPush_Text_0:
-# 53 "data/maps/NewBarkTown/scripts.pory"
+# 44 "data/maps/NewBarkTown/scripts.pory"
 	.string "…\pSo this is the famous ELM POKéMON LAB…$"
 
 NewBarkTown_RivalPush_Text_1:
-# 56 "data/maps/NewBarkTown/scripts.pory"
+# 47 "data/maps/NewBarkTown/scripts.pory"
 	.string "…\pWhat are you staring at?$"
