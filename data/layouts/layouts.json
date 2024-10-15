@@ -4850,6 +4850,16 @@
       "secondary_tileset": "gTileset_violet",
       "border_filepath": "data/layouts/CherrygroveBay/border.bin",
       "blockdata_filepath": "data/layouts/CherrygroveBay/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE27",
+      "name": "Route27_Layout",
+      "width": 80,
+      "height": 18,
+      "primary_tileset": "gTileset_Johto_Primary",
+      "secondary_tileset": "gTileset_Cherrygrove",
+      "border_filepath": "data/layouts/Route27/border.bin",
+      "blockdata_filepath": "data/layouts/Route27/map.bin"
     }
   ]
 }

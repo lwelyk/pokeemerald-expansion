@@ -74,6 +74,7 @@
 // gMapGroup_JohtoDungeons
 
 // gMapGroup_KantoTownsAndRoutes
+#define MAP_ROUTE27 (0 | (12 << 8))
 
 // gMapGroup_IndoorPallet
 
