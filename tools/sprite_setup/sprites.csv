@@ -126,7 +126,7 @@ RocketGruntM,08 Team Rocket,Ascending,2,4,RocketGruntM,rocket_grunt_m
 BreakableRock,09 Objects,Ascending,2,2,BreakableRock,breakable_rock
 CuttableTree,09 Objects,Ascending,2,2,CuttableTree,cuttable_tree
 Fossil,09 Objects,Single,2,2,Fossil,fossil
-PokeBall,09 Objects,"0,1,2,3,4,0",2,2,PokeBall,ball_poke
+PokeBall,09 Objects,"0,1,2,3,4,0",2,4,PokeBall,ball_poke
 PushableBoulder,09 Objects,Single,2,2,PushableBoulder,pushable_boulder
 SudowoodoTree,09 Objects,"0,0,1,0,0,0,0,1,2",2,2,SudowoodoTree,sudowoodo_tree
 BallCushion,10-1 Cushions,Single,2,2,BallCushion,ball_cushion
