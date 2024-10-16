@@ -141,7 +141,7 @@ ROCKET_GRUNT_M,RocketGruntM,08 Team Rocket,GBC,NONE,512,16,32,NPC_1,M,FALSE,FALS
 BREAKABLE_ROCK,BreakableRock,09 Objects,NPC_1,NONE,128,16,16,NPC_1,S,TRUE,FALSE,NONE,16x16,16x16,BreakableRock,BreakableRock,gDummySpriteAffineAnimTable,
 CUTTABLE_TREE,CuttableTree,09 Objects,NPC_3,NONE,128,16,16,NPC_3,S,TRUE,FALSE,NONE,16x16,16x16,CuttableTree,CuttableTree,gDummySpriteAffineAnimTable,
 FOSSIL,Fossil,09 Objects,NPC_1,NONE,128,16,16,NPC_1,S,TRUE,FALSE,NONE,16x16,16x16,Inanimate,Fossil,gDummySpriteAffineAnimTable,
-ITEM_BALL,Pokeball,09 Objects,NPC_3,NONE,256,16,32,NPC_1,M,TRUE,FALSE,NONE,16x32,16x32,Following,PokeBall,gDummySpriteAffineAnimTable,
+ITEM_BALL,Pokeball,09 Objects,GBC,NONE,256,16,32,NPC_1,M,TRUE,FALSE,NONE,16x32,16x32,Following,PokeBall,gDummySpriteAffineAnimTable,
 PUSHABLE_BOULDER,PushableBoulder,09 Objects,NPC_1,NONE,128,16,16,NPC_1,S,TRUE,FALSE,NONE,16x16,16x16,Inanimate,PushableBoulder,gDummySpriteAffineAnimTable,
 SUDOWOODO,Sudowoodo,09 Objects,GBC,NONE,512,16,32,NPC_1,M,FALSE,FALSE,FOOT,16x32,16x32,Standard,SudowoodoTree,gDummySpriteAffineAnimTable,Sudowoodo
 BALL_CUSHION,BallCushion,10-1 Cushions,NPC_3,NONE,128,16,16,NPC_3,S,TRUE,FALSE,NONE,16x16,16x16,Inanimate,BallCushion,gDummySpriteAffineAnimTable,
