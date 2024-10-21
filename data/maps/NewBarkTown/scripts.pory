@@ -8,6 +8,125 @@ const WOMAN = 3
 const MARILL = 4
 const LYRA = 5
 
+script NewBarkTown_Woman {
+	lock
+	faceplayer
+	msgbox(format("Wow, that's a cool POKéGEAR!\pI can't believe you're already old enough to have one of your own!"))
+	release
+}
+
+script NewBarkTown_FatMan {
+	lock
+	faceplayer
+	msgbox(format("Yo, {PLAYER}!\pI hear PROF. ELM discovered some new POKéMON species."))
+	release
+}
+
+script NewBarkTown_Lyra {
+	lock
+	faceplayer
+	msgbox(format("Hey {PLAYER}!\p MARILL and I were looking for you earlier!\pPROF. ELM wanted to talk to you about something, you should go see him!"))
+	release
+}
+
+script NewBarkTown_LyraMarill {
+	lock
+	faceplayer
+	playmoncry(SPECIES_MARILL, CRY_MODE_NORMAL)
+	waitse
+	applymovement(MARILL, MarillJumpAround)
+	waitmovement(0)
+	msgbox(format("LYRA's MARILL seems happy to see you!"))
+	release
+}
+
+movement MarillJumpAround {
+	lock_facing_direction
+	jump_in_place_up_down
+	jump_in_place_up_down
+	unlock_facing_direction
+}
+
+script NewBarkTown_WomanStopsYouInitial {
+	lock
+	playBGM(MUS_RG_PALLET, TRUE)
+	applymovement(WOMAN, Common_Movement_FaceLeft)
+	msgbox("Wait, {PLAYER}!")
+	applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_FaceRight)
+	release
+}
+
+script NewBarkTown_WomanStopsYouNorth {
+	call(NewBarkTown_WomanStopsYouInitial)
+	lock
+	applymovement(WOMAN, WomanWalkTowardsYouNorth)
+	waitmovement(0)
+	msgbox(NewBarkTown_WomanWhatDoing)
+	applymovement(WOMAN, WomanWalksYouBackNorth)
+	applymovement(OBJ_EVENT_ID_PLAYER, PlayerWalkedBackNorth)
+	msgbox(NewBarkTown_WomanItsDangerousToGoAlone)
+	savebgm(MUS_DUMMY)
+	fadedefaultbgm
+	release
+}
+
+script NewBarkTown_WomanStopsYouSouth {
+	call(NewBarkTown_WomanStopsYouInitial)
+	lock
+	applymovement(WOMAN, WomanWalkTowardsYouSouth)
+	waitmovement(0)
+	msgbox(NewBarkTown_WomanWhatDoing)
+	applymovement(WOMAN, WomanWalksYouBackSouth)
+	applymovement(OBJ_EVENT_ID_PLAYER, PlayerWalkedBackSouth)
+	msgbox(NewBarkTown_WomanItsDangerousToGoAlone)
+	savebgm(MUS_DUMMY)
+	fadedefaultbgm
+	release
+}
+
+text NewBarkTown_WomanWhatDoing {
+    format("What do you think you're doing?")
+}
+
+text NewBarkTown_WomanItsDangerousToGoAlone {
+    format("It's Dangerous to go out without a POKéMON!\p Wild POKéMON jump out of the grass on the way to the next town.")
+}
+
+movement WomanWalkTowardsYouNorth {
+	walk_left
+	walk_left
+}
+
+movement WomanWalkTowardsYouSouth {
+	walk_left
+	walk_down
+	walk_left
+}
+
+movement WomanWalksYouBackNorth {
+	walk_right
+	walk_right
+	face_left
+}
+
+movement PlayerWalkedBackNorth {
+	walk_right
+	walk_right
+}
+
+movement WomanWalksYouBackSouth {
+	walk_right
+	walk_right
+	walk_up
+	face_down
+}
+
+movement PlayerWalkedBackSouth {
+	walk_right
+	walk_right
+	walk_right
+	face_up
+}
 
 script NewBarkTown_TownSign {
 	lockall
