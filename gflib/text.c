@@ -364,6 +364,7 @@ bool32 AddTextPrinter(struct TextPrinterTemplate *printerTemplate, u8 speed, voi
 void RunTextPrinters(void)
 {
     int i;
+    int j;
 
     if (!gDisableTextPrinters)
     {
@@ -371,6 +372,8 @@ void RunTextPrinters(void)
         {
             if (sTextPrinters[i].active)
             {
+            for (j = 0; j < 2; j++)
+                {
                 u16 renderCmd = RenderFont(&sTextPrinters[i]);
                 switch (renderCmd)
                 {
@@ -382,6 +385,9 @@ void RunTextPrinters(void)
                     break;
                 case RENDER_FINISH:
                     sTextPrinters[i].active = FALSE;
+                    break;
+                }
+                if (renderCmd != 0)
                     break;
                 }
             }
