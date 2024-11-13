@@ -295,88 +295,280 @@ ElmsLab_AfterStarterChoice::
 # 170 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	setvar VAR_INTRO_STATE, 2
 # 171 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	applymovement 1, Common_Movement_FaceDown
+# 172 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	waitmovement 0
+# 173 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	msgbox ElmsLab_AfterStarterChoice_Text_0
-# 179 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 181 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	msgbox ElmsLab_AfterStarterChoice_Text_1, MSGBOX_YESNO
 ElmsLab_AfterStarterChoice_2:
-# 180 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 182 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	compare VAR_RESULT, 1
 	goto_if_ne ElmsLab_AfterStarterChoice_3
-# 183 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 185 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	msgbox ElmsLab_AfterStarterChoice_Text_3
-# 184 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 186 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	setvar VAR_TEMP_1, 1
+# 187 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	release
 	return
 
 ElmsLab_AfterStarterChoice_3:
-# 181 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 183 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	msgbox ElmsLab_AfterStarterChoice_Text_2, MSGBOX_YESNO
 	goto ElmsLab_AfterStarterChoice_2
 
 
-# 187 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 190 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 PlayerWalkToElm:
-# 188 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 191 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	walk_up
-# 188 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 191 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	walk_up
-# 188 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 191 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	walk_up
-# 188 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 191 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	walk_up
-# 188 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 191 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	walk_up
-# 188 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 191 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	walk_up
 	step_end
 
 ElmsLab_Aide::
-# 192 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 195 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	lock
-# 193 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 196 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	msgbox ElmsLab_Aide_Text_0
-# 194 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 197 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	release
 	return
 
 
 ElmsLab_CantLeave::
-# 198 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	lock
-# 199 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	applymovement 1, Common_Movement_FaceDown
-# 200 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	waitmovement 0
 # 201 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	msgbox ElmsLab_CantLeave_Text_0
+	lock
 # 202 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkUp
+	applymovement 1, Common_Movement_FaceDown
 # 203 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	waitmovement 0
 # 204 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	msgbox ElmsLab_CantLeave_Text_0
+# 205 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkUp
+# 206 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	waitmovement 0
+# 207 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	release
 	return
 
 
 ElmsLab_CantLeaveN::
-# 208 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	lock
-# 209 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	applymovement 1, Common_Movement_FaceUp
-# 210 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	waitmovement 0
 # 211 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	msgbox ElmsLab_CantLeave_Text_0
+	lock
 # 212 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkLeft
+	applymovement 1, Common_Movement_FaceUp
 # 213 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	waitmovement 0
 # 214 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	applymovement 1, Common_Movement_FaceRight
+	msgbox ElmsLab_CantLeave_Text_0
 # 215 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkLeft
 # 216 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	waitmovement 0
+# 217 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	applymovement 1, Common_Movement_FaceRight
+# 218 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	waitmovement 0
+# 219 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	release
+	return
+
+
+ElmsLab_ProfElm::
+# 223 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	lockall
+# 224 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	faceplayer
+# 225 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	switch VAR_INTRO_STATE
+# 226 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	case 1, ElmsLab_ProfElm_3
+# 228 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	case 2, ElmsLab_ProfElm_4
+# 231 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	msgbox ElmsLab_ProfElm_Text_2
+ElmsLab_ProfElm_1:
+# 234 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	releaseall
+	return
+
+ElmsLab_ProfElm_3:
+# 227 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	msgbox ElmsLab_ProfElm_Text_0
+	goto ElmsLab_ProfElm_1
+
+ElmsLab_ProfElm_4:
+# 229 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	msgbox ElmsLab_ProfElm_Text_1
+	goto ElmsLab_ProfElm_1
+
+
+ElmsLab_TrashcanText::
+# 238 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	lockall
+# 239 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	msgbox ElmsLab_TrashcanText_Text_0
+# 240 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	releaseall
+	return
+
+
+ElmsLab_PCText::
+# 244 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	lockall
+# 245 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	msgbox ElmsLab_PCText_Text_0
+# 246 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	releaseall
+	return
+
+
+ElmsLab_HealingMachine::
+# 250 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	lockall
+# 251 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	compare VAR_INTRO_STATE, 1
+	goto_if_eq ElmsLab_HealingMachine_2
+# 255 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	msgbox ElmsLab_HealingMachine_Text_1, MSGBOX_YESNO
+# 256 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq ElmsLab_HealingMachine_5
+ElmsLab_HealingMachine_1:
+# 262 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	releaseall
+	return
+
+ElmsLab_HealingMachine_2:
+# 252 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	msgbox ElmsLab_HealingMachine_Text_0
+	goto ElmsLab_HealingMachine_1
+
+ElmsLab_HealingMachine_5:
+# 257 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	playfanfare MUS_HEAL
+# 258 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	waitfanfare
+# 259 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	special HealPlayerParty
+	goto ElmsLab_HealingMachine_1
+
+
+ElmsLab_AideGivesPotionL::
+# 266 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	lockall
+# 267 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	applymovement 5, AideWalkLeft
+# 268 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	waitmovement 0
+# 269 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	call ElmsLab_AideGivesPotion
+# 270 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	applymovement 5, AideReturnsLeft
+# 271 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	waitmovement 0
+# 272 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	setvar VAR_TEMP_1, 0
+# 273 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	releaseall
+	return
+
+
+ElmsLab_AideGivesPotionR::
+# 277 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	lockall
+# 278 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	applymovement 5, AideWalkRight
+# 279 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	waitmovement 0
+# 280 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	call ElmsLab_AideGivesPotion
+# 281 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	applymovement 5, AideReturnsRight
+# 282 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	waitmovement 0
+# 283 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	setvar VAR_TEMP_1, 0
+# 284 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	releaseall
+	return
+
+
+ElmsLab_AideGivesPotion::
+# 288 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	msgbox ElmsLab_AideGivesPotion_Text_0
+# 289 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 290 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	waitfanfare
+# 291 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	giveitem ITEM_POTION
+	return
+
+
+# 294 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+AideWalkLeft:
+# 295 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	walk_right
+# 295 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	walk_right
+# 296 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	face_up
+	step_end
+
+# 299 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+AideReturnsLeft:
+# 300 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	walk_left
+# 300 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	walk_left
+# 301 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	face_down
+	step_end
+
+# 304 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+AideWalkRight:
+# 305 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	walk_right
+# 305 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	walk_right
+# 305 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	walk_right
+# 306 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	face_up
+	step_end
+
+# 309 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+AideReturnsRight:
+# 310 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	walk_left
+# 310 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	walk_left
+# 310 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	walk_left
+# 311 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	face_down
+	step_end
+
+ElmsLab_OpenWindow::
+# 314 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	lockall
+# 315 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	msgbox ElmsLab_OpenWindow_Text_0
+# 316 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	releaseall
 	return
 
 
@@ -438,7 +630,7 @@ ElmsLab_DontWantThatOne_Text_0:
 	.string "partner is a very important choice.$"
 
 ElmsLab_AfterStarterChoice_Text_0:
-# 173 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 175 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	.string "PROFESSOR ELM: I have something that I\n"
 	.string "think would be a great way for you to\l"
 	.string "start your POKéMON journey!\p"
@@ -455,31 +647,78 @@ ElmsLab_AfterStarterChoice_Text_0:
 	.string "POKéMON friend!$"
 
 ElmsLab_AfterStarterChoice_Text_1:
-# 179 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 181 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	.string "What do you say, will you help out?$"
 
 ElmsLab_AfterStarterChoice_Text_2:
-# 181 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 183 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	.string "But we really need your help {PLAYER}!\pWon't you please reconsider?$"
 
 ElmsLab_AfterStarterChoice_Text_3:
-# 183 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 185 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	.string "ELM: Great! MR. POKéMON lives a little\n"
 	.string "bit beyond CHERRYGROVE, the next city\l"
 	.string "over.\p"
 	.string "It's almost a direct route there, so you\n"
-	.string "can't miss it.\n"
-	.string "Just in case, here's my phone number so\l"
+	.string "can't miss it.\p"
+	.string "Just in case, here's my phone number so\n"
 	.string "you can call me if anything comes up.$"
 
 ElmsLab_Aide_Text_0:
-# 193 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 196 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	.string "There are only two of us, so we're\n"
 	.string "always busy.$"
 
 ElmsLab_CantLeave_Text_0:
-# 201 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+# 204 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	.string "ELM: Wait! Where are you going?$"
+
+ElmsLab_ProfElm_Text_0:
+# 227 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	.string "ELM: Go on, pick one!$"
+
+ElmsLab_ProfElm_Text_1:
+# 229 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	.string "ELM: If a wild POKéMON appears in the\n"
+	.string "tall grass, be sure to let yours battle\l"
+	.string "it!$"
+
+ElmsLab_ProfElm_Text_2:
+# 231 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	.string "COMING SOON$"
+
+ElmsLab_TrashcanText_Text_0:
+# 239 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	.string "The wrapper from the RAGECANDYBAR\n"
+	.string "that PROF. ELMS ate is in there..$"
+
+ElmsLab_PCText_Text_0:
+# 245 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	.string "OBSERVATIONS ON POKéMON EVOLUTION\n"
+	.string "AND GROWTH - A COMPREHENSIVE REVIEW\l"
+	.string "BY PROFESSOR ELM\p"
+	.string "...\p"
+	.string "...\p"
+	.string "This seems like a very complicated\n"
+	.string "paper.$"
+
+ElmsLab_HealingMachine_Text_0:
+# 252 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	.string "A machine for healing POKéMON.$"
+
+ElmsLab_HealingMachine_Text_1:
+# 255 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	.string "Would you like to heal your POKéMON?$"
+
+ElmsLab_AideGivesPotion_Text_0:
+# 288 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	.string "{PLAYER}, I want you to have this for\n"
+	.string "your errand.$"
+
+ElmsLab_OpenWindow_Text_0:
+# 315 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	.string "A pleasant breeze blows in through the\n"
+	.string "open window...$"
 
 ElmsLab_ChoseStarterText::
 # 158 "data/maps/NewBarkTown_ElmsLab/scripts.pory"

@@ -80,6 +80,8 @@ script NewBarkTown_PlayersHouse1F_FridgeScript {
     if(flag(FLAG_GOT_FRIDGE_DRINK)){
         msgbox(format("Looks like you need more groceries!"))
     } else{
+        playfanfare(MUS_OBTAIN_ITEM)
+        waitfanfare
         random(3)
         switch(var(VAR_RESULT)){
             case 1:

@@ -168,6 +168,8 @@ script ElmsLab_DontWantThatOne {
 script ElmsLab_AfterStarterChoice {
     lock
     setvar(VAR_INTRO_STATE, 2)
+    applymovement(PROF_ELM, Common_Movement_FaceDown)
+    waitmovement(0)
     msgbox(
         format(
             "PROFESSOR ELM: I have something that I think would be a great way for you to start your POKéMON journey!\p"
@@ -181,6 +183,7 @@ script ElmsLab_AfterStarterChoice {
         msgbox("But we really need your help {PLAYER}!\pWon't you please reconsider?", MSGBOX_YESNO)
     }
     msgbox(format("ELM: Great! MR. POKéMON lives a little bit beyond CHERRYGROVE, the next city over.\pIt's almost a direct route there, so you can't miss it.\pJust in case, here's my phone number so you can call me if anything comes up."))
+    setvar(VAR_TEMP_1, 1)
     release
 }
 
@@ -214,4 +217,101 @@ script ElmsLab_CantLeaveN {
     applymovement(PROF_ELM, Common_Movement_FaceRight)
     waitmovement(0)
     release
+}
+
+script ElmsLab_ProfElm {
+    lockall
+    faceplayer
+    switch (var(VAR_INTRO_STATE)) {
+        case 1:
+            msgbox(format("ELM: Go on, pick one!"))
+        case 2:
+            msgbox(format("ELM: If a wild POKéMON appears in the tall grass, be sure to let yours battle it!"))
+        default:
+            msgbox(format("COMING SOON"))
+
+    }
+    releaseall
+}
+
+script ElmsLab_TrashcanText {
+    lockall
+    msgbox(format("The wrapper from the RAGECANDYBAR that PROF. ELMS ate is in there.."))
+    releaseall
+}
+
+script ElmsLab_PCText {
+    lockall
+    msgbox(format("OBSERVATIONS ON POKéMON EVOLUTION AND GROWTH - A COMPREHENSIVE REVIEW BY PROFESSOR ELM\p...\p...\pThis seems like a very complicated paper."))
+    releaseall
+}
+
+script ElmsLab_HealingMachine {
+    lockall
+    if (var(VAR_INTRO_STATE) == 1){
+        msgbox(format("A machine for healing POKéMON."))
+    }
+    else {
+        msgbox(format("Would you like to heal your POKéMON?"), MSGBOX_YESNO)
+        if (var(VAR_RESULT) == 1){
+            playfanfare(MUS_HEAL)
+	        waitfanfare
+            special(HealPlayerParty)
+        }
+    }
+    releaseall
+}
+
+script ElmsLab_AideGivesPotionL {
+    lockall
+    applymovement(ELM_AIDE, AideWalkLeft)
+    waitmovement(0)
+    call(ElmsLab_AideGivesPotion)
+    applymovement(ELM_AIDE, AideReturnsLeft)
+    waitmovement(0)
+    setvar(VAR_TEMP_1, 0)
+    releaseall
+}
+
+script ElmsLab_AideGivesPotionR {
+    lockall
+    applymovement(ELM_AIDE, AideWalkRight)
+    waitmovement(0)
+    call(ElmsLab_AideGivesPotion)
+    applymovement(ELM_AIDE, AideReturnsRight)
+    waitmovement(0)
+    setvar(VAR_TEMP_1, 0)
+    releaseall
+}
+
+script ElmsLab_AideGivesPotion {
+    msgbox(format("{PLAYER}, I want you to have this for your errand."))
+    playfanfare(MUS_OBTAIN_ITEM)
+    waitfanfare
+    giveitem(ITEM_POTION)
+}
+
+movement AideWalkLeft {
+    walk_right * 2
+    face_up
+}
+
+movement AideReturnsLeft {
+    walk_left * 2
+    face_down
+}
+
+movement AideWalkRight {
+    walk_right * 3
+    face_up
+}
+
+movement AideReturnsRight {
+    walk_left * 3
+    face_down
+}
+script ElmsLab_OpenWindow {
+    lockall
+    msgbox(format("A pleasant breeze blows in through the open window..."))
+    releaseall
 }
