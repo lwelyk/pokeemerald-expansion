@@ -144,6 +144,7 @@ FOSSIL,Fossil,09 Objects,NPC_1,NONE,128,16,16,NPC_1,S,TRUE,FALSE,NONE,16x16,16x1
 ITEM_BALL,Pokeball,09 Objects,GBC,NONE,256,16,32,NPC_1,M,TRUE,FALSE,NONE,16x32,16x32,Following,PokeBall,gDummySpriteAffineAnimTable,
 PUSHABLE_BOULDER,PushableBoulder,09 Objects,NPC_1,NONE,128,16,16,NPC_1,S,TRUE,FALSE,NONE,16x16,16x16,Inanimate,PushableBoulder,gDummySpriteAffineAnimTable,
 SUDOWOODO,Sudowoodo,09 Objects,GBC,NONE,512,16,32,NPC_1,M,FALSE,FALSE,FOOT,16x32,16x32,Standard,SudowoodoTree,gDummySpriteAffineAnimTable,Sudowoodo
+ITEM_BALL_C,ItemBallC,09 Objects,GBC,NONE,128,16,16,NPC_2,S,TRUE,FALSE,NONE,16x16,16x16,Inanimate,ItemBallC,gDummySpriteAffineAnimTable,
 BALL_CUSHION,BallCushion,10-1 Cushions,NPC_3,NONE,128,16,16,NPC_3,S,TRUE,FALSE,NONE,16x16,16x16,Inanimate,BallCushion,gDummySpriteAffineAnimTable,
 DIAMOND_CUSHION,DiamondCushion,10-1 Cushions,NPC_4,NONE,128,16,16,NPC_4,S,TRUE,FALSE,NONE,16x16,16x16,Inanimate,DiamondCushion,gDummySpriteAffineAnimTable,
 FIRE_CUSHION,FireCushion,10-1 Cushions,NPC_2,NONE,128,16,16,NPC_2,S,TRUE,FALSE,NONE,16x16,16x16,Inanimate,FireCushion,gDummySpriteAffineAnimTable,

@@ -149,6 +149,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BreakableRo
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CuttableTree;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fossil;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokeBall;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ItemBallC;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PushableBoulder;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sudowoodo;
 
@@ -411,6 +412,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_CUTTABLE_TREE] =             &gObjectEventGraphicsInfo_CuttableTree,
     [OBJ_EVENT_GFX_FOSSIL] =                    &gObjectEventGraphicsInfo_Fossil,
     [OBJ_EVENT_GFX_ITEM_BALL] =                 &gObjectEventGraphicsInfo_PokeBall,
+    [OBJ_EVENT_GFX_ITEM_BALL_C] =               &gObjectEventGraphicsInfo_ItemBallC,
     [OBJ_EVENT_GFX_PUSHABLE_BOULDER] =          &gObjectEventGraphicsInfo_PushableBoulder,
     [OBJ_EVENT_GFX_SUDOWOODO] =                 &gObjectEventGraphicsInfo_Sudowoodo,
     [OBJ_EVENT_GFX_BALL_CUSHION] =              &gObjectEventGraphicsInfo_BallCushion,

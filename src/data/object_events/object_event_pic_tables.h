@@ -729,6 +729,11 @@ static const struct SpriteFrameImage sPicTable_Fossil[] = {
 };
 
 
+static const struct SpriteFrameImage sPicTable_ItemBallC[] = {
+    obj_frame_tiles(gObjectEventPic_ItemBallC),
+};
+
+
 static const struct SpriteFrameImage sPicTable_PushableBoulder[] = {
     obj_frame_tiles(gObjectEventPic_PushableBoulder),
 };

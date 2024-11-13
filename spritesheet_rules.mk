@@ -525,6 +525,10 @@ $(OBJEVENTGFXDIR)/misc/fossil.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
 
+$(OBJEVENTGFXDIR)/misc/item_ball.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
 $(OBJEVENTGFXDIR)/misc/pushable_boulder.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 

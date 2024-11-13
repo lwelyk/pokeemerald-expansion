@@ -225,6 +225,7 @@ const u32 gObjectEventPic_PokeBall[] = INCBIN_U32("graphics/object_events/pics/m
 const u32 gObjectEventPic_BreakableRock[] = INCBIN_U32("graphics/object_events/pics/misc/breakable_rock.4bpp");
 const u32 gObjectEventPic_CuttableTree[] = INCBIN_U32("graphics/object_events/pics/misc/cuttable_tree.4bpp");
 const u32 gObjectEventPic_Fossil[] = INCBIN_U32("graphics/object_events/pics/misc/fossil.4bpp");
+const u32 gObjectEventPic_ItemBallC[] = INCBIN_U32("graphics/object_events/pics/misc/item_ball.4bpp");
 const u32 gObjectEventPic_PushableBoulder[] = INCBIN_U32("graphics/object_events/pics/misc/pushable_boulder.4bpp");
 const u32 gObjectEventPic_SudowoodoTree[] = INCBIN_U32("graphics/object_events/pics/misc/sudowoodo_tree.4bpp");
 
