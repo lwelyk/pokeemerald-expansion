@@ -223,7 +223,11 @@ PLACEHOLDER_ANIM_SINGLE_FRAME(BeedrillMega);
 static const union AnimCmd sAnim_Pidgey_1[] =
 {
     ANIMCMD_FRAME(0, 5),
-    ANIMCMD_FRAME(1, 25),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_END,
 };
@@ -2381,8 +2385,11 @@ static const union AnimCmd sAnim_Quilava_1[] =
 
 static const union AnimCmd sAnim_Typhlosion_1[] =
 {
-    ANIMCMD_FRAME(1, 40),
-    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
 
@@ -2405,7 +2412,9 @@ static const union AnimCmd sAnim_Totodile_1[] =
 
 static const union AnimCmd sAnim_Croconaw_1[] =
 {
-    ANIMCMD_FRAME(1, 40),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 10),
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
