@@ -510,11 +510,11 @@ ElmsLab_AideGivesPotion::
 # 288 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	msgbox ElmsLab_AideGivesPotion_Text_0
 # 289 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	playfanfare MUS_OBTAIN_ITEM
-# 290 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
-	waitfanfare
-# 291 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
 	giveitem ITEM_POTION
+# 290 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 291 "data/maps/NewBarkTown_ElmsLab/scripts.pory"
+	waitfanfare
 	return
 
 

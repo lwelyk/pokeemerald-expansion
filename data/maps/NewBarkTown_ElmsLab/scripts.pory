@@ -286,9 +286,9 @@ script ElmsLab_AideGivesPotionR {
 
 script ElmsLab_AideGivesPotion {
     msgbox(format("{PLAYER}, I want you to have this for your errand."))
+    giveitem(ITEM_POTION)
     playfanfare(MUS_OBTAIN_ITEM)
     waitfanfare
-    giveitem(ITEM_POTION)
 }
 
 movement AideWalkLeft {
