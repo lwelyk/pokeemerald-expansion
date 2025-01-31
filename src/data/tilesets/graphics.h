@@ -1634,3 +1634,41 @@ const u16 gTilesetPalettes_UnionRoom[][16] =
 };
 
 const u32 gTilesetTiles_UnionRoom[] = INCBIN_U32("data/tilesets/secondary/union_room/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_GalarGeneral[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/galar_general/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_GalarGeneral[] = INCBIN_U32("data/tilesets/primary/galar_general/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Postwick[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/postwick/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Postwick[] = INCBIN_U32("data/tilesets/secondary/postwick/tiles.4bpp.lz");
