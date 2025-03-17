@@ -23,10 +23,22 @@ script NewBarkTown_FatMan {
 }
 
 script NewBarkTown_Lyra {
-	lock
-	faceplayer
-	msgbox(format("Hey {PLAYER}!\p MARILL and I were looking for you earlier!\pPROF. ELM wanted to talk to you about something, you should go see him!"))
-	release
+	if(var(VAR_INTRO_STATE) == 2) {
+		lock
+		faceplayer
+		msgbox(format("LYRA: Hey {PLAYER}!\pDid you talk to PRO-"), MSGBOX_AUTOCLOSE)
+		applymovement(LYRA, LyraExclamation)
+		msgbox(format("LYRA: You did!\pYou got a POKéMON now! That's so cool!\pCome on, we gotta have a battle now that you have one too!"))
+		release
+		trainerbattle_no_intro(TRAINER_LYRA_OPTIONAL_FIRST_FIGHT, NewBarkTown_LyraDefeated)
+		msgbox(format("LYRA: Wow!"))
+		release
+	} else {
+		lock
+		faceplayer
+		msgbox(format("LYRA: Hey {PLAYER}!\p MARILL and I were looking for you earlier!\pPROF. ELM wanted to talk to you about something, you should go see him!"))
+		release
+	}
 }
 
 script NewBarkTown_LyraMarill {
@@ -174,6 +186,15 @@ script NewBarkTown_RivalPush {
 	applymovement(1, RivalReturns)
 	waitmovement(0)
 	release
+}
+
+text NewBarkTown_LyraDefeated {
+	format("Oh no, I guess Marill wasn't strong enough!")
+}
+
+movement LyraExclamation{
+    emote_exclamation_mark
+    delay_16
 }
 
 movement RivalTurnsMovement {

@@ -16873,3 +16873,21 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+
+=== TRAINER_LYRA_OPTIONAL_FIRST_FIGHT ===
+Name: LYRA
+Class: Rival
+Pic: Lyra
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+Mugshot: Pink
+
+Mary (Marill) (F)
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- POUND
+- TAIL WHIP
+- DEFENSE CURL

@@ -32,299 +32,315 @@ NewBarkTown_Lyra::
 # 27 "data/maps/NewBarkTown/scripts.pory"
 	faceplayer
 # 28 "data/maps/NewBarkTown/scripts.pory"
-	msgbox NewBarkTown_Lyra_Text_0
+	msgbox NewBarkTown_Lyra_Text_0, MSGBOX_AUTOCLOSE
 # 29 "data/maps/NewBarkTown/scripts.pory"
+	applymovement 5, LyraExclamation
+# 30 "data/maps/NewBarkTown/scripts.pory"
+	msgbox NewBarkTown_Lyra_Text_1
+# 31 "data/maps/NewBarkTown/scripts.pory"
+	release
+# 32 "data/maps/NewBarkTown/scripts.pory"
+	trainerbattle_no_intro TRAINER_LYRA_OPTIONAL_FIRST_FIGHT, NewBarkTown_LyraDefeated
+# 33 "data/maps/NewBarkTown/scripts.pory"
 	release
 	return
 
 
 NewBarkTown_LyraMarill::
-# 33 "data/maps/NewBarkTown/scripts.pory"
-	lock
-# 34 "data/maps/NewBarkTown/scripts.pory"
-	faceplayer
-# 35 "data/maps/NewBarkTown/scripts.pory"
-	playmoncry SPECIES_MARILL, CRY_MODE_NORMAL
-# 36 "data/maps/NewBarkTown/scripts.pory"
-	waitse
-# 37 "data/maps/NewBarkTown/scripts.pory"
-	applymovement 4, MarillJumpAround
 # 38 "data/maps/NewBarkTown/scripts.pory"
-	waitmovement 0
+	lock
 # 39 "data/maps/NewBarkTown/scripts.pory"
-	msgbox NewBarkTown_LyraMarill_Text_0
+	faceplayer
 # 40 "data/maps/NewBarkTown/scripts.pory"
+	playmoncry SPECIES_MARILL, CRY_MODE_NORMAL
+# 41 "data/maps/NewBarkTown/scripts.pory"
+	waitse
+# 42 "data/maps/NewBarkTown/scripts.pory"
+	applymovement 4, MarillJumpAround
+# 43 "data/maps/NewBarkTown/scripts.pory"
+	waitmovement 0
+# 44 "data/maps/NewBarkTown/scripts.pory"
+	msgbox NewBarkTown_LyraMarill_Text_0
+# 45 "data/maps/NewBarkTown/scripts.pory"
 	release
 	return
 
 
-# 43 "data/maps/NewBarkTown/scripts.pory"
+# 48 "data/maps/NewBarkTown/scripts.pory"
 MarillJumpAround:
-# 44 "data/maps/NewBarkTown/scripts.pory"
+# 49 "data/maps/NewBarkTown/scripts.pory"
 	lock_facing_direction
-# 45 "data/maps/NewBarkTown/scripts.pory"
+# 50 "data/maps/NewBarkTown/scripts.pory"
 	jump_in_place_up_down
-# 46 "data/maps/NewBarkTown/scripts.pory"
+# 51 "data/maps/NewBarkTown/scripts.pory"
 	jump_in_place_up_down
-# 47 "data/maps/NewBarkTown/scripts.pory"
+# 52 "data/maps/NewBarkTown/scripts.pory"
 	unlock_facing_direction
 	step_end
 
 NewBarkTown_WomanStopsYouInitial::
-# 51 "data/maps/NewBarkTown/scripts.pory"
-	lock
-# 52 "data/maps/NewBarkTown/scripts.pory"
-	playBGM MUS_RG_PALLET, TRUE
-# 53 "data/maps/NewBarkTown/scripts.pory"
-	applymovement 3, Common_Movement_FaceLeft
-# 54 "data/maps/NewBarkTown/scripts.pory"
-	msgbox NewBarkTown_WomanStopsYouInitial_Text_0
-# 55 "data/maps/NewBarkTown/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceRight
 # 56 "data/maps/NewBarkTown/scripts.pory"
+	lock
+# 57 "data/maps/NewBarkTown/scripts.pory"
+	playBGM MUS_RG_PALLET, TRUE
+# 58 "data/maps/NewBarkTown/scripts.pory"
+	applymovement 3, Common_Movement_FaceLeft
+# 59 "data/maps/NewBarkTown/scripts.pory"
+	msgbox NewBarkTown_WomanStopsYouInitial_Text_0
+# 60 "data/maps/NewBarkTown/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceRight
+# 61 "data/maps/NewBarkTown/scripts.pory"
 	release
 	return
 
 
 NewBarkTown_WomanStopsYouNorth::
-# 60 "data/maps/NewBarkTown/scripts.pory"
-	call NewBarkTown_WomanStopsYouInitial
-# 61 "data/maps/NewBarkTown/scripts.pory"
-	lock
-# 62 "data/maps/NewBarkTown/scripts.pory"
-	applymovement 3, WomanWalkTowardsYouNorth
-# 63 "data/maps/NewBarkTown/scripts.pory"
-	waitmovement 0
-# 64 "data/maps/NewBarkTown/scripts.pory"
-	msgbox NewBarkTown_WomanWhatDoing
 # 65 "data/maps/NewBarkTown/scripts.pory"
-	applymovement 3, WomanWalksYouBackNorth
+	call NewBarkTown_WomanStopsYouInitial
 # 66 "data/maps/NewBarkTown/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, PlayerWalkedBackNorth
+	lock
 # 67 "data/maps/NewBarkTown/scripts.pory"
-	msgbox NewBarkTown_WomanItsDangerousToGoAlone
+	applymovement 3, WomanWalkTowardsYouNorth
 # 68 "data/maps/NewBarkTown/scripts.pory"
-	savebgm MUS_DUMMY
+	waitmovement 0
 # 69 "data/maps/NewBarkTown/scripts.pory"
-	fadedefaultbgm
+	msgbox NewBarkTown_WomanWhatDoing
 # 70 "data/maps/NewBarkTown/scripts.pory"
+	applymovement 3, WomanWalksYouBackNorth
+# 71 "data/maps/NewBarkTown/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, PlayerWalkedBackNorth
+# 72 "data/maps/NewBarkTown/scripts.pory"
+	msgbox NewBarkTown_WomanItsDangerousToGoAlone
+# 73 "data/maps/NewBarkTown/scripts.pory"
+	savebgm MUS_DUMMY
+# 74 "data/maps/NewBarkTown/scripts.pory"
+	fadedefaultbgm
+# 75 "data/maps/NewBarkTown/scripts.pory"
 	release
 	return
 
 
 NewBarkTown_WomanStopsYouSouth::
-# 74 "data/maps/NewBarkTown/scripts.pory"
-	call NewBarkTown_WomanStopsYouInitial
-# 75 "data/maps/NewBarkTown/scripts.pory"
-	lock
-# 76 "data/maps/NewBarkTown/scripts.pory"
-	applymovement 3, WomanWalkTowardsYouSouth
-# 77 "data/maps/NewBarkTown/scripts.pory"
-	waitmovement 0
-# 78 "data/maps/NewBarkTown/scripts.pory"
-	msgbox NewBarkTown_WomanWhatDoing
 # 79 "data/maps/NewBarkTown/scripts.pory"
-	applymovement 3, WomanWalksYouBackSouth
+	call NewBarkTown_WomanStopsYouInitial
 # 80 "data/maps/NewBarkTown/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, PlayerWalkedBackSouth
+	lock
 # 81 "data/maps/NewBarkTown/scripts.pory"
-	msgbox NewBarkTown_WomanItsDangerousToGoAlone
+	applymovement 3, WomanWalkTowardsYouSouth
 # 82 "data/maps/NewBarkTown/scripts.pory"
-	savebgm MUS_DUMMY
+	waitmovement 0
 # 83 "data/maps/NewBarkTown/scripts.pory"
-	fadedefaultbgm
+	msgbox NewBarkTown_WomanWhatDoing
 # 84 "data/maps/NewBarkTown/scripts.pory"
+	applymovement 3, WomanWalksYouBackSouth
+# 85 "data/maps/NewBarkTown/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, PlayerWalkedBackSouth
+# 86 "data/maps/NewBarkTown/scripts.pory"
+	msgbox NewBarkTown_WomanItsDangerousToGoAlone
+# 87 "data/maps/NewBarkTown/scripts.pory"
+	savebgm MUS_DUMMY
+# 88 "data/maps/NewBarkTown/scripts.pory"
+	fadedefaultbgm
+# 89 "data/maps/NewBarkTown/scripts.pory"
 	release
 	return
 
 
-# 95 "data/maps/NewBarkTown/scripts.pory"
-WomanWalkTowardsYouNorth:
-# 96 "data/maps/NewBarkTown/scripts.pory"
-	walk_left
-# 97 "data/maps/NewBarkTown/scripts.pory"
-	walk_left
-	step_end
-
 # 100 "data/maps/NewBarkTown/scripts.pory"
-WomanWalkTowardsYouSouth:
+WomanWalkTowardsYouNorth:
 # 101 "data/maps/NewBarkTown/scripts.pory"
 	walk_left
 # 102 "data/maps/NewBarkTown/scripts.pory"
-	walk_down
-# 103 "data/maps/NewBarkTown/scripts.pory"
 	walk_left
 	step_end
 
+# 105 "data/maps/NewBarkTown/scripts.pory"
+WomanWalkTowardsYouSouth:
 # 106 "data/maps/NewBarkTown/scripts.pory"
-WomanWalksYouBackNorth:
+	walk_left
 # 107 "data/maps/NewBarkTown/scripts.pory"
-	walk_right
+	walk_down
 # 108 "data/maps/NewBarkTown/scripts.pory"
-	walk_right
-# 109 "data/maps/NewBarkTown/scripts.pory"
-	face_left
+	walk_left
 	step_end
 
+# 111 "data/maps/NewBarkTown/scripts.pory"
+WomanWalksYouBackNorth:
 # 112 "data/maps/NewBarkTown/scripts.pory"
-PlayerWalkedBackNorth:
+	walk_right
 # 113 "data/maps/NewBarkTown/scripts.pory"
 	walk_right
 # 114 "data/maps/NewBarkTown/scripts.pory"
-	walk_right
+	face_left
 	step_end
 
 # 117 "data/maps/NewBarkTown/scripts.pory"
-WomanWalksYouBackSouth:
+PlayerWalkedBackNorth:
 # 118 "data/maps/NewBarkTown/scripts.pory"
 	walk_right
 # 119 "data/maps/NewBarkTown/scripts.pory"
 	walk_right
-# 120 "data/maps/NewBarkTown/scripts.pory"
+	step_end
+
+# 122 "data/maps/NewBarkTown/scripts.pory"
+WomanWalksYouBackSouth:
+# 123 "data/maps/NewBarkTown/scripts.pory"
+	walk_right
+# 124 "data/maps/NewBarkTown/scripts.pory"
+	walk_right
+# 125 "data/maps/NewBarkTown/scripts.pory"
 	walk_up
-# 121 "data/maps/NewBarkTown/scripts.pory"
+# 126 "data/maps/NewBarkTown/scripts.pory"
 	face_down
 	step_end
 
-# 124 "data/maps/NewBarkTown/scripts.pory"
+# 129 "data/maps/NewBarkTown/scripts.pory"
 PlayerWalkedBackSouth:
-# 125 "data/maps/NewBarkTown/scripts.pory"
+# 130 "data/maps/NewBarkTown/scripts.pory"
 	walk_right
-# 126 "data/maps/NewBarkTown/scripts.pory"
+# 131 "data/maps/NewBarkTown/scripts.pory"
 	walk_right
-# 127 "data/maps/NewBarkTown/scripts.pory"
+# 132 "data/maps/NewBarkTown/scripts.pory"
 	walk_right
-# 128 "data/maps/NewBarkTown/scripts.pory"
+# 133 "data/maps/NewBarkTown/scripts.pory"
 	face_up
 	step_end
 
 NewBarkTown_TownSign::
-# 132 "data/maps/NewBarkTown/scripts.pory"
+# 137 "data/maps/NewBarkTown/scripts.pory"
 	lockall
-# 133 "data/maps/NewBarkTown/scripts.pory"
+# 138 "data/maps/NewBarkTown/scripts.pory"
 	msgbox NewBarkTown_TownSign_Text_0
-# 134 "data/maps/NewBarkTown/scripts.pory"
+# 139 "data/maps/NewBarkTown/scripts.pory"
 	releaseall
 	return
 
 
 NewBarkTown_ElmHouseSign::
-# 138 "data/maps/NewBarkTown/scripts.pory"
+# 143 "data/maps/NewBarkTown/scripts.pory"
 	lockall
-# 139 "data/maps/NewBarkTown/scripts.pory"
+# 144 "data/maps/NewBarkTown/scripts.pory"
 	msgbox NewBarkTown_ElmHouseSign_Text_0
-# 140 "data/maps/NewBarkTown/scripts.pory"
+# 145 "data/maps/NewBarkTown/scripts.pory"
 	releaseall
 	return
 
 
 NewBarkTown_ElmLabSign::
-# 144 "data/maps/NewBarkTown/scripts.pory"
+# 149 "data/maps/NewBarkTown/scripts.pory"
 	lockall
-# 145 "data/maps/NewBarkTown/scripts.pory"
+# 150 "data/maps/NewBarkTown/scripts.pory"
 	msgbox NewBarkTown_ElmLabSign_Text_0
-# 146 "data/maps/NewBarkTown/scripts.pory"
+# 151 "data/maps/NewBarkTown/scripts.pory"
 	releaseall
 	return
 
 
 NewBarkTown_PlayerHouseSign::
-# 150 "data/maps/NewBarkTown/scripts.pory"
+# 155 "data/maps/NewBarkTown/scripts.pory"
 	lockall
-# 151 "data/maps/NewBarkTown/scripts.pory"
+# 156 "data/maps/NewBarkTown/scripts.pory"
 	msgbox NewBarkTown_PlayerHouseSign_Text_0
-# 152 "data/maps/NewBarkTown/scripts.pory"
+# 157 "data/maps/NewBarkTown/scripts.pory"
 	releaseall
 	return
 
 
 NewBarkTown_LyraHouseSign::
-# 156 "data/maps/NewBarkTown/scripts.pory"
+# 161 "data/maps/NewBarkTown/scripts.pory"
 	lockall
-# 157 "data/maps/NewBarkTown/scripts.pory"
+# 162 "data/maps/NewBarkTown/scripts.pory"
 	msgbox NewBarkTown_PlayerHouseSign_Text_0
-# 158 "data/maps/NewBarkTown/scripts.pory"
+# 163 "data/maps/NewBarkTown/scripts.pory"
 	releaseall
 	return
 
 
 NewBarkTown_RivalPush::
-# 162 "data/maps/NewBarkTown/scripts.pory"
-	lock
-# 163 "data/maps/NewBarkTown/scripts.pory"
-	msgbox NewBarkTown_RivalPush_Text_0
-# 164 "data/maps/NewBarkTown/scripts.pory"
-	applymovement 1, RivalTurnsMovement
-# 165 "data/maps/NewBarkTown/scripts.pory"
-	waitmovement 0
-# 166 "data/maps/NewBarkTown/scripts.pory"
-	msgbox NewBarkTown_RivalPush_Text_1
 # 167 "data/maps/NewBarkTown/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, PlayerStepsDown
+	lock
 # 168 "data/maps/NewBarkTown/scripts.pory"
-	applymovement 1, RivalStepsLeft
+	msgbox NewBarkTown_RivalPush_Text_0
 # 169 "data/maps/NewBarkTown/scripts.pory"
-	waitmovement 0
+	applymovement 1, RivalTurnsMovement
 # 170 "data/maps/NewBarkTown/scripts.pory"
-	delay 16
+	waitmovement 0
 # 171 "data/maps/NewBarkTown/scripts.pory"
-	playSE SE_LEDGE
+	msgbox NewBarkTown_RivalPush_Text_1
 # 172 "data/maps/NewBarkTown/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, PlayerPushedDown
+	applymovement OBJ_EVENT_ID_PLAYER, PlayerStepsDown
 # 173 "data/maps/NewBarkTown/scripts.pory"
-	waitmovement 0
+	applymovement 1, RivalStepsLeft
 # 174 "data/maps/NewBarkTown/scripts.pory"
-	applymovement 1, RivalReturns
-# 175 "data/maps/NewBarkTown/scripts.pory"
 	waitmovement 0
+# 175 "data/maps/NewBarkTown/scripts.pory"
+	delay 16
 # 176 "data/maps/NewBarkTown/scripts.pory"
+	playSE SE_LEDGE
+# 177 "data/maps/NewBarkTown/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, PlayerPushedDown
+# 178 "data/maps/NewBarkTown/scripts.pory"
+	waitmovement 0
+# 179 "data/maps/NewBarkTown/scripts.pory"
+	applymovement 1, RivalReturns
+# 180 "data/maps/NewBarkTown/scripts.pory"
+	waitmovement 0
+# 181 "data/maps/NewBarkTown/scripts.pory"
 	release
 	return
 
 
-# 179 "data/maps/NewBarkTown/scripts.pory"
-RivalTurnsMovement:
-# 180 "data/maps/NewBarkTown/scripts.pory"
+# 188 "data/maps/NewBarkTown/scripts.pory"
+LyraExclamation:
+# 189 "data/maps/NewBarkTown/scripts.pory"
 	emote_exclamation_mark
-# 181 "data/maps/NewBarkTown/scripts.pory"
+# 190 "data/maps/NewBarkTown/scripts.pory"
 	delay_16
-# 182 "data/maps/NewBarkTown/scripts.pory"
+	step_end
+
+# 193 "data/maps/NewBarkTown/scripts.pory"
+RivalTurnsMovement:
+# 194 "data/maps/NewBarkTown/scripts.pory"
+	emote_exclamation_mark
+# 195 "data/maps/NewBarkTown/scripts.pory"
+	delay_16
+# 196 "data/maps/NewBarkTown/scripts.pory"
 	face_left
 	step_end
 
-# 185 "data/maps/NewBarkTown/scripts.pory"
+# 199 "data/maps/NewBarkTown/scripts.pory"
 RivalStepsLeft:
-# 186 "data/maps/NewBarkTown/scripts.pory"
+# 200 "data/maps/NewBarkTown/scripts.pory"
 	walk_left
-# 187 "data/maps/NewBarkTown/scripts.pory"
+# 201 "data/maps/NewBarkTown/scripts.pory"
 	face_down
 	step_end
 
-# 190 "data/maps/NewBarkTown/scripts.pory"
-PlayerStepsDown:
-# 191 "data/maps/NewBarkTown/scripts.pory"
-	face_up
-# 192 "data/maps/NewBarkTown/scripts.pory"
-	lock_facing_direction
-# 193 "data/maps/NewBarkTown/scripts.pory"
-	walk_down
-# 194 "data/maps/NewBarkTown/scripts.pory"
-	unlock_facing_direction
-	step_end
-
-# 197 "data/maps/NewBarkTown/scripts.pory"
-PlayerPushedDown:
-# 198 "data/maps/NewBarkTown/scripts.pory"
-	lock_facing_direction
-# 199 "data/maps/NewBarkTown/scripts.pory"
-	jump_2_down
-# 200 "data/maps/NewBarkTown/scripts.pory"
-	unlock_facing_direction
-	step_end
-
-# 203 "data/maps/NewBarkTown/scripts.pory"
-RivalReturns:
 # 204 "data/maps/NewBarkTown/scripts.pory"
+PlayerStepsDown:
+# 205 "data/maps/NewBarkTown/scripts.pory"
+	face_up
+# 206 "data/maps/NewBarkTown/scripts.pory"
+	lock_facing_direction
+# 207 "data/maps/NewBarkTown/scripts.pory"
+	walk_down
+# 208 "data/maps/NewBarkTown/scripts.pory"
+	unlock_facing_direction
+	step_end
+
+# 211 "data/maps/NewBarkTown/scripts.pory"
+PlayerPushedDown:
+# 212 "data/maps/NewBarkTown/scripts.pory"
+	lock_facing_direction
+# 213 "data/maps/NewBarkTown/scripts.pory"
+	jump_2_down
+# 214 "data/maps/NewBarkTown/scripts.pory"
+	unlock_facing_direction
+	step_end
+
+# 217 "data/maps/NewBarkTown/scripts.pory"
+RivalReturns:
+# 218 "data/maps/NewBarkTown/scripts.pory"
 	walk_right
 	step_end
 
@@ -342,53 +358,62 @@ NewBarkTown_FatMan_Text_0:
 
 NewBarkTown_Lyra_Text_0:
 # 28 "data/maps/NewBarkTown/scripts.pory"
-	.string "Hey {PLAYER}!\p"
-	.string "MARILL and I were looking for you\n"
-	.string "earlier!\p"
-	.string "PROF. ELM wanted to talk to you about\n"
-	.string "something, you should go see him!$"
+	.string "LYRA: Hey {PLAYER}!\p"
+	.string "Did you talk to PRO-$"
+
+NewBarkTown_Lyra_Text_1:
+# 30 "data/maps/NewBarkTown/scripts.pory"
+	.string "LYRA: You did!\p"
+	.string "You got a POKéMON now! That's so cool!\p"
+	.string "Come on, we gotta have a battle now\n"
+	.string "that you have one too!$"
 
 NewBarkTown_LyraMarill_Text_0:
-# 39 "data/maps/NewBarkTown/scripts.pory"
+# 44 "data/maps/NewBarkTown/scripts.pory"
 	.string "LYRA's MARILL seems happy to see you!$"
 
 NewBarkTown_WomanStopsYouInitial_Text_0:
-# 54 "data/maps/NewBarkTown/scripts.pory"
+# 59 "data/maps/NewBarkTown/scripts.pory"
 	.string "Wait, {PLAYER}!$"
 
 NewBarkTown_TownSign_Text_0:
-# 133 "data/maps/NewBarkTown/scripts.pory"
+# 138 "data/maps/NewBarkTown/scripts.pory"
 	.string "NEW BARK TOWN\p"
 	.string "The Town Where Winds of a New Beginning\n"
 	.string "Blow.$"
 
 NewBarkTown_ElmHouseSign_Text_0:
-# 139 "data/maps/NewBarkTown/scripts.pory"
+# 144 "data/maps/NewBarkTown/scripts.pory"
 	.string "ELM'S HOUSE$"
 
 NewBarkTown_ElmLabSign_Text_0:
-# 145 "data/maps/NewBarkTown/scripts.pory"
+# 150 "data/maps/NewBarkTown/scripts.pory"
 	.string "ELM POKéMON LAB$"
 
 NewBarkTown_PlayerHouseSign_Text_0:
-# 151 "data/maps/NewBarkTown/scripts.pory"
+# 156 "data/maps/NewBarkTown/scripts.pory"
 	.string "{PLAYER}'S HOUSE$"
 
 NewBarkTown_RivalPush_Text_0:
-# 163 "data/maps/NewBarkTown/scripts.pory"
+# 168 "data/maps/NewBarkTown/scripts.pory"
 	.string "…\pSo this is the famous ELM POKéMON LAB…$"
 
 NewBarkTown_RivalPush_Text_1:
-# 166 "data/maps/NewBarkTown/scripts.pory"
+# 171 "data/maps/NewBarkTown/scripts.pory"
 	.string "…\pWhat are you staring at?$"
 
 NewBarkTown_WomanWhatDoing::
-# 87 "data/maps/NewBarkTown/scripts.pory"
+# 92 "data/maps/NewBarkTown/scripts.pory"
 	.string "What do you think you're doing?$"
 
 NewBarkTown_WomanItsDangerousToGoAlone::
-# 91 "data/maps/NewBarkTown/scripts.pory"
+# 96 "data/maps/NewBarkTown/scripts.pory"
 	.string "It's Dangerous to go out without a\n"
 	.string "POKéMON!\p"
 	.string "Wild POKéMON jump out of the grass on\n"
 	.string "the way to the next town.$"
+
+NewBarkTown_LyraDefeated::
+# 184 "data/maps/NewBarkTown/scripts.pory"
+	.string "Oh no, I guess Marill wasn't strong\n"
+	.string "enough!$"

@@ -42178,3 +42178,48 @@ F_TRAINER_FEMALE |
             },
         },
     },
+#line 16878
+    [DIFFICULTY_NORMAL][TRAINER_LYRA_OPTIONAL_FIRST_FIGHT] =
+    {
+#line 16879
+        .trainerName = _("LYRA"),
+#line 16880
+        .trainerClass = TRAINER_CLASS_RIVAL,
+#line 16881
+        .trainerPic = TRAINER_PIC_LYRA,
+        .encounterMusic_gender =
+#line 16882
+F_TRAINER_FEMALE | 
+#line 16883
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 16884
+        .doubleBattle = FALSE,
+#line 16885
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+#line 16886
+        .mugshotColor = MUGSHOT_COLOR_PINK,
+        .partySize = 1,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 16888
+            .nickname = COMPOUND_STRING("Mary"),
+#line 16888
+            .species = SPECIES_MARILL,
+#line 16888
+            .gender = TRAINER_MON_FEMALE,
+#line 16890
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 16889
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 16891
+                MOVE_POUND,
+                MOVE_TAIL_WHIP,
+                MOVE_DEFENSE_CURL,
+            },
+            },
+        },
+    },
