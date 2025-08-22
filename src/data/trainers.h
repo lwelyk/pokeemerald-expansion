@@ -42193,7 +42193,7 @@ F_TRAINER_FEMALE |
 #line 16883
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
 #line 16884
-        .doubleBattle = FALSE,
+        .battleType = TRAINER_BATTLE_TYPE_SINGLES,
 #line 16885
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
 #line 16886
