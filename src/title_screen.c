@@ -66,7 +66,7 @@ static const u32 sTitleScreenRayquazaTilemap[] = INCBIN_U32("graphics/title_scre
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/logo_shine.4bpp.lz");
 // static const u32 sTitleScreenCloudsGfx[] = INCBIN_U32("graphics/title_screen/clouds.4bpp.lz");
 static const u32 sTitleScreenSuicuneGfx[] = INCBIN_U32("graphics/title_screen/suicune.4bpp.lz");
-static const u32 sTitleScreenSuicunePal[] = INCBIN_U32("graphics/title_screen/suicune.gbapal.lz");
+static const u16 sTitleScreenSuicunePal[] = INCBIN_U16("graphics/title_screen/suicune.gbapal");
 
 static const struct CompressedSpriteSheet sTitleScreenSuicuneSheet[] =
 {
@@ -74,7 +74,7 @@ static const struct CompressedSpriteSheet sTitleScreenSuicuneSheet[] =
     {NULL},
 };
 
-static const struct CompressedSpritePalette sTitleScreenSuicuneSheetPal[] =
+static const struct SpritePalette sTitleScreenSuicuneSheetPal[] =
 {
     {sTitleScreenSuicunePal, 777},
     {NULL},
@@ -673,7 +673,7 @@ void CB2_InitTitleScreen(void)
         LoadPalette(gTitleScreenCrystalVersionPal, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP);
         LoadSpritePalette(&sSpritePalette_PressStart[0]);
         LoadCompressedSpriteSheet(sTitleScreenSuicuneSheet);
-        LoadCompressedSpritePalette(sTitleScreenSuicuneSheetPal);
+        LoadSpritePalette(sTitleScreenSuicuneSheetPal);
         gMain.state = 2;
         break;
     case 2:

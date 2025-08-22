@@ -135,6 +135,8 @@ def update_event_graphics_pointers(data):
     output = []
     category = ""
     for idx, row in gfx_info.iterrows():
+        if row["Category"] == "14 DNS":
+            continue
         if row["Category"] != category:
             category = row["Category"]
             output.append("\n// " + row["Category"])
@@ -154,6 +156,8 @@ def update_event_graphics_pointers(data):
     output = []
     max_length = data["Constant"].str.len().max()
     for idx, row in data.iterrows():
+        if row["Category"] == "14 DNS":
+            continue
         constant = "    [OBJ_EVENT_GFX_" + row["Constant"] + "] = "
         constant = constant.ljust(max_length + len("    [OBJ_EVENT_GFX_] = "))
         sprite = row["Pointer"]
@@ -175,6 +179,8 @@ def update_event_pic_tables(data):
             category = row["Category"]
             output.append("\n// " + row["Category"])
         if row["Category"] == "12 Followers":
+            continue
+        if row["Category"] == "14 DNS":
             continue
         sprite = str(row["Sprite"])
         w = str(row["Width"])
@@ -216,7 +222,7 @@ def update_event_info(data):
         if row["Category"] != category:
             category = row["Category"]
             output.append("\n// " + row["Category"])
-        if row["Category"] == '13 Berry Trees' or row["Category"] == '12 Followers':
+        if row["Category"] == '13 Berry Trees' or row["Category"] == "14 DNS" or row["Category"] == '12 Followers':
             continue
         object_event = row["Name"]
         pal_tag = row["PaletteTag"]
