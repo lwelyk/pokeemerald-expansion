@@ -301,3 +301,4 @@ POKE_BALL,PokeBall,12 Followers,NPC_3,NONE,256,16,32,NPC_1,M,TRUE,FALSE,NONE,16x
 BERRY_TREE,,13 Berry Trees,,,,,,,,,,,,,,BerryTree,,
 BERRY_TREE_EARLY_STAGES,,13 Berry Trees,,,,,,,,,,,,,,BerryTreeEarlyStages,,
 BERRY_TREE_LATE_STAGES,,13 Berry Trees,,,,,,,,,,,,,,BerryTreeLateStages,,
+LIGHT_SPRITE,,14 DNS,,,,,,,,,,,,,,,,

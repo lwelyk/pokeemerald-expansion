@@ -1353,8 +1353,6 @@ static const struct SpriteFrameImage sPicTable_Truck[] = {
 
 // PIC TABLES END
 
-
-
 static const struct SpriteFrameImage sPicTable_MauvilleOldMan1[] = {
     overworld_ascending_frames(gObjectEventPic_PlaceholderM, 2, 4),
 };
@@ -1364,8 +1362,10 @@ static const struct SpriteFrameImage sPicTable_MauvilleOldMan2[] = {
 };
 
 
-#if OW_FOLLOWERS_POKEBALLS
 
+extern const struct SpriteFrameImage gFieldEffectObjectPicTable_BallLight[];
+
+#if OW_FOLLOWERS_POKEBALLS
 #define POKEBALL_PIC_FRAMES(name)                              \
     overworld_frame(gObjectEventPic_##name##Ball, 2, 4, 0),    \
     overworld_frame(gObjectEventPic_##name##Ball, 2, 4, 1),    \
