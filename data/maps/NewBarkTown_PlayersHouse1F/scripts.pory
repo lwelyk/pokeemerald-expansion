@@ -31,6 +31,8 @@ script NewBarkTown_PlayersHouse1F_MomScript {
             msgbox(format("PROF. ELM is waiting for you.\N Hurry up, baby!"))
         case 1:
             msgbox(format("PROF. ELM is waiting for you.\N Hurry up, baby!"))
+        case 2:
+            msgbox(format("Oh! {PLAYER}! That's such a cute POKéMON you have. PROFESSOR ELM must have given it to you?\pOh, PROFESSOR ELM has a task for you, you say?\p...\pI see. That sounds a little difficult, but it also sounds important and you should be proud someone like PROFESSOR ELM is able to rely on you!"))
         default:
             msgbox(format("What up?"))
            
