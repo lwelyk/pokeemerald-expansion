@@ -2,11 +2,7 @@ mapscripts NewBarkTown_ElmsHouse1F_MapScripts {
 
 }
 
-// const PROF_ELM = 1
-// const CYNDAQUIL_BALL = 2
-// const TOTODILE_BALL = 3
-// const CHIKORITA_BALL = 4
-// const ELM_AIDE = 5
+
 script ElmsHouse1F_ElmsWife {
 	lock
 	faceplayer

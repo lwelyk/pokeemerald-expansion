@@ -1,0 +1,15 @@
+mapscripts NewBarkTown_NPCHouse_MapScripts {
+
+}
+
+// const PROF_ELM = 1
+// const CYNDAQUIL_BALL = 2
+// const TOTODILE_BALL = 3
+// const CHIKORITA_BALL = 4
+// const ELM_AIDE = 5
+script NewBarkTown_NPCHouse_ElmFangirl {
+	lock
+	faceplayer
+	msgbox(format("It turns out PIKACHU is an evolved POKéMON!\pI was amazed by PROF. ELM's findings.\pHe's so famous for his research on POKéMON breeding and evolution.\p...sigh...\pI wish I could be a researcher like he is. Or even his assistant! "))
+    release
+}
