@@ -31,7 +31,7 @@ script NewBarkTown_Lyra {
 		msgbox(format("LYRA: You did!\pYou got a POKéMON now! That's so cool!\pCome on, we gotta have a battle now that you have one too!"))
 		release
 		trainerbattle_no_intro(TRAINER_LYRA_OPTIONAL_FIRST_FIGHT, NewBarkTown_LyraDefeated)
-		msgbox(format("LYRA: Wow!"))
+		msgbox(format("LYRA: Wow! You're so good at this already!\pMe and MARILL need to go train!"))
 		release
 	} else {
 		lock

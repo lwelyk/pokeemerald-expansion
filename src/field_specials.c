@@ -4356,8 +4356,18 @@ void EnterCode(void)
 void GetCodeFeedback(void)
 {
     static const u8 sText_SampleCode[] = _("SampleCode");
+    static const u8 sText_ElmsComputer[] = _("Dr. Utsugi"); // Get into Elm's Computer
+    static const u8 sText_ElmsComputer2[] = _("Utsugi"); // Get into Elm's Computer
     if (!StringCompare(gStringVar2, sText_SampleCode))
         gSpecialVar_Result = 1;
+    else if (!StringCompare(gStringVar2, sText_ElmsComputer))
+    {
+        gSpecialVar_Result = 2;
+    }
+    else if (!StringCompare(gStringVar2, sText_ElmsComputer2))
+    {
+        gSpecialVar_Result = 2;
+    }
     else
         gSpecialVar_Result = 0;
 }

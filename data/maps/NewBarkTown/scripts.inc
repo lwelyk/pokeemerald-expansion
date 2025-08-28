@@ -386,7 +386,9 @@ NewBarkTown_Lyra_Text_1:
 
 NewBarkTown_Lyra_Text_2:
 # 34 "data/maps/NewBarkTown/scripts.pory"
-	.string "LYRA: Wow!$"
+	.string "LYRA: Wow! You're so good at this\n"
+	.string "already!\p"
+	.string "Me and MARILL need to go train!$"
 
 NewBarkTown_Lyra_Text_3:
 # 39 "data/maps/NewBarkTown/scripts.pory"

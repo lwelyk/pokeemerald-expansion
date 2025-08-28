@@ -1,0 +1,62 @@
+mapscripts NewBarkTown_ElmsHouse1F_MapScripts {
+
+}
+
+// const PROF_ELM = 1
+// const CYNDAQUIL_BALL = 2
+// const TOTODILE_BALL = 3
+// const CHIKORITA_BALL = 4
+// const ELM_AIDE = 5
+script ElmsHouse1F_ElmsWife {
+	lock
+	faceplayer
+	msgbox(format("Hi, {PLAYER}!\pMy husband's always so busy at his lab--I hope he's OK.\pSometimes when he's caught up in his research, he even forgets to eat."))
+    release
+}
+
+script ElmsHouse1F_ElmsSon {
+	lock
+	faceplayer
+	msgbox(format("My mom says that if I wanna be a POKéMON Professor when I grow up, I'm going to need to study more.\pBut I also want to play games.\pLife is full of decisions, that's why my dad always says."))
+	release
+}
+
+script ElmsHouse1F_Computer {
+	lock
+	msgbox(format("The computer screen says ADRIAN ELM and is asking for a password."))
+    msgbox(format("Should you try to guess it?"), MSGBOX_YESNO)
+    if (var(VAR_RESULT) == 1)
+    {
+        special(EnterCode)
+        waitstate
+        special(GetCodeFeedback)
+        if(var(VAR_RESULT) == 2) 
+        {
+            msgbox(format("Wow, you got the password. It'll do something eventually. Probably make a special Pokemon appear somewhere. idk."))
+        }
+        else {
+            msgbox(format("That doesn't seem to be the right password."))
+        }
+    }
+    else
+    {
+        msgbox(format("That's probably a good idea. He may not want you on his computer."))
+    }
+	release
+}
+
+script ElmsHouse1F_Trash {
+    lock
+    msgbox(format("Full of papers with complicated scientific terms on them.\pThere are also several poorly-drawn pictures of some sort of flowering bush labeled Deutzia."))
+    release
+}
+script ElmsHouse1F_Shelf{
+    lock
+    msgbox(format("This shelf is full of difficult-looking scientific books.\pPOKéMON EGGs - Fiction No More\pWho's that POKéMON? - A Guide to Identifying and Classifying New Species.\pOn the Origin of Species by Means of Eeveelution\pHas PROFESSOR ELM even read all of these?"))
+    release
+}
+
+script ElmsHouse1F_N64 {
+    lock
+    msgbox(format("PROFESSOR ELM's son is playing the latest MARIO game on his NINTENDO 64."))
+}
