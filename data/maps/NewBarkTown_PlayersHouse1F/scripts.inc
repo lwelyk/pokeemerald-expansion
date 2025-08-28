@@ -25,10 +25,12 @@ NewBarkTown_PlayersHouse1F_MomScript::
 	case 0, NewBarkTown_PlayersHouse1F_MomScript_3
 # 32 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	case 1, NewBarkTown_PlayersHouse1F_MomScript_4
-# 35 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	msgbox NewBarkTown_PlayersHouse1F_MomScript_Text_4
+# 34 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	case 2, NewBarkTown_PlayersHouse1F_MomScript_5
+# 37 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	msgbox NewBarkTown_PlayersHouse1F_MomScript_Text_5
 NewBarkTown_PlayersHouse1F_MomScript_1:
-# 38 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 40 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	release
 	return
 
@@ -70,145 +72,150 @@ NewBarkTown_PlayersHouse1F_MomScript_4:
 	msgbox NewBarkTown_PlayersHouse1F_MomScript_Text_3
 	goto NewBarkTown_PlayersHouse1F_MomScript_1
 
+NewBarkTown_PlayersHouse1F_MomScript_5:
+# 35 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	msgbox NewBarkTown_PlayersHouse1F_MomScript_Text_4
+	goto NewBarkTown_PlayersHouse1F_MomScript_1
+
 
 NewBarkTown_PlayersHouse1F_MomLeft::
-# 42 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	lock
-# 43 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	applymovement LOCALID_MOM, NewBarkTown_PlayersHouse1F_WalkMomLeft
 # 44 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	waitmovement 0
-# 45 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	release
-# 46 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	call NewBarkTown_PlayersHouse1F_MomScript
-# 47 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	lock
-# 48 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	applymovement LOCALID_MOM, NewBarkTown_PlayersHouse1F_ReturnMomLeft
-# 49 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 45 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	applymovement LOCALID_MOM, NewBarkTown_PlayersHouse1F_WalkMomLeft
+# 46 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	waitmovement 0
+# 47 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	release
+# 48 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	call NewBarkTown_PlayersHouse1F_MomScript
+# 49 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	lock
 # 50 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	applymovement LOCALID_MOM, NewBarkTown_PlayersHouse1F_ReturnMomLeft
+# 51 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	waitmovement 0
+# 52 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	release
 	return
 
 
 NewBarkTown_PlayersHouse1F_MomRight::
-# 54 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	lock
-# 55 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	applymovement LOCALID_MOM, NewBarkTown_PlayersHouse1F_WalkMomRight
 # 56 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	waitmovement 0
-# 57 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	release
-# 58 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	call NewBarkTown_PlayersHouse1F_MomScript
-# 59 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	lock
-# 60 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	applymovement LOCALID_MOM, NewBarkTown_PlayersHouse1F_ReturnMomRight
-# 61 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 57 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	applymovement LOCALID_MOM, NewBarkTown_PlayersHouse1F_WalkMomRight
+# 58 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	waitmovement 0
+# 59 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	release
+# 60 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	call NewBarkTown_PlayersHouse1F_MomScript
+# 61 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	lock
 # 62 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	applymovement LOCALID_MOM, NewBarkTown_PlayersHouse1F_ReturnMomRight
+# 63 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	waitmovement 0
+# 64 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	release
 	return
 
 
 NewBarkTown_PlayersHouse1F_StoveScript::
-# 66 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	lock
-# 67 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	msgbox NewBarkTown_PlayersHouse1F_StoveScript_Text_0
 # 68 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	lock
+# 69 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	msgbox NewBarkTown_PlayersHouse1F_StoveScript_Text_0
+# 70 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	release
 	return
 
 
 NewBarkTown_PlayersHouse1F_SinkScript::
-# 72 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	lock
-# 73 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	msgbox NewBarkTown_PlayersHouse1F_SinkScript_Text_0
 # 74 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	lock
+# 75 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	msgbox NewBarkTown_PlayersHouse1F_SinkScript_Text_0
+# 76 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	release
 	return
 
 
 NewBarkTown_PlayersHouse1F_FridgeScript::
-# 78 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	lock
-# 79 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	msgbox NewBarkTown_PlayersHouse1F_FridgeScript_Text_0
 # 80 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	lock
+# 81 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	msgbox NewBarkTown_PlayersHouse1F_FridgeScript_Text_0
+# 82 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	goto_if_set FLAG_GOT_FRIDGE_DRINK, NewBarkTown_PlayersHouse1F_FridgeScript_2
-# 83 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	playfanfare MUS_OBTAIN_ITEM
-# 84 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	waitfanfare
 # 85 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	random 3
+	playfanfare MUS_OBTAIN_ITEM
 # 86 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	switch VAR_RESULT
+	waitfanfare
 # 87 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	case 1, NewBarkTown_PlayersHouse1F_FridgeScript_7
+	random 3
+# 88 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	switch VAR_RESULT
 # 89 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	case 1, NewBarkTown_PlayersHouse1F_FridgeScript_7
+# 91 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	case 2, NewBarkTown_PlayersHouse1F_FridgeScript_8
-# 92 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 94 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	giveitem ITEM_FRESH_WATER
 NewBarkTown_PlayersHouse1F_FridgeScript_5:
-# 94 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 96 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	setflag FLAG_GOT_FRIDGE_DRINK
 NewBarkTown_PlayersHouse1F_FridgeScript_1:
-# 96 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 98 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	release
 	return
 
 NewBarkTown_PlayersHouse1F_FridgeScript_2:
-# 81 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 83 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	msgbox NewBarkTown_PlayersHouse1F_FridgeScript_Text_1
 	goto NewBarkTown_PlayersHouse1F_FridgeScript_1
 
 NewBarkTown_PlayersHouse1F_FridgeScript_7:
-# 88 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 90 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	giveitem ITEM_LEMONADE
 	goto NewBarkTown_PlayersHouse1F_FridgeScript_5
 
 NewBarkTown_PlayersHouse1F_FridgeScript_8:
-# 90 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 92 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	giveitem ITEM_SODA_POP
 	goto NewBarkTown_PlayersHouse1F_FridgeScript_5
 
 
-# 99 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-NewBarkTown_PlayersHouse1F_WalkMomLeft:
-# 100 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	emote_question_mark
 # 101 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	delay_16
+NewBarkTown_PlayersHouse1F_WalkMomLeft:
 # 102 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	emote_question_mark
+# 103 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	delay_16
+# 104 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	face_right
 	step_end
 
-# 105 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-NewBarkTown_PlayersHouse1F_WalkMomRight:
-# 106 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	emote_question_mark
 # 107 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
-	delay_16
+NewBarkTown_PlayersHouse1F_WalkMomRight:
 # 108 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	emote_question_mark
+# 109 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	delay_16
+# 110 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	walk_right
 	step_end
 
-# 111 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 113 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 NewBarkTown_PlayersHouse1F_ReturnMomLeft:
-# 112 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 114 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	face_left
 	step_end
 
-# 115 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 117 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 NewBarkTown_PlayersHouse1F_ReturnMomRight:
-# 116 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 118 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	walk_left
 	step_end
 
@@ -247,21 +254,34 @@ NewBarkTown_PlayersHouse1F_MomScript_Text_3:
 
 NewBarkTown_PlayersHouse1F_MomScript_Text_4:
 # 35 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+	.string "Oh! {PLAYER}! That's such a cute\n"
+	.string "POKéMON you have. PROFESSOR ELM must\l"
+	.string "have given it to you?\p"
+	.string "Oh, PROFESSOR ELM has a task for you,\n"
+	.string "you say?\p"
+	.string "...\p"
+	.string "I see. That sounds a little difficult,\n"
+	.string "but it also sounds important and you\l"
+	.string "should be proud someone like PROFESSOR\l"
+	.string "ELM is able to rely on you!$"
+
+NewBarkTown_PlayersHouse1F_MomScript_Text_5:
+# 37 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	.string "What up?$"
 
 NewBarkTown_PlayersHouse1F_StoveScript_Text_0:
-# 67 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 69 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	.string "Mom's specialty!\n"
 	.string "CINNABAR VOLCANO BURGER!$"
 
 NewBarkTown_PlayersHouse1F_SinkScript_Text_0:
-# 73 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 75 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	.string "The sink is spotless! Mom likes it clean.$"
 
 NewBarkTown_PlayersHouse1F_FridgeScript_Text_0:
-# 79 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 81 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	.string "Let's see what's in the fridge...$"
 
 NewBarkTown_PlayersHouse1F_FridgeScript_Text_1:
-# 81 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
+# 83 "data/maps/NewBarkTown_PlayersHouse1F/scripts.pory"
 	.string "Looks like you need more groceries!$"

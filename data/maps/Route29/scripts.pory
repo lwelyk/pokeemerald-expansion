@@ -1,0 +1,15 @@
+mapscripts Route29_MapScripts {
+
+}
+
+script Route29_CherrygroveSign {
+	lock
+	msgbox(format("West to CHERRYGROVE CITY"))
+	release
+}
+
+script Route29_NewBarkSign {
+	lock
+	msgbox(format("East to NEW BARK TOWN"))
+	release
+}
