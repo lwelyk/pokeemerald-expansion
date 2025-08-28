@@ -24,13 +24,13 @@ script ElmsLab_Intro {
                     "As you know, POKéMON are carried in POKéBALLs nowadays, but before they were invented we used simpler devices and even walked around with POKéMON.\p"
                     "I'm sure you've noticed your friend LYRA running around with her MARILL.\p"
                     "While POKéBALLs are still needed to catch POKéMON, I wonder what benefits can be had from traveling with POKéMON in this way?\p"
-                    "THAT is what I want to find out, and as part of that, I want to give you a POKéMON of your own.\p"
+                    "I have some theories, but I need more data, and as part of that, I want to give you a POKéMON of your own.\p"
                     "I want you to walk beside this POKéMON and see if this grows bonds or changes how they grow and evolve.\p"
             )
         )
         applymovement(PROF_ELM, Common_Movement_FaceRight)
         waitmovement(0)
-        msgbox(format("I have three POKéMON you can choose from over here.\pI just caught them and you'll be their first partner, {PLAYER}!\pGo on, pick one!"))
+        msgbox(format("I have three POKéMON you can choose from over here.\pThey recently hatched and you'll be their first partner, {PLAYER}!\pGo on, pick one!"))
         release
     }
 }
@@ -41,6 +41,7 @@ script ElmsLab_CyndaquilBall {
     } else {
         lock
         showmonpic(SPECIES_CYNDAQUIL, 10, 3)
+        playmoncry(SPECIES_CYNDAQUIL, CRY_MODE_NORMAL)
         msgbox(format("ELM: You'll take CYNDAQUIL, the fire POKéMON?"), MSGBOX_YESNO)
         if (var(VAR_RESULT) == 1){
             hidemonpic
@@ -74,6 +75,7 @@ script ElmsLab_ChikoritaBall {
     } else {
         lock
         showmonpic(SPECIES_CHIKORITA, 10, 3)
+        playmoncry(SPECIES_CHIKORITA, CRY_MODE_NORMAL)
         msgbox(format("ELM: You'll take CHIKORITA, the grass POKéMON?"), MSGBOX_YESNO)
         if (var(VAR_RESULT) == 1){
             hidemonpic
@@ -106,6 +108,7 @@ script ElmsLab_TotodileBall {
     } else {
         lock
         showmonpic(SPECIES_TOTODILE, 10, 3)
+        playmoncry(SPECIES_TOTODILE, CRY_MODE_NORMAL)
         msgbox(format("ELM: You'll take TOTODILE, the grass POKéMON?"), MSGBOX_YESNO)
         if (var(VAR_RESULT) == 1){
             hidemonpic
