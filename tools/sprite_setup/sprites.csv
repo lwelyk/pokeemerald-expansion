@@ -130,6 +130,15 @@ Fossil,09 Objects,Single,2,2,Fossil,fossil
 PokeBall,09 Objects,"0,1,2,3,4,0",2,4,PokeBall,ball_poke
 PushableBoulder,09 Objects,Single,2,2,PushableBoulder,pushable_boulder
 SudowoodoTree,09 Objects,"0,0,1,0,0,0,0,1,2",2,2,SudowoodoTree,sudowoodo_tree
+AspearGBC,09 Objects,Single,1,2,AspearGBC,apsear_gbc
+CheriGBC,09 Objects,Single,1,2,CheriGBC,cheri_gbc
+ChestoGBC,09 Objects,Single,1,2,ChestoGBC,chesto_gbc
+LeppaGBC,09 Objects,Single,1,2,LeppaGBC,leppa_gbc
+LumGBC,09 Objects,Single,1,2,LumGBC,lum_gbc
+OranGBC,09 Objects,Single,1,2,OranGBC,oran_gbc
+PechaGBC,09 Objects,Single,1,2,PechaGBC,pecha_gbc
+PersimGBC,09 Objects,Single,1,2,PersimGBC,persim_gbc
+SitrusGBC,09 Objects,Single,1,2,SitrusGBC,sitrus_gbc
 BallCushion,10-1 Cushions,Single,2,2,BallCushion,ball_cushion
 DiamondCushion,10-1 Cushions,Single,2,2,DiamondCushion,diamond_cushion
 FireCushion,10-1 Cushions,Single,2,2,FireCushion,fire_cushion

@@ -43,6 +43,7 @@ const u16 gObjectEventPal_Npc2[] = INCBIN_U16("graphics/object_events/palettes/n
 const u16 gObjectEventPal_Npc3[] = INCBIN_U16("graphics/object_events/palettes/npc_3.gbapal");
 const u16 gObjectEventPal_Npc4[] = INCBIN_U16("graphics/object_events/palettes/npc_4.gbapal");
 const u16 gObjectEventPal_GBC[] = INCBIN_U16("graphics/object_events/palettes/gbc.gbapal");
+const u16 gObjectEventPal_GBCBerries[] = INCBIN_U16("graphics/object_events/palettes/gbc_berries.gbapal");
 const u16 gObjectEventPal_Npc1Reflection[] = INCBIN_U16("graphics/object_events/palettes/npc_1_reflection.gbapal");
 const u16 gObjectEventPal_Npc2Reflection[] = INCBIN_U16("graphics/object_events/palettes/npc_2_reflection.gbapal");
 const u16 gObjectEventPal_Npc3Reflection[] = INCBIN_U16("graphics/object_events/palettes/npc_3_reflection.gbapal");
@@ -227,12 +228,21 @@ const u32 gObjectEventPic_RocketGruntF[] = INCBIN_U32("graphics/object_events/pi
 const u32 gObjectEventPic_RocketGruntM[] = INCBIN_U32("graphics/object_events/pics/people/team_rocket/rocket_grunt_m.4bpp");
 
 // 09 Objects
+const u32 gObjectEventPic_AspearGBC[] = INCBIN_U32("graphics/object_events/pics/misc/apsear_gbc.4bpp");
 const u32 gObjectEventPic_PokeBall[] = INCBIN_U32("graphics/object_events/pics/misc/ball_poke.4bpp");
 const u32 gObjectEventPic_BreakableRock[] = INCBIN_U32("graphics/object_events/pics/misc/breakable_rock.4bpp");
+const u32 gObjectEventPic_CheriGBC[] = INCBIN_U32("graphics/object_events/pics/misc/cheri_gbc.4bpp");
+const u32 gObjectEventPic_ChestoGBC[] = INCBIN_U32("graphics/object_events/pics/misc/chesto_gbc.4bpp");
 const u32 gObjectEventPic_CuttableTree[] = INCBIN_U32("graphics/object_events/pics/misc/cuttable_tree.4bpp");
 const u32 gObjectEventPic_Fossil[] = INCBIN_U32("graphics/object_events/pics/misc/fossil.4bpp");
 const u32 gObjectEventPic_ItemBallC[] = INCBIN_U32("graphics/object_events/pics/misc/item_ball.4bpp");
+const u32 gObjectEventPic_LeppaGBC[] = INCBIN_U32("graphics/object_events/pics/misc/leppa_gbc.4bpp");
+const u32 gObjectEventPic_LumGBC[] = INCBIN_U32("graphics/object_events/pics/misc/lum_gbc.4bpp");
+const u32 gObjectEventPic_OranGBC[] = INCBIN_U32("graphics/object_events/pics/misc/oran_gbc.4bpp");
+const u32 gObjectEventPic_PechaGBC[] = INCBIN_U32("graphics/object_events/pics/misc/pecha_gbc.4bpp");
+const u32 gObjectEventPic_PersimGBC[] = INCBIN_U32("graphics/object_events/pics/misc/persim_gbc.4bpp");
 const u32 gObjectEventPic_PushableBoulder[] = INCBIN_U32("graphics/object_events/pics/misc/pushable_boulder.4bpp");
+const u32 gObjectEventPic_SitrusGBC[] = INCBIN_U32("graphics/object_events/pics/misc/sitrus_gbc.4bpp");
 const u32 gObjectEventPic_SudowoodoTree[] = INCBIN_U32("graphics/object_events/pics/misc/sudowoodo_tree.4bpp");
 
 // 10-1 Cushions

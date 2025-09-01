@@ -704,6 +704,11 @@ static const struct SpriteFrameImage sPicTable_RocketGruntM[] = {
 
 
 // 09 Objects
+static const struct SpriteFrameImage sPicTable_AspearGBC[] = {
+    obj_frame_tiles(gObjectEventPic_AspearGBC),
+};
+
+
 static const struct SpriteFrameImage sPicTable_PokeBall[] = {
 overworld_frame(gObjectEventPic_PokeBall, 2, 4, 0),
 overworld_frame(gObjectEventPic_PokeBall, 2, 4, 1),
@@ -716,6 +721,16 @@ overworld_frame(gObjectEventPic_PokeBall, 2, 4, 0),
 
 static const struct SpriteFrameImage sPicTable_BreakableRock[] = {
     overworld_ascending_frames(gObjectEventPic_BreakableRock, 2, 2),
+};
+
+
+static const struct SpriteFrameImage sPicTable_CheriGBC[] = {
+    obj_frame_tiles(gObjectEventPic_CheriGBC),
+};
+
+
+static const struct SpriteFrameImage sPicTable_ChestoGBC[] = {
+    obj_frame_tiles(gObjectEventPic_ChestoGBC),
 };
 
 
@@ -734,8 +749,38 @@ static const struct SpriteFrameImage sPicTable_ItemBallC[] = {
 };
 
 
+static const struct SpriteFrameImage sPicTable_LeppaGBC[] = {
+    obj_frame_tiles(gObjectEventPic_LeppaGBC),
+};
+
+
+static const struct SpriteFrameImage sPicTable_LumGBC[] = {
+    obj_frame_tiles(gObjectEventPic_LumGBC),
+};
+
+
+static const struct SpriteFrameImage sPicTable_OranGBC[] = {
+    obj_frame_tiles(gObjectEventPic_OranGBC),
+};
+
+
+static const struct SpriteFrameImage sPicTable_PechaGBC[] = {
+    obj_frame_tiles(gObjectEventPic_PechaGBC),
+};
+
+
+static const struct SpriteFrameImage sPicTable_PersimGBC[] = {
+    obj_frame_tiles(gObjectEventPic_PersimGBC),
+};
+
+
 static const struct SpriteFrameImage sPicTable_PushableBoulder[] = {
     obj_frame_tiles(gObjectEventPic_PushableBoulder),
+};
+
+
+static const struct SpriteFrameImage sPicTable_SitrusGBC[] = {
+    obj_frame_tiles(gObjectEventPic_SitrusGBC),
 };
 
 

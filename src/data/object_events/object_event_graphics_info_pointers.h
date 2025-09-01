@@ -145,12 +145,21 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketGrunt
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketGruntM;
 
 // 09 Objects
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AspearGBC;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BreakableRock;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CheriGBC;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ChestoGBC;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CuttableTree;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fossil;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokeBall;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ItemBallC;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LeppaGBC;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LumGBC;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OranGBC;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PechaGBC;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PersimGBC;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PushableBoulder;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SitrusGBC;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sudowoodo;
 
 // 10-1 Cushions
@@ -409,12 +418,21 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_ROCKET_EXECUTIVE_M] =        &gObjectEventGraphicsInfo_RocketExecutiveM,
     [OBJ_EVENT_GFX_ROCKET_GRUNT_F] =            &gObjectEventGraphicsInfo_RocketGruntF,
     [OBJ_EVENT_GFX_ROCKET_GRUNT_M] =            &gObjectEventGraphicsInfo_RocketGruntM,
+    [OBJ_EVENT_GFX_ASPEAR_GBC] =                &gObjectEventGraphicsInfo_AspearGBC,
     [OBJ_EVENT_GFX_BREAKABLE_ROCK] =            &gObjectEventGraphicsInfo_BreakableRock,
+    [OBJ_EVENT_GFX_CHERI_GBC] =                 &gObjectEventGraphicsInfo_CheriGBC,
+    [OBJ_EVENT_GFX_CHESTO_GBC] =                &gObjectEventGraphicsInfo_ChestoGBC,
     [OBJ_EVENT_GFX_CUTTABLE_TREE] =             &gObjectEventGraphicsInfo_CuttableTree,
     [OBJ_EVENT_GFX_FOSSIL] =                    &gObjectEventGraphicsInfo_Fossil,
     [OBJ_EVENT_GFX_ITEM_BALL] =                 &gObjectEventGraphicsInfo_PokeBall,
     [OBJ_EVENT_GFX_ITEM_BALL_C] =               &gObjectEventGraphicsInfo_ItemBallC,
+    [OBJ_EVENT_GFX_LEPPA_GBC] =                 &gObjectEventGraphicsInfo_LeppaGBC,
+    [OBJ_EVENT_GFX_LUM_GBC] =                   &gObjectEventGraphicsInfo_LumGBC,
+    [OBJ_EVENT_GFX_ORAN_GBC] =                  &gObjectEventGraphicsInfo_OranGBC,
+    [OBJ_EVENT_GFX_PECHA_GBC] =                 &gObjectEventGraphicsInfo_PechaGBC,
+    [OBJ_EVENT_GFX_PERSIM_GBC] =                &gObjectEventGraphicsInfo_PersimGBC,
     [OBJ_EVENT_GFX_PUSHABLE_BOULDER] =          &gObjectEventGraphicsInfo_PushableBoulder,
+    [OBJ_EVENT_GFX_SITRUS_GBC] =                &gObjectEventGraphicsInfo_SitrusGBC,
     [OBJ_EVENT_GFX_SUDOWOODO] =                 &gObjectEventGraphicsInfo_Sudowoodo,
     [OBJ_EVENT_GFX_BALL_CUSHION] =              &gObjectEventGraphicsInfo_BallCushion,
     [OBJ_EVENT_GFX_DIAMOND_CUSHION] =           &gObjectEventGraphicsInfo_DiamondCushion,
