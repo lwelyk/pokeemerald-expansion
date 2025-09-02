@@ -10,6 +10,9 @@ pic_tables_f = "src/data/object_events/object_event_pic_tables.h"
 spritesheet_rules_f = "spritesheet_rules.mk"
 
 gfx_folders = {
+    "00-1 Emerald People":  "people",
+    "00-2 Emerald Pokes":   "pokemon_old",
+    "00-3 Emerald Objects": "misc",
     "01-1 Brendan":         "people/brendan",
     "01-2 May":             "people/may",
     "01-3 Rival Brendan":   "people/brendan",
@@ -25,9 +28,6 @@ gfx_folders = {
     "09 Objects":           "misc",
     "10-1 Cushions":        "cushions",
     "10-2 Dolls":           "dolls",
-    "11-1 Emerald People":  "people",
-    "11-2 Emerald Pokes":   "pokemon_old",
-    "11-3 Emerald Objects": "misc",
     "12 Followers":         "misc",
     "13 Berry Trees":       "n/a"
 }

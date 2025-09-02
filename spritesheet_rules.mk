@@ -5,6 +5,106 @@ MISCGFXDIR := graphics/misc
 
 # OBJECT EVENTS START
 
+$(OBJEVENTGFXDIR)/pokemon_old/azumarill.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/azurill.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/deoxys.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/dusclops.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/groudon.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/ho_oh.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/kecleon.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 1 -mheight 1
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/kirlia.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 1 -mheight 1
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/kyogre.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/latias_latios.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/lugia.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/mew.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 1 -mheight 1
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/pikachu.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 1 -mheight 1
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/poochyena.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/rayquaza_cutscene.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/skitty.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 1 -mheight 1
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/vigoroth_mover.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/wingull.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 1 -mheight 1
+
+
+$(OBJEVENTGFXDIR)/pokemon_old/zigzagoon.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
+$(OBJEVENTGFXDIR)/misc/birchs_bag.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 1 -mheight 1
+
+
+$(OBJEVENTGFXDIR)/misc/birth_island_stone.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
+$(OBJEVENTGFXDIR)/misc/cable_car.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+
+$(OBJEVENTGFXDIR)/misc/moving_box.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 1 -mheight 1
+
+
+$(OBJEVENTGFXDIR)/misc/mr_brineys_boat.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
+$(OBJEVENTGFXDIR)/misc/truck.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 3 -mheight 3
+
+
 $(OBJEVENTGFXDIR)/people/brendan/acro_bike.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
@@ -803,106 +903,6 @@ $(OBJEVENTGFXDIR)/dolls/unused_wooper_doll.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/dolls/wynaut_doll.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/azumarill.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 2
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/azurill.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 2
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/deoxys.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 4 -mheight 4
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/dusclops.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/groudon.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 4 -mheight 4
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/ho_oh.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 2
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/kecleon.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 1
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/kirlia.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 1
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/kyogre.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 4 -mheight 4
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/latias_latios.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 2
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/lugia.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 2
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/mew.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 1
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/pikachu.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 1
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/poochyena.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 2
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/rayquaza_cutscene.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 4 -mheight 4
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/skitty.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 1
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/vigoroth_mover.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 2
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/wingull.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 1
-
-
-$(OBJEVENTGFXDIR)/pokemon_old/zigzagoon.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 2
-
-
-$(OBJEVENTGFXDIR)/misc/birchs_bag.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 1
-
-
-$(OBJEVENTGFXDIR)/misc/birth_island_stone.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 2
-
-
-$(OBJEVENTGFXDIR)/misc/cable_car.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 4 -mheight 4
-
-
-$(OBJEVENTGFXDIR)/misc/moving_box.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 1
-
-
-$(OBJEVENTGFXDIR)/misc/mr_brineys_boat.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 2
-
-
-$(OBJEVENTGFXDIR)/misc/truck.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 3 -mheight 3
 
 # OBJECT EVENTS END
 
