@@ -228,22 +228,29 @@ const u32 gObjectEventPic_RocketGruntF[] = INCBIN_U32("graphics/object_events/pi
 const u32 gObjectEventPic_RocketGruntM[] = INCBIN_U32("graphics/object_events/pics/people/team_rocket/rocket_grunt_m.4bpp");
 
 // 09 Objects
-const u32 gObjectEventPic_AspearGBC[] = INCBIN_U32("graphics/object_events/pics/misc/apsear_gbc.4bpp");
+const u32 gObjectEventPic_AspearGBC[] = INCBIN_U32("graphics/object_events/pics/misc/aspear_gbc.4bpp");
 const u32 gObjectEventPic_PokeBall[] = INCBIN_U32("graphics/object_events/pics/misc/ball_poke.4bpp");
+const u32 gObjectEventPic_ApricornBlack[] = INCBIN_U32("graphics/object_events/pics/misc/black_apricorn.4bpp");
+const u32 gObjectEventPic_ApricornBlue[] = INCBIN_U32("graphics/object_events/pics/misc/blue_apricorn.4bpp");
 const u32 gObjectEventPic_BreakableRock[] = INCBIN_U32("graphics/object_events/pics/misc/breakable_rock.4bpp");
 const u32 gObjectEventPic_CheriGBC[] = INCBIN_U32("graphics/object_events/pics/misc/cheri_gbc.4bpp");
 const u32 gObjectEventPic_ChestoGBC[] = INCBIN_U32("graphics/object_events/pics/misc/chesto_gbc.4bpp");
 const u32 gObjectEventPic_CuttableTree[] = INCBIN_U32("graphics/object_events/pics/misc/cuttable_tree.4bpp");
 const u32 gObjectEventPic_Fossil[] = INCBIN_U32("graphics/object_events/pics/misc/fossil.4bpp");
+const u32 gObjectEventPic_ApricornGreen[] = INCBIN_U32("graphics/object_events/pics/misc/green_apricorn.4bpp");
 const u32 gObjectEventPic_ItemBallC[] = INCBIN_U32("graphics/object_events/pics/misc/item_ball.4bpp");
 const u32 gObjectEventPic_LeppaGBC[] = INCBIN_U32("graphics/object_events/pics/misc/leppa_gbc.4bpp");
 const u32 gObjectEventPic_LumGBC[] = INCBIN_U32("graphics/object_events/pics/misc/lum_gbc.4bpp");
 const u32 gObjectEventPic_OranGBC[] = INCBIN_U32("graphics/object_events/pics/misc/oran_gbc.4bpp");
 const u32 gObjectEventPic_PechaGBC[] = INCBIN_U32("graphics/object_events/pics/misc/pecha_gbc.4bpp");
 const u32 gObjectEventPic_PersimGBC[] = INCBIN_U32("graphics/object_events/pics/misc/persim_gbc.4bpp");
+const u32 gObjectEventPic_ApricornPink[] = INCBIN_U32("graphics/object_events/pics/misc/pink_apricorn.4bpp");
 const u32 gObjectEventPic_PushableBoulder[] = INCBIN_U32("graphics/object_events/pics/misc/pushable_boulder.4bpp");
+const u32 gObjectEventPic_ApricornRed[] = INCBIN_U32("graphics/object_events/pics/misc/red_apricorn.4bpp");
 const u32 gObjectEventPic_SitrusGBC[] = INCBIN_U32("graphics/object_events/pics/misc/sitrus_gbc.4bpp");
 const u32 gObjectEventPic_SudowoodoTree[] = INCBIN_U32("graphics/object_events/pics/misc/sudowoodo_tree.4bpp");
+const u32 gObjectEventPic_ApricornWhite[] = INCBIN_U32("graphics/object_events/pics/misc/white_apricorn.4bpp");
+const u32 gObjectEventPic_ApricornYellow[] = INCBIN_U32("graphics/object_events/pics/misc/yellow_apricorn.4bpp");
 
 // 10-1 Cushions
 const u32 gObjectEventPic_BallCushion[] = INCBIN_U32("graphics/object_events/pics/cushions/ball_cushion.4bpp");

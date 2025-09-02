@@ -719,6 +719,16 @@ overworld_frame(gObjectEventPic_PokeBall, 2, 4, 0),
 };
 
 
+static const struct SpriteFrameImage sPicTable_ApricornBlack[] = {
+    obj_frame_tiles(gObjectEventPic_ApricornBlack),
+};
+
+
+static const struct SpriteFrameImage sPicTable_ApricornBlue[] = {
+    obj_frame_tiles(gObjectEventPic_ApricornBlue),
+};
+
+
 static const struct SpriteFrameImage sPicTable_BreakableRock[] = {
     overworld_ascending_frames(gObjectEventPic_BreakableRock, 2, 2),
 };
@@ -741,6 +751,11 @@ static const struct SpriteFrameImage sPicTable_CuttableTree[] = {
 
 static const struct SpriteFrameImage sPicTable_Fossil[] = {
     obj_frame_tiles(gObjectEventPic_Fossil),
+};
+
+
+static const struct SpriteFrameImage sPicTable_ApricornGreen[] = {
+    obj_frame_tiles(gObjectEventPic_ApricornGreen),
 };
 
 
@@ -774,8 +789,18 @@ static const struct SpriteFrameImage sPicTable_PersimGBC[] = {
 };
 
 
+static const struct SpriteFrameImage sPicTable_ApricornPink[] = {
+    obj_frame_tiles(gObjectEventPic_ApricornPink),
+};
+
+
 static const struct SpriteFrameImage sPicTable_PushableBoulder[] = {
     obj_frame_tiles(gObjectEventPic_PushableBoulder),
+};
+
+
+static const struct SpriteFrameImage sPicTable_ApricornRed[] = {
+    obj_frame_tiles(gObjectEventPic_ApricornRed),
 };
 
 
@@ -794,6 +819,16 @@ overworld_frame(gObjectEventPic_SudowoodoTree, 2, 2, 0),
 overworld_frame(gObjectEventPic_SudowoodoTree, 2, 2, 0),
 overworld_frame(gObjectEventPic_SudowoodoTree, 2, 2, 1),
 overworld_frame(gObjectEventPic_SudowoodoTree, 2, 2, 2),
+};
+
+
+static const struct SpriteFrameImage sPicTable_ApricornWhite[] = {
+    obj_frame_tiles(gObjectEventPic_ApricornWhite),
+};
+
+
+static const struct SpriteFrameImage sPicTable_ApricornYellow[] = {
+    obj_frame_tiles(gObjectEventPic_ApricornYellow),
 };
 
 

@@ -509,11 +509,19 @@ $(OBJEVENTGFXDIR)/people/team_rocket/rocket_grunt_m.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
-$(OBJEVENTGFXDIR)/misc/apsear_gbc.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 2
+$(OBJEVENTGFXDIR)/misc/aspear_gbc.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
 $(OBJEVENTGFXDIR)/misc/ball_poke.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+
+$(OBJEVENTGFXDIR)/misc/black_apricorn.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+
+$(OBJEVENTGFXDIR)/misc/blue_apricorn.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
@@ -522,11 +530,11 @@ $(OBJEVENTGFXDIR)/misc/breakable_rock.4bpp: %.4bpp: %.png
 
 
 $(OBJEVENTGFXDIR)/misc/cheri_gbc.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 2
+	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
 $(OBJEVENTGFXDIR)/misc/chesto_gbc.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 2
+	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
 $(OBJEVENTGFXDIR)/misc/cuttable_tree.4bpp: %.4bpp: %.png
@@ -537,40 +545,60 @@ $(OBJEVENTGFXDIR)/misc/fossil.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
 
+$(OBJEVENTGFXDIR)/misc/green_apricorn.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+
 $(OBJEVENTGFXDIR)/misc/item_ball.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
 
 $(OBJEVENTGFXDIR)/misc/leppa_gbc.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 2
+	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
 $(OBJEVENTGFXDIR)/misc/lum_gbc.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 2
+	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
 $(OBJEVENTGFXDIR)/misc/oran_gbc.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 2
+	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
 $(OBJEVENTGFXDIR)/misc/pecha_gbc.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 2
+	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
 $(OBJEVENTGFXDIR)/misc/persim_gbc.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 2
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+
+$(OBJEVENTGFXDIR)/misc/pink_apricorn.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
 $(OBJEVENTGFXDIR)/misc/pushable_boulder.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
 
+$(OBJEVENTGFXDIR)/misc/red_apricorn.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+
 $(OBJEVENTGFXDIR)/misc/sitrus_gbc.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 2
+	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
 $(OBJEVENTGFXDIR)/misc/sudowoodo_tree.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
+$(OBJEVENTGFXDIR)/misc/white_apricorn.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+
+$(OBJEVENTGFXDIR)/misc/yellow_apricorn.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
 $(OBJEVENTGFXDIR)/cushions/ball_cushion.4bpp: %.4bpp: %.png

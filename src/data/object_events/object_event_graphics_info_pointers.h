@@ -145,6 +145,13 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketGrunt
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketGruntM;
 
 // 09 Objects
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ApricornBlack;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ApricornBlue;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ApricornGreen;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ApricornPink;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ApricornRed;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ApricornWhite;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ApricornYellow;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AspearGBC;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BreakableRock;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CheriGBC;
@@ -418,6 +425,13 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_ROCKET_EXECUTIVE_M] =        &gObjectEventGraphicsInfo_RocketExecutiveM,
     [OBJ_EVENT_GFX_ROCKET_GRUNT_F] =            &gObjectEventGraphicsInfo_RocketGruntF,
     [OBJ_EVENT_GFX_ROCKET_GRUNT_M] =            &gObjectEventGraphicsInfo_RocketGruntM,
+    [OBJ_EVENT_GFX_APRICORN_BLACK] =            &gObjectEventGraphicsInfo_ApricornBlack,
+    [OBJ_EVENT_GFX_APRICORN_BLUE] =             &gObjectEventGraphicsInfo_ApricornBlue,
+    [OBJ_EVENT_GFX_APRICORN_GREEN] =            &gObjectEventGraphicsInfo_ApricornGreen,
+    [OBJ_EVENT_GFX_APRICORN_PINK] =             &gObjectEventGraphicsInfo_ApricornPink,
+    [OBJ_EVENT_GFX_APRICORN_RED] =              &gObjectEventGraphicsInfo_ApricornRed,
+    [OBJ_EVENT_GFX_APRICORN_WHITE] =            &gObjectEventGraphicsInfo_ApricornWhite,
+    [OBJ_EVENT_GFX_APRICORN_YELLOW] =           &gObjectEventGraphicsInfo_ApricornYellow,
     [OBJ_EVENT_GFX_ASPEAR_GBC] =                &gObjectEventGraphicsInfo_AspearGBC,
     [OBJ_EVENT_GFX_BREAKABLE_ROCK] =            &gObjectEventGraphicsInfo_BreakableRock,
     [OBJ_EVENT_GFX_CHERI_GBC] =                 &gObjectEventGraphicsInfo_CheriGBC,

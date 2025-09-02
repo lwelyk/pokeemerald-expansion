@@ -1,226 +1,233 @@
-Sprite,Category,Frames,Width,Height,Pic,FileName
-BrendanAcroBike,01-1 Brendan,Ascending,2,2,BrendanAcroBike,acro_bike
-BrendanDecorating,01-1 Brendan,Single,1,1,BrendanDecorating,decorating
-BrendanFieldMove,01-1 Brendan,Ascending,2,2,BrendanFieldMove,field_move
-BrendanFishing,01-1 Brendan,Ascending,2,2,BrendanFishing,fishing
-BrendanMachBike,01-1 Brendan,Ascending,2,2,BrendanMachBike,mach_bike
-BrendanNormal,01-1 Brendan,Ascending,2,4,BrendanNormalRunning,"walking,running"
-BrendanSurfing,01-1 Brendan,"0,2,4,0,0,2,2,4,4,1,3,5",2,2,BrendanSurfing,surfing
-BrendanUnderwater,01-1 Brendan,"0,1,2,0,0,1,1,2,2",2,2,BrendanUnderwater,underwater
-BrendanWatering,01-1 Brendan,"0,2,4,1,1,3,3,5,5",2,2,BrendanWatering,watering
-MayAcroBike,01-2 May,Ascending,2,2,MayAcroBike,acro_bike
-MayDecorating,01-2 May,Single,1,1,MayDecorating,decorating
-MayFieldMove,01-2 May,Ascending,2,2,MayFieldMove,field_move
-MayFishing,01-2 May,Ascending,2,2,MayFishing,fishing
-MayMachBike,01-2 May,Ascending,2,2,MayMachBike,mach_bike
-MayNormal,01-2 May,Ascending,2,4,MayNormalRunning,"walking,running"
-MaySurfing,01-2 May,"0,2,4,0,0,2,2,4,4,1,3,5",2,2,MaySurfing,surfing
-MayUnderwater,01-2 May,"0,1,2,0,0,1,1,2,2",2,2,MayUnderwater,underwater
-MayWatering,01-2 May,"0,2,4,1,1,3,3,5,5",2,2,MayWatering,watering
-PlaceholderF,02-01 Placeholder,Ascending,2,4,PlaceholderF,placeholder_f
-PlaceholderM,02-01 Placeholder,Ascending,2,4,PlaceholderM,placeholder_m
-Boy1,02-02 Generic People,Ascending,2,4,Boy1,boy_1
-Boy2,02-02 Generic People,Ascending,2,4,Boy2,boy_2
-Boy3,02-02 Generic People,Ascending,2,4,Boy3,boy_3
-FatMan,02-02 Generic People,Ascending,2,4,FatMan,fat_man
-GameboyKidF,02-02 Generic People,Ascending,2,4,GameboyKidF,gameboy_kid_f
-GameboyKidM,02-02 Generic People,Ascending,2,4,GameboyKidM,gameboy_kid_m
-Girl1,02-02 Generic People,Ascending,2,4,Girl1,girl_1
-Girl2,02-02 Generic People,Ascending,2,4,Girl2,girl_2
-Girl3,02-02 Generic People,Ascending,2,4,Girl3,girl_3
-LittleBoy1,02-02 Generic People,Ascending,2,4,LittleBoy1,little_boy_1
-LittleBoy2,02-02 Generic People,Ascending,2,4,LittleBoy2,little_boy_2
-LittleGirl,02-02 Generic People,Ascending,2,2,LittleGirl,little_girl
-Man1,02-02 Generic People,Ascending,2,4,Man1,man_1
-Man2,02-02 Generic People,Ascending,2,4,Man2,man_2
-Man3,02-02 Generic People,Ascending,2,4,Man3,man_3
-Man4,02-02 Generic People,Ascending,2,4,Man4,man_4
-Man5,02-02 Generic People,Ascending,2,4,Man5,man_5
-OldMan,02-02 Generic People,Ascending,2,4,OldMan,old_man
-OldWoman,02-02 Generic People,Ascending,2,4,OldWoman,old_woman
-Woman1,02-02 Generic People,Ascending,2,4,Woman1,woman_1
-Woman2,02-02 Generic People,Ascending,2,4,Woman2,woman_2
-Woman3,02-02 Generic People,Ascending,2,4,Woman3,woman_3
-Woman4,02-02 Generic People,Ascending,2,4,Woman4,woman_4
-Woman5,02-02 Generic People,Ascending,2,4,Woman5,woman_5
-AceTrainerF,03 Trainer Classes,Ascending,2,4,AceTrainerF,ace_trainer_f
-AceTrainerM,03 Trainer Classes,Ascending,2,4,AceTrainerM,ace_trainer_m
-AromaLady,03 Trainer Classes,Ascending,2,4,AromaLady,aroma_lady
-Artist,03 Trainer Classes,Ascending,2,4,Artist,artist
-Beauty,03 Trainer Classes,Ascending,2,4,Beauty,beauty
-Biker,03 Trainer Classes,Ascending,2,4,Biker,biker
-BirdKeeper,03 Trainer Classes,Ascending,2,4,BirdKeeper,bird_keeper
-BlackBelt,03 Trainer Classes,Ascending,2,4,BlackBelt,black_belt
-Boarder,03 Trainer Classes,Ascending,2,4,Boarder,boarder
-BugCatcher,03 Trainer Classes,Ascending,2,4,BugCatcher,bug_catcher
-Burglar,03 Trainer Classes,Ascending,2,4,Burglar,burglar
-Camper,03 Trainer Classes,Ascending,2,4,Camper,camper
-Channeler,03 Trainer Classes,Ascending,2,4,Channeler,channeler
-Engineer,03 Trainer Classes,Ascending,2,4,Engineer,engineer
-Firebreather,03 Trainer Classes,Ascending,2,4,Firebreather,firebreather
-Fisherman,03 Trainer Classes,Ascending,2,4,Fisherman,fisherman
-Gentleman,03 Trainer Classes,Ascending,2,4,Gentleman,gentleman
-Guitarist,03 Trainer Classes,Ascending,2,4,Guitarist,guitarist
-HexManiac,03 Trainer Classes,Ascending,2,4,HexManiac,hex_maniac
-Hiker,03 Trainer Classes,Ascending,2,4,Hiker,hiker
-Juggler,03 Trainer Classes,Ascending,2,4,Juggler,juggler
-KimonoGirl,03 Trainer Classes,Ascending,2,4,KimonoGirl,kimono_girl
-Lass,03 Trainer Classes,Ascending,2,4,Lass,lass
-Medium,03 Trainer Classes,Ascending,2,4,Medium,medium
-Officer,03 Trainer Classes,Ascending,2,4,Officer,officer
-Picnicker,03 Trainer Classes,Ascending,2,4,Picnicker,picnicker
-PokefanF,03 Trainer Classes,Ascending,2,4,PokefanF,pokefan_f
-PokefanM,03 Trainer Classes,Ascending,2,4,PokefanM,pokefan_m
-Pokemaniac,03 Trainer Classes,Ascending,2,4,Pokemaniac,pokemaniac
-PsychicM,03 Trainer Classes,Ascending,2,4,PsychicM,psychic_m
-Roughneck,03 Trainer Classes,Ascending,2,4,Roughneck,roughneck
-Sage,03 Trainer Classes,Ascending,2,4,Sage,sage
-Sailor,03 Trainer Classes,Ascending,2,4,Sailor,sailor
-SchoolKidF,03 Trainer Classes,Ascending,2,4,SchoolKidF,school_kid_f
-SchoolKidM,03 Trainer Classes,Ascending,2,4,SchoolKidM,school_kid_m
-Scientist,03 Trainer Classes,Ascending,2,4,Scientist,scientist
-Skier,03 Trainer Classes,Ascending,2,4,Skier,skier
-SuperNerd,03 Trainer Classes,Ascending,2,4,SuperNerd,super_nerd
-SwimmerF,03 Trainer Classes,Ascending,2,4,SwimmerF,swimmer_f
-SwimmerM,03 Trainer Classes,Ascending,2,4,SwimmerM,swimmer_m
-Teacher,03 Trainer Classes,Ascending,2,4,Teacher,teacher
-Twin,03 Trainer Classes,Ascending,2,4,Twin,twin
-Youngster,03 Trainer Classes,Ascending,2,4,Youngster,youngster
-Cook,04 Other People,Ascending,2,4,Cook,cook
-LinkReceptionist,04 Other People,Ascending,2,4,LinkReceptionist,link_receptionist
-MartEmployee,04 Other People,Ascending,2,4,MartEmployee,mart_employee
-Nurse,04 Other People,"0,1,2,0,0,1,1,2,2,3",2,4,Nurse,nurse
-Lyra,05 Characters,Ascending,2,4,Lyra,lyra
-Mom,05 Characters,Ascending,2,4,Mom,mom
-MrPokemon,05 Characters,Ascending,2,4,MrPokemon,mr_pokemon
-ProfElm,05 Characters,Ascending,2,4,ProfElm,prof_elm
-ProfOak,05 Characters,Ascending,2,4,ProfOak,prof_oak
-Red,05 Characters,Ascending,2,4,Red,red
-Silver,05 Characters,Ascending,2,4,Silver,silver
-Blaine,06 Gym Leaders,Ascending,2,4,Blaine,blaine
-Blue,06 Gym Leaders,Ascending,2,4,Blue,blue
-Brock,06 Gym Leaders,Ascending,2,4,Brock,brock
-Bugsy,06 Gym Leaders,Ascending,2,4,Bugsy,bugsy
-Chuck,06 Gym Leaders,Ascending,2,4,Chuck,chuck
-Claire,06 Gym Leaders,Ascending,2,4,Claire,claire
-Erika,06 Gym Leaders,Ascending,2,4,Erika,erika
-Faulkner,06 Gym Leaders,Ascending,2,4,Faulkner,faulkner
-Janine,06 Gym Leaders,Ascending,2,4,Janine,janine
-Jasmine,06 Gym Leaders,Ascending,2,4,Jasmine,jasmine
-LtSurge,06 Gym Leaders,Ascending,2,4,LtSurge,lt_surge
-Misty,06 Gym Leaders,Ascending,2,4,Misty,misty
-Morty,06 Gym Leaders,Ascending,2,4,Morty,morty
-Pryce,06 Gym Leaders,Ascending,2,4,Pryce,pryce
-Sabrina,06 Gym Leaders,Ascending,2,4,Sabrina,sabrina
-Whitney,06 Gym Leaders,Ascending,2,4,Whitney,whitney
-Bruno,07 Elite Four,Ascending,2,4,Bruno,bruno
-Karen,07 Elite Four,Ascending,2,4,Karen,karen
-Koga,07 Elite Four,Ascending,2,4,Koga,koga
-Lance,07 Elite Four,Ascending,2,4,Lance,lance
-Will,07 Elite Four,Ascending,2,4,Will,will
-Giovanni,08 Team Rocket,Ascending,2,4,Giovanni,giovanni
-RocketExecutiveF,08 Team Rocket,Ascending,2,4,RocketExecutiveF,rocket_executive_f
-RocketExecutiveM,08 Team Rocket,Ascending,2,4,RocketExecutiveM,rocket_executive_m
-RocketGruntF,08 Team Rocket,Ascending,2,4,RocketGruntF,rocket_grunt_f
-RocketGruntM,08 Team Rocket,Ascending,2,4,RocketGruntM,rocket_grunt_m
-BreakableRock,09 Objects,Ascending,2,2,BreakableRock,breakable_rock
-ItemBallC,09 Objects,Single,2,2,ItemBallC,item_ball
-CuttableTree,09 Objects,Ascending,2,2,CuttableTree,cuttable_tree
-Fossil,09 Objects,Single,2,2,Fossil,fossil
-PokeBall,09 Objects,"0,1,2,3,4,0",2,4,PokeBall,ball_poke
-PushableBoulder,09 Objects,Single,2,2,PushableBoulder,pushable_boulder
-SudowoodoTree,09 Objects,"0,0,1,0,0,0,0,1,2",2,2,SudowoodoTree,sudowoodo_tree
-AspearGBC,09 Objects,Single,1,2,AspearGBC,apsear_gbc
-CheriGBC,09 Objects,Single,1,2,CheriGBC,cheri_gbc
-ChestoGBC,09 Objects,Single,1,2,ChestoGBC,chesto_gbc
-LeppaGBC,09 Objects,Single,1,2,LeppaGBC,leppa_gbc
-LumGBC,09 Objects,Single,1,2,LumGBC,lum_gbc
-OranGBC,09 Objects,Single,1,2,OranGBC,oran_gbc
-PechaGBC,09 Objects,Single,1,2,PechaGBC,pecha_gbc
-PersimGBC,09 Objects,Single,1,2,PersimGBC,persim_gbc
-SitrusGBC,09 Objects,Single,1,2,SitrusGBC,sitrus_gbc
-BallCushion,10-1 Cushions,Single,2,2,BallCushion,ball_cushion
-DiamondCushion,10-1 Cushions,Single,2,2,DiamondCushion,diamond_cushion
-FireCushion,10-1 Cushions,Single,2,2,FireCushion,fire_cushion
-GrassCushion,10-1 Cushions,Single,2,2,GrassCushion,grass_cushion
-KissCushion,10-1 Cushions,Single,2,2,KissCushion,kiss_cushion
-PikaCushion,10-1 Cushions,Single,2,2,PikaCushion,pika_cushion
-RoundCushion,10-1 Cushions,Single,2,2,RoundCushion,round_cushion
-SpinCushion,10-1 Cushions,Single,2,2,SpinCushion,spin_cushion
-WaterCushion,10-1 Cushions,Single,2,2,WaterCushion,water_cushion
-ZigzagCushion,10-1 Cushions,Single,2,2,ZigzagCushion,zigzag_cushion
-AzurillDoll,10-2 Dolls,Single,2,2,AzurillDoll,azurill_doll
-BaltoyDoll,10-2 Dolls,Single,2,2,BaltoyDoll,baltoy_doll
-BigBlastoiseDoll,10-2 Dolls,Single,4,4,BigBlastoiseDoll,big_blastoise_doll
-BigCharizardDoll,10-2 Dolls,Single,4,4,BigCharizardDoll,big_charizard_doll
-BigLaprasDoll,10-2 Dolls,Single,4,4,BigLaprasDoll,big_lapras_doll
-BigRegiceDoll,10-2 Dolls,Single,4,4,BigRegiceDoll,big_regice_doll
-BigRegirockDoll,10-2 Dolls,Single,4,4,BigRegirockDoll,big_regirock_doll
-BigRegisteelDoll,10-2 Dolls,Single,4,4,BigRegisteelDoll,big_registeel_doll
-BigRhydonDoll,10-2 Dolls,Single,4,4,BigRhydonDoll,big_rhydon_doll
-BigSnorlaxDoll,10-2 Dolls,Single,4,4,BigSnorlaxDoll,big_snorlax_doll
-BigVenusaurDoll,10-2 Dolls,Single,4,4,BigVenusaurDoll,big_venusaur_doll
-BigWailmerDoll,10-2 Dolls,Single,4,4,BigWailmerDoll,big_wailmer_doll
-ChikoritaDoll,10-2 Dolls,Single,2,2,ChikoritaDoll,chikorita_doll
-ClefairyDoll,10-2 Dolls,Single,2,2,ClefairyDoll,clefairy_doll
-CyndaquilDoll,10-2 Dolls,Single,2,2,CyndaquilDoll,cyndaquil_doll
-DittoDoll,10-2 Dolls,Single,2,2,DittoDoll,ditto_doll
-DuskullDoll,10-2 Dolls,Single,2,2,DuskullDoll,duskull_doll
-GulpinDoll,10-2 Dolls,Single,2,2,GulpinDoll,gulpin_doll
-JigglypuffDoll,10-2 Dolls,Single,2,2,JigglypuffDoll,jigglypuff_doll
-KecleonDoll,10-2 Dolls,Single,2,2,KecleonDoll,kecleon_doll
-LotadDoll,10-2 Dolls,Single,2,2,LotadDoll,lotad_doll
-MarillDoll,10-2 Dolls,Single,2,2,MarillDoll,marill_doll
-MeowthDoll,10-2 Dolls,Single,2,2,MeowthDoll,meowth_doll
-MudkipDoll,10-2 Dolls,Single,2,2,MudkipDoll,mudkip_doll
-PichuDoll,10-2 Dolls,Single,2,2,PichuDoll,pichu_doll
-PikachuDoll,10-2 Dolls,Single,2,2,PikachuDoll,pikachu_doll
-SeedotDoll,10-2 Dolls,Single,2,2,SeedotDoll,seedot_doll
-SkittyDoll,10-2 Dolls,Single,2,2,SkittyDoll,skitty_doll
-SmoochumDoll,10-2 Dolls,Single,2,2,SmoochumDoll,smoochum_doll
-SwabluDoll,10-2 Dolls,Single,2,2,SwabluDoll,swablu_doll
-TogepiDoll,10-2 Dolls,Single,2,2,TogepiDoll,togepi_doll
-TorchicDoll,10-2 Dolls,Single,2,2,TorchicDoll,torchic_doll
-TotodileDoll,10-2 Dolls,Single,2,2,TotodileDoll,totodile_doll
-TreeckoDoll,10-2 Dolls,Single,2,2,TreeckoDoll,treecko_doll
-UnusedMagnemiteDoll,10-2 Dolls,Single,2,2,UnusedMagnemiteDoll,unused_magnemite_doll
-UnusedNatuDoll,10-2 Dolls,Single,2,2,UnusedNatuDoll,unused_natu_doll
-UnusedPikachuDoll,10-2 Dolls,Single,2,2,UnusedPikachuDoll,unused_pikachu_doll
-UnusedPorygon2Doll,10-2 Dolls,Single,2,2,UnusedPorygon2Doll,unused_porygon2_doll
-UnusedSquirtleDoll,10-2 Dolls,Single,2,2,UnusedSquirtleDoll,unused_squirtle_doll
-UnusedWooperDoll,10-2 Dolls,Single,2,2,UnusedWooperDoll,unused_wooper_doll
-WynautDoll,10-2 Dolls,Single,2,2,WynautDoll,wynaut_doll
-AzumarillOld,11-2 Emerald Pokes,"0,1,2,0,0,1,1,2,2",2,2,AzumarillOld,azumarill
-AzurillOld,11-2 Emerald Pokes,"0,1,2,0,0,1,1,2,2",2,2,AzurillOld,azurill
-DeoxysOld,11-2 Emerald Pokes,"0,0,0,0,1,0,1,0,0",4,4,DeoxysOld,deoxys
-DusclopsOld,11-2 Emerald Pokes,Ascending,2,4,DusclopsOld,dusclops
-GroudonAsleep,11-2 Emerald Pokes,,4,4,GroudonOld,groudon
-GroudonFront,11-2 Emerald Pokes,"0,0,0,1,1,1,1,1,1",4,4,GroudonOld,groudon
-GroudonSide,11-2 Emerald Pokes,"2,2,2,3,3,3,3,3,3",4,4,GroudonOld,groudon
-HoOhOld,11-2 Emerald Pokes,"0,0,0,0,1,0,1,0,1",2,2,HoOhOld,ho_oh
-KecleonOld,11-2 Emerald Pokes,"0,1,2,0,0,1,1,2,2",1,1,KecleonOld,kecleon
-KirliaOld,11-2 Emerald Pokes,Ascending,1,1,KirliaOld,kirlia
-KyogreAsleep,11-2 Emerald Pokes,,4,4,KyogreOld,kyogre
-KyogreFront,11-2 Emerald Pokes,"0,0,0,1,1,1,1,1,1",4,4,KyogreOld,kyogre
-KyogreSide,11-2 Emerald Pokes,"2,2,2,3,3,3,3,3,3",4,4,KyogreOld,kyogre
-LatiasLatios,11-2 Emerald Pokes,"0,0,0,1,2,1,2,1,2",2,2,LatiasLatios,latias_latios
-LugiaOld,11-2 Emerald Pokes,"0,0,0,0,1,0,1,0,1",2,2,LugiaOld,lugia
-MewOld,11-2 Emerald Pokes,Ascending,1,1,MewOld,mew
-PikachuOld,11-2 Emerald Pokes,"0,1,2,0,0,1,1,2,2",1,1,PikachuOld,pikachu
-PoochyenaOld,11-2 Emerald Pokes,Ascending,2,2,PoochyenaOld,poochyena
-RayquazaCutscene,11-2 Emerald Pokes,Ascending,4,4,RayquazaCutscene,rayquaza_cutscene
-RayquazaStill,11-2 Emerald Pokes,Still,4,4,RayquazaStill,rayquaza_still
-Regi,11-2 Emerald Pokes,Still,2,2,Regi,regi
-SkittyOld,11-2 Emerald Pokes,"0,1,2,0,0,1,1,2,2",1,1,SkittyOld,skitty
-VigorothCarryingBox,11-2 Emerald Pokes,"0,0,0,1,2,1,2,1,2",2,2,VigorothCarryingBox,vigoroth_mover
-VigorothFacingAway,11-2 Emerald Pokes,"3,3,3,4,4,4,4,4,4",2,2,VigorothFacingAway,vigoroth_mover
-WingullOld,11-2 Emerald Pokes,Ascending,1,1,WingullOld,wingull
-ZigzagoonOld,11-2 Emerald Pokes,"0,1,2,0,0,1,1,2,2",2,2,ZigzagoonOld,zigzagoon
-BirchsBag,11-3 Emerald Objects,Single,1,1,BirchsBag,birchs_bag
-CableCar,11-3 Emerald Objects,Ascending,4,4,CableCar,cable_car
-BirthIslandStone,11-3 Emerald Objects,"0,0,0,0,1,0,1,0,0",2,2,BirthIslandStone,birth_island_stone
-MovingBox,11-3 Emerald Objects,Single,1,1,MovingBox,moving_box
-MrBrineysBoat,11-3 Emerald Objects,"0,1,2,0,0,1,1,2,2",2,2,MrBrineysBoat,mr_brineys_boat
-SSTidal,11-3 Emerald Objects,Still,6,6,SSTidal,ss_tidal
-SubmarineShadow,11-3 Emerald Objects,Still,5.5,5.5,SubmarineShadow,submarine_shadow
-Truck,11-3 Emerald Objects,Single,3,3,Truck,truck
+Sprite,Category,Frames,Width,Height,Pic,FileName,
+BrendanAcroBike,01-1 Brendan,Ascending,2,2,BrendanAcroBike,acro_bike,
+BrendanDecorating,01-1 Brendan,Single,1,1,BrendanDecorating,decorating,
+BrendanFieldMove,01-1 Brendan,Ascending,2,2,BrendanFieldMove,field_move,
+BrendanFishing,01-1 Brendan,Ascending,2,2,BrendanFishing,fishing,
+BrendanMachBike,01-1 Brendan,Ascending,2,2,BrendanMachBike,mach_bike,
+BrendanNormal,01-1 Brendan,Ascending,2,4,BrendanNormalRunning,"walking,running",
+BrendanSurfing,01-1 Brendan,"0,2,4,0,0,2,2,4,4,1,3,5",2,2,BrendanSurfing,surfing,
+BrendanUnderwater,01-1 Brendan,"0,1,2,0,0,1,1,2,2",2,2,BrendanUnderwater,underwater,
+BrendanWatering,01-1 Brendan,"0,2,4,1,1,3,3,5,5",2,2,BrendanWatering,watering,
+MayAcroBike,01-2 May,Ascending,2,2,MayAcroBike,acro_bike,
+MayDecorating,01-2 May,Single,1,1,MayDecorating,decorating,
+MayFieldMove,01-2 May,Ascending,2,2,MayFieldMove,field_move,
+MayFishing,01-2 May,Ascending,2,2,MayFishing,fishing,
+MayMachBike,01-2 May,Ascending,2,2,MayMachBike,mach_bike,
+MayNormal,01-2 May,Ascending,2,4,MayNormalRunning,"walking,running",
+MaySurfing,01-2 May,"0,2,4,0,0,2,2,4,4,1,3,5",2,2,MaySurfing,surfing,
+MayUnderwater,01-2 May,"0,1,2,0,0,1,1,2,2",2,2,MayUnderwater,underwater,
+MayWatering,01-2 May,"0,2,4,1,1,3,3,5,5",2,2,MayWatering,watering,
+PlaceholderF,02-01 Placeholder,Ascending,2,4,PlaceholderF,placeholder_f,
+PlaceholderM,02-01 Placeholder,Ascending,2,4,PlaceholderM,placeholder_m,
+Boy1,02-02 Generic People,Ascending,2,4,Boy1,boy_1,
+Boy2,02-02 Generic People,Ascending,2,4,Boy2,boy_2,
+Boy3,02-02 Generic People,Ascending,2,4,Boy3,boy_3,
+FatMan,02-02 Generic People,Ascending,2,4,FatMan,fat_man,
+GameboyKidF,02-02 Generic People,Ascending,2,4,GameboyKidF,gameboy_kid_f,
+GameboyKidM,02-02 Generic People,Ascending,2,4,GameboyKidM,gameboy_kid_m,
+Girl1,02-02 Generic People,Ascending,2,4,Girl1,girl_1,
+Girl2,02-02 Generic People,Ascending,2,4,Girl2,girl_2,
+Girl3,02-02 Generic People,Ascending,2,4,Girl3,girl_3,
+LittleBoy1,02-02 Generic People,Ascending,2,4,LittleBoy1,little_boy_1,
+LittleBoy2,02-02 Generic People,Ascending,2,4,LittleBoy2,little_boy_2,
+LittleGirl,02-02 Generic People,Ascending,2,2,LittleGirl,little_girl,
+Man1,02-02 Generic People,Ascending,2,4,Man1,man_1,
+Man2,02-02 Generic People,Ascending,2,4,Man2,man_2,
+Man3,02-02 Generic People,Ascending,2,4,Man3,man_3,
+Man4,02-02 Generic People,Ascending,2,4,Man4,man_4,
+Man5,02-02 Generic People,Ascending,2,4,Man5,man_5,
+OldMan,02-02 Generic People,Ascending,2,4,OldMan,old_man,
+OldWoman,02-02 Generic People,Ascending,2,4,OldWoman,old_woman,
+Woman1,02-02 Generic People,Ascending,2,4,Woman1,woman_1,
+Woman2,02-02 Generic People,Ascending,2,4,Woman2,woman_2,
+Woman3,02-02 Generic People,Ascending,2,4,Woman3,woman_3,
+Woman4,02-02 Generic People,Ascending,2,4,Woman4,woman_4,
+Woman5,02-02 Generic People,Ascending,2,4,Woman5,woman_5,
+AceTrainerF,03 Trainer Classes,Ascending,2,4,AceTrainerF,ace_trainer_f,
+AceTrainerM,03 Trainer Classes,Ascending,2,4,AceTrainerM,ace_trainer_m,
+AromaLady,03 Trainer Classes,Ascending,2,4,AromaLady,aroma_lady,
+Artist,03 Trainer Classes,Ascending,2,4,Artist,artist,
+Beauty,03 Trainer Classes,Ascending,2,4,Beauty,beauty,
+Biker,03 Trainer Classes,Ascending,2,4,Biker,biker,
+BirdKeeper,03 Trainer Classes,Ascending,2,4,BirdKeeper,bird_keeper,
+BlackBelt,03 Trainer Classes,Ascending,2,4,BlackBelt,black_belt,
+Boarder,03 Trainer Classes,Ascending,2,4,Boarder,boarder,
+BugCatcher,03 Trainer Classes,Ascending,2,4,BugCatcher,bug_catcher,
+Burglar,03 Trainer Classes,Ascending,2,4,Burglar,burglar,
+Camper,03 Trainer Classes,Ascending,2,4,Camper,camper,
+Channeler,03 Trainer Classes,Ascending,2,4,Channeler,channeler,
+Engineer,03 Trainer Classes,Ascending,2,4,Engineer,engineer,
+Firebreather,03 Trainer Classes,Ascending,2,4,Firebreather,firebreather,
+Fisherman,03 Trainer Classes,Ascending,2,4,Fisherman,fisherman,
+Gentleman,03 Trainer Classes,Ascending,2,4,Gentleman,gentleman,
+Guitarist,03 Trainer Classes,Ascending,2,4,Guitarist,guitarist,
+HexManiac,03 Trainer Classes,Ascending,2,4,HexManiac,hex_maniac,
+Hiker,03 Trainer Classes,Ascending,2,4,Hiker,hiker,
+Juggler,03 Trainer Classes,Ascending,2,4,Juggler,juggler,
+KimonoGirl,03 Trainer Classes,Ascending,2,4,KimonoGirl,kimono_girl,
+Lass,03 Trainer Classes,Ascending,2,4,Lass,lass,
+Medium,03 Trainer Classes,Ascending,2,4,Medium,medium,
+Officer,03 Trainer Classes,Ascending,2,4,Officer,officer,
+Picnicker,03 Trainer Classes,Ascending,2,4,Picnicker,picnicker,
+PokefanF,03 Trainer Classes,Ascending,2,4,PokefanF,pokefan_f,
+PokefanM,03 Trainer Classes,Ascending,2,4,PokefanM,pokefan_m,
+Pokemaniac,03 Trainer Classes,Ascending,2,4,Pokemaniac,pokemaniac,
+PsychicM,03 Trainer Classes,Ascending,2,4,PsychicM,psychic_m,
+Roughneck,03 Trainer Classes,Ascending,2,4,Roughneck,roughneck,
+Sage,03 Trainer Classes,Ascending,2,4,Sage,sage,
+Sailor,03 Trainer Classes,Ascending,2,4,Sailor,sailor,
+SchoolKidF,03 Trainer Classes,Ascending,2,4,SchoolKidF,school_kid_f,
+SchoolKidM,03 Trainer Classes,Ascending,2,4,SchoolKidM,school_kid_m,
+Scientist,03 Trainer Classes,Ascending,2,4,Scientist,scientist,
+Skier,03 Trainer Classes,Ascending,2,4,Skier,skier,
+SuperNerd,03 Trainer Classes,Ascending,2,4,SuperNerd,super_nerd,
+SwimmerF,03 Trainer Classes,Ascending,2,4,SwimmerF,swimmer_f,
+SwimmerM,03 Trainer Classes,Ascending,2,4,SwimmerM,swimmer_m,
+Teacher,03 Trainer Classes,Ascending,2,4,Teacher,teacher,
+Twin,03 Trainer Classes,Ascending,2,4,Twin,twin,
+Youngster,03 Trainer Classes,Ascending,2,4,Youngster,youngster,
+Cook,04 Other People,Ascending,2,4,Cook,cook,
+LinkReceptionist,04 Other People,Ascending,2,4,LinkReceptionist,link_receptionist,
+MartEmployee,04 Other People,Ascending,2,4,MartEmployee,mart_employee,
+Nurse,04 Other People,"0,1,2,0,0,1,1,2,2,3",2,4,Nurse,nurse,
+Lyra,05 Characters,Ascending,2,4,Lyra,lyra,
+Mom,05 Characters,Ascending,2,4,Mom,mom,
+MrPokemon,05 Characters,Ascending,2,4,MrPokemon,mr_pokemon,
+ProfElm,05 Characters,Ascending,2,4,ProfElm,prof_elm,
+ProfOak,05 Characters,Ascending,2,4,ProfOak,prof_oak,
+Red,05 Characters,Ascending,2,4,Red,red,
+Silver,05 Characters,Ascending,2,4,Silver,silver,
+Blaine,06 Gym Leaders,Ascending,2,4,Blaine,blaine,
+Blue,06 Gym Leaders,Ascending,2,4,Blue,blue,
+Brock,06 Gym Leaders,Ascending,2,4,Brock,brock,
+Bugsy,06 Gym Leaders,Ascending,2,4,Bugsy,bugsy,
+Chuck,06 Gym Leaders,Ascending,2,4,Chuck,chuck,
+Claire,06 Gym Leaders,Ascending,2,4,Claire,claire,
+Erika,06 Gym Leaders,Ascending,2,4,Erika,erika,
+Faulkner,06 Gym Leaders,Ascending,2,4,Faulkner,faulkner,
+Janine,06 Gym Leaders,Ascending,2,4,Janine,janine,
+Jasmine,06 Gym Leaders,Ascending,2,4,Jasmine,jasmine,
+LtSurge,06 Gym Leaders,Ascending,2,4,LtSurge,lt_surge,
+Misty,06 Gym Leaders,Ascending,2,4,Misty,misty,
+Morty,06 Gym Leaders,Ascending,2,4,Morty,morty,
+Pryce,06 Gym Leaders,Ascending,2,4,Pryce,pryce,
+Sabrina,06 Gym Leaders,Ascending,2,4,Sabrina,sabrina,
+Whitney,06 Gym Leaders,Ascending,2,4,Whitney,whitney,
+Bruno,07 Elite Four,Ascending,2,4,Bruno,bruno,
+Karen,07 Elite Four,Ascending,2,4,Karen,karen,
+Koga,07 Elite Four,Ascending,2,4,Koga,koga,
+Lance,07 Elite Four,Ascending,2,4,Lance,lance,
+Will,07 Elite Four,Ascending,2,4,Will,will,
+Giovanni,08 Team Rocket,Ascending,2,4,Giovanni,giovanni,
+RocketExecutiveF,08 Team Rocket,Ascending,2,4,RocketExecutiveF,rocket_executive_f,
+RocketExecutiveM,08 Team Rocket,Ascending,2,4,RocketExecutiveM,rocket_executive_m,
+RocketGruntF,08 Team Rocket,Ascending,2,4,RocketGruntF,rocket_grunt_f,
+RocketGruntM,08 Team Rocket,Ascending,2,4,RocketGruntM,rocket_grunt_m,
+BreakableRock,09 Objects,Ascending,2,2,BreakableRock,breakable_rock,
+ItemBallC,09 Objects,Single,2,2,ItemBallC,item_ball,
+CuttableTree,09 Objects,Ascending,2,2,CuttableTree,cuttable_tree,
+Fossil,09 Objects,Single,2,2,Fossil,fossil,
+PokeBall,09 Objects,"0,1,2,3,4,0",2,4,PokeBall,ball_poke,
+PushableBoulder,09 Objects,Single,2,2,PushableBoulder,pushable_boulder,
+SudowoodoTree,09 Objects,"0,0,1,0,0,0,0,1,2",2,2,SudowoodoTree,sudowoodo_tree,
+AspearGBC,09 Objects,Single,2,4,AspearGBC,aspear_gbc,
+CheriGBC,09 Objects,Single,2,4,CheriGBC,cheri_gbc,
+ChestoGBC,09 Objects,Single,2,4,ChestoGBC,chesto_gbc,
+LeppaGBC,09 Objects,Single,2,4,LeppaGBC,leppa_gbc,
+LumGBC,09 Objects,Single,2,4,LumGBC,lum_gbc,
+OranGBC,09 Objects,Single,2,4,OranGBC,oran_gbc,
+PechaGBC,09 Objects,Single,2,4,PechaGBC,pecha_gbc,
+PersimGBC,09 Objects,Single,2,4,PersimGBC,persim_gbc,
+SitrusGBC,09 Objects,Single,2,4,SitrusGBC,sitrus_gbc,
+ApricornWhite,09 Objects,Single,2,4,ApricornWhite,white_apricorn,
+ApricornPink,09 Objects,Single,2,4,ApricornPink,pink_apricorn,
+ApricornYellow,09 Objects,Single,2,4,ApricornYellow,yellow_apricorn,
+ApricornRed,09 Objects,Single,2,4,ApricornRed,red_apricorn,
+ApricornGreen,09 Objects,Single,2,4,ApricornGreen,green_apricorn,
+ApricornBlack,09 Objects,Single,2,4,ApricornBlack,black_apricorn,
+ApricornBlue,09 Objects,Single,2,4,ApricornBlue,blue_apricorn,sitrus_gbc
+BallCushion,10-1 Cushions,Single,2,2,BallCushion,ball_cushion,
+DiamondCushion,10-1 Cushions,Single,2,2,DiamondCushion,diamond_cushion,
+FireCushion,10-1 Cushions,Single,2,2,FireCushion,fire_cushion,
+GrassCushion,10-1 Cushions,Single,2,2,GrassCushion,grass_cushion,
+KissCushion,10-1 Cushions,Single,2,2,KissCushion,kiss_cushion,
+PikaCushion,10-1 Cushions,Single,2,2,PikaCushion,pika_cushion,
+RoundCushion,10-1 Cushions,Single,2,2,RoundCushion,round_cushion,
+SpinCushion,10-1 Cushions,Single,2,2,SpinCushion,spin_cushion,
+WaterCushion,10-1 Cushions,Single,2,2,WaterCushion,water_cushion,
+ZigzagCushion,10-1 Cushions,Single,2,2,ZigzagCushion,zigzag_cushion,
+AzurillDoll,10-2 Dolls,Single,2,2,AzurillDoll,azurill_doll,
+BaltoyDoll,10-2 Dolls,Single,2,2,BaltoyDoll,baltoy_doll,
+BigBlastoiseDoll,10-2 Dolls,Single,4,4,BigBlastoiseDoll,big_blastoise_doll,
+BigCharizardDoll,10-2 Dolls,Single,4,4,BigCharizardDoll,big_charizard_doll,
+BigLaprasDoll,10-2 Dolls,Single,4,4,BigLaprasDoll,big_lapras_doll,
+BigRegiceDoll,10-2 Dolls,Single,4,4,BigRegiceDoll,big_regice_doll,
+BigRegirockDoll,10-2 Dolls,Single,4,4,BigRegirockDoll,big_regirock_doll,
+BigRegisteelDoll,10-2 Dolls,Single,4,4,BigRegisteelDoll,big_registeel_doll,
+BigRhydonDoll,10-2 Dolls,Single,4,4,BigRhydonDoll,big_rhydon_doll,
+BigSnorlaxDoll,10-2 Dolls,Single,4,4,BigSnorlaxDoll,big_snorlax_doll,
+BigVenusaurDoll,10-2 Dolls,Single,4,4,BigVenusaurDoll,big_venusaur_doll,
+BigWailmerDoll,10-2 Dolls,Single,4,4,BigWailmerDoll,big_wailmer_doll,
+ChikoritaDoll,10-2 Dolls,Single,2,2,ChikoritaDoll,chikorita_doll,
+ClefairyDoll,10-2 Dolls,Single,2,2,ClefairyDoll,clefairy_doll,
+CyndaquilDoll,10-2 Dolls,Single,2,2,CyndaquilDoll,cyndaquil_doll,
+DittoDoll,10-2 Dolls,Single,2,2,DittoDoll,ditto_doll,
+DuskullDoll,10-2 Dolls,Single,2,2,DuskullDoll,duskull_doll,
+GulpinDoll,10-2 Dolls,Single,2,2,GulpinDoll,gulpin_doll,
+JigglypuffDoll,10-2 Dolls,Single,2,2,JigglypuffDoll,jigglypuff_doll,
+KecleonDoll,10-2 Dolls,Single,2,2,KecleonDoll,kecleon_doll,
+LotadDoll,10-2 Dolls,Single,2,2,LotadDoll,lotad_doll,
+MarillDoll,10-2 Dolls,Single,2,2,MarillDoll,marill_doll,
+MeowthDoll,10-2 Dolls,Single,2,2,MeowthDoll,meowth_doll,
+MudkipDoll,10-2 Dolls,Single,2,2,MudkipDoll,mudkip_doll,
+PichuDoll,10-2 Dolls,Single,2,2,PichuDoll,pichu_doll,
+PikachuDoll,10-2 Dolls,Single,2,2,PikachuDoll,pikachu_doll,
+SeedotDoll,10-2 Dolls,Single,2,2,SeedotDoll,seedot_doll,
+SkittyDoll,10-2 Dolls,Single,2,2,SkittyDoll,skitty_doll,
+SmoochumDoll,10-2 Dolls,Single,2,2,SmoochumDoll,smoochum_doll,
+SwabluDoll,10-2 Dolls,Single,2,2,SwabluDoll,swablu_doll,
+TogepiDoll,10-2 Dolls,Single,2,2,TogepiDoll,togepi_doll,
+TorchicDoll,10-2 Dolls,Single,2,2,TorchicDoll,torchic_doll,
+TotodileDoll,10-2 Dolls,Single,2,2,TotodileDoll,totodile_doll,
+TreeckoDoll,10-2 Dolls,Single,2,2,TreeckoDoll,treecko_doll,
+UnusedMagnemiteDoll,10-2 Dolls,Single,2,2,UnusedMagnemiteDoll,unused_magnemite_doll,
+UnusedNatuDoll,10-2 Dolls,Single,2,2,UnusedNatuDoll,unused_natu_doll,
+UnusedPikachuDoll,10-2 Dolls,Single,2,2,UnusedPikachuDoll,unused_pikachu_doll,
+UnusedPorygon2Doll,10-2 Dolls,Single,2,2,UnusedPorygon2Doll,unused_porygon2_doll,
+UnusedSquirtleDoll,10-2 Dolls,Single,2,2,UnusedSquirtleDoll,unused_squirtle_doll,
+UnusedWooperDoll,10-2 Dolls,Single,2,2,UnusedWooperDoll,unused_wooper_doll,
+WynautDoll,10-2 Dolls,Single,2,2,WynautDoll,wynaut_doll,
+AzumarillOld,11-2 Emerald Pokes,"0,1,2,0,0,1,1,2,2",2,2,AzumarillOld,azumarill,
+AzurillOld,11-2 Emerald Pokes,"0,1,2,0,0,1,1,2,2",2,2,AzurillOld,azurill,
+DeoxysOld,11-2 Emerald Pokes,"0,0,0,0,1,0,1,0,0",4,4,DeoxysOld,deoxys,
+DusclopsOld,11-2 Emerald Pokes,Ascending,2,4,DusclopsOld,dusclops,
+GroudonAsleep,11-2 Emerald Pokes,,4,4,GroudonOld,groudon,
+GroudonFront,11-2 Emerald Pokes,"0,0,0,1,1,1,1,1,1",4,4,GroudonOld,groudon,
+GroudonSide,11-2 Emerald Pokes,"2,2,2,3,3,3,3,3,3",4,4,GroudonOld,groudon,
+HoOhOld,11-2 Emerald Pokes,"0,0,0,0,1,0,1,0,1",2,2,HoOhOld,ho_oh,
+KecleonOld,11-2 Emerald Pokes,"0,1,2,0,0,1,1,2,2",1,1,KecleonOld,kecleon,
+KirliaOld,11-2 Emerald Pokes,Ascending,1,1,KirliaOld,kirlia,
+KyogreAsleep,11-2 Emerald Pokes,,4,4,KyogreOld,kyogre,
+KyogreFront,11-2 Emerald Pokes,"0,0,0,1,1,1,1,1,1",4,4,KyogreOld,kyogre,
+KyogreSide,11-2 Emerald Pokes,"2,2,2,3,3,3,3,3,3",4,4,KyogreOld,kyogre,
+LatiasLatios,11-2 Emerald Pokes,"0,0,0,1,2,1,2,1,2",2,2,LatiasLatios,latias_latios,
+LugiaOld,11-2 Emerald Pokes,"0,0,0,0,1,0,1,0,1",2,2,LugiaOld,lugia,
+MewOld,11-2 Emerald Pokes,Ascending,1,1,MewOld,mew,
+PikachuOld,11-2 Emerald Pokes,"0,1,2,0,0,1,1,2,2",1,1,PikachuOld,pikachu,
+PoochyenaOld,11-2 Emerald Pokes,Ascending,2,2,PoochyenaOld,poochyena,
+RayquazaCutscene,11-2 Emerald Pokes,Ascending,4,4,RayquazaCutscene,rayquaza_cutscene,
+RayquazaStill,11-2 Emerald Pokes,Still,4,4,RayquazaStill,rayquaza_still,
+Regi,11-2 Emerald Pokes,Still,2,2,Regi,regi,
+SkittyOld,11-2 Emerald Pokes,"0,1,2,0,0,1,1,2,2",1,1,SkittyOld,skitty,
+VigorothCarryingBox,11-2 Emerald Pokes,"0,0,0,1,2,1,2,1,2",2,2,VigorothCarryingBox,vigoroth_mover,
+VigorothFacingAway,11-2 Emerald Pokes,"3,3,3,4,4,4,4,4,4",2,2,VigorothFacingAway,vigoroth_mover,
+WingullOld,11-2 Emerald Pokes,Ascending,1,1,WingullOld,wingull,
+ZigzagoonOld,11-2 Emerald Pokes,"0,1,2,0,0,1,1,2,2",2,2,ZigzagoonOld,zigzagoon,
+BirchsBag,11-3 Emerald Objects,Single,1,1,BirchsBag,birchs_bag,
+CableCar,11-3 Emerald Objects,Ascending,4,4,CableCar,cable_car,
+BirthIslandStone,11-3 Emerald Objects,"0,0,0,0,1,0,1,0,0",2,2,BirthIslandStone,birth_island_stone,
+MovingBox,11-3 Emerald Objects,Single,1,1,MovingBox,moving_box,
+MrBrineysBoat,11-3 Emerald Objects,"0,1,2,0,0,1,1,2,2",2,2,MrBrineysBoat,mr_brineys_boat,
+SSTidal,11-3 Emerald Objects,Still,6,6,SSTidal,ss_tidal,
+SubmarineShadow,11-3 Emerald Objects,Still,5.5,5.5,SubmarineShadow,submarine_shadow,
+Truck,11-3 Emerald Objects,Single,3,3,Truck,truck,
