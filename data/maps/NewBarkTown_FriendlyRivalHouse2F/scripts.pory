@@ -1,0 +1,57 @@
+mapscripts NewBarkTown_FriendlyRivalHouse2F_MapScripts {
+
+}
+
+script NewBarkTown_FriendlyRivalHouse2F_LyraComputer {
+	lockall
+	msgbox(format("The computer screen says LYRA and is asking for a password."))
+    msgbox(format("Should you try to guess it?"), MSGBOX_YESNO)
+    if (var(VAR_RESULT) == 1)
+    {
+        special(EnterCode)
+        waitstate
+        special(GetCodeFeedback)
+        if(var(VAR_RESULT) == 3) 
+        {
+            msgbox(format("Wow, you got the password. It'll do something eventually. Probably make a special Pokemon appear somewhere. idk."))
+        }
+        else {
+            msgbox(format("That doesn't seem to be the right password."))
+        }
+    }
+    else
+    {
+        msgbox(format("That's probably a good idea. She may not want you on his computer."))
+    }	releaseall
+}
+
+script NewBarkTown_FriendlyRivalHouse2F_LyraComputer {
+	lockall
+	msgbox(format("It's LYRA's N64.\pShe's still mad at you for beating STARFOX 64 before she could."))
+    releaseall
+}
+
+script NewBarkTown_FriendlyRivalHouse2F_Poster {
+	lockall
+	msgbox(format("LYRA got this poster from a concert of an idol she liked.\pThe singer uses her POKéMON team as backup singers.\pIt's amazing how mnay jobs POKéMON can do."))
+    releaseall
+}
+
+script NewBarkTown_FriendlyRivalHouse2F_Cabinet {
+	lockall
+	msgbox(format("It's rude to go through other people's things!"))
+    releaseall
+}
+
+script NewBarkTown_FriendlyRivalHouse2F_Flowers {
+	lockall
+	msgbox(format("LYRA used to take care of these flowers herself.\pFor the sake of the flowers, her mom took over."))
+    releaseall
+}
+
+script NewBarkTown_FriendlyRivalHouse2F_Shelf {
+	lockall
+	msgbox(format("LYRA's bookshelf is full of magazines and video game strategy guides.\gThere's also a strange picture LYRA drew of herself next to a bird POKéMON that looks to be exactly as big as she is."))
+    releaseall
+}
+

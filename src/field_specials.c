@@ -4358,6 +4358,8 @@ void GetCodeFeedback(void)
     static const u8 sText_SampleCode[] = _("SampleCode");
     static const u8 sText_ElmsComputer[] = _("Dr. Utsugi"); // Get into Elm's Computer
     static const u8 sText_ElmsComputer2[] = _("Utsugi"); // Get into Elm's Computer
+    static const u8 sText_LyrasComputer[] = _("Braviary"); // Get into Elm's Computer
+
     if (!StringCompare(gStringVar2, sText_SampleCode))
         gSpecialVar_Result = 1;
     else if (!StringCompare(gStringVar2, sText_ElmsComputer))
@@ -4367,6 +4369,10 @@ void GetCodeFeedback(void)
     else if (!StringCompare(gStringVar2, sText_ElmsComputer2))
     {
         gSpecialVar_Result = 2;
+    }
+    else if (!StringCompare(gStringVar2, sText_LyrasComputer))
+    {
+        gSpecialVar_Result = 3;
     }
     else
         gSpecialVar_Result = 0;

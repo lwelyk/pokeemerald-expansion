@@ -1,0 +1,17 @@
+mapscripts NewBarkTown_FriendlyRivalHouse1F_MapScripts {
+
+}
+
+script FriendlyRivalHouse1F_LyrasMom {
+    if(var(VAR_INTRO_STATE) == 2) {
+		lock
+		faceplayer
+		msgbox(format("Hi, {PLAYER}! Lyra is out playing and helping the Professor as usual.\pI think she's even busier than I am!"))
+		release
+	} else {
+		lock
+		faceplayer
+		msgbox(format("Hi, {PLAYER}!\pLyra is outside playing games with her POKéMON as usual.\pYou didn't bring your POKéMON?\p...Oh, right.\pYou don't have your own POKéMON yet. Well, I hope I didn't hurt your feelings {PLAYER}."))
+		release
+	}
+}
