@@ -39,11 +39,11 @@ NewBarkTown_FriendlyRivalHouse2F_LyraComputer_5:
 	goto NewBarkTown_FriendlyRivalHouse2F_LyraComputer_1
 
 
-NewBarkTown_FriendlyRivalHouse2F_LyraComputer::
+NewBarkTown_FriendlyRivalHouse2F_N64::
 # 29 "data/maps/NewBarkTown_FriendlyRivalHouse2F/scripts.pory"
 	lockall
 # 30 "data/maps/NewBarkTown_FriendlyRivalHouse2F/scripts.pory"
-	msgbox NewBarkTown_FriendlyRivalHouse2F_LyraComputer_Text_5
+	msgbox NewBarkTown_FriendlyRivalHouse2F_N64_Text_0
 # 31 "data/maps/NewBarkTown_FriendlyRivalHouse2F/scripts.pory"
 	releaseall
 	return
@@ -114,7 +114,7 @@ NewBarkTown_FriendlyRivalHouse2F_LyraComputer_Text_4:
 	.string "That's probably a good idea. She may not\n"
 	.string "want you on his computer.$"
 
-NewBarkTown_FriendlyRivalHouse2F_LyraComputer_Text_5:
+NewBarkTown_FriendlyRivalHouse2F_N64_Text_0:
 # 30 "data/maps/NewBarkTown_FriendlyRivalHouse2F/scripts.pory"
 	.string "It's LYRA's N64.\p"
 	.string "She's still mad at you for beating\n"
@@ -144,8 +144,8 @@ NewBarkTown_FriendlyRivalHouse2F_Flowers_Text_0:
 NewBarkTown_FriendlyRivalHouse2F_Shelf_Text_0:
 # 54 "data/maps/NewBarkTown_FriendlyRivalHouse2F/scripts.pory"
 	.string "LYRA's bookshelf is full of magazines\n"
-	.string "and video game strategy\l"
-	.string "guides.\gThere's also a strange picture\l"
-	.string "LYRA drew of herself next to a bird\l"
-	.string "POKéMON that looks to be exactly as big\l"
-	.string "as she is.$"
+	.string "and video game strategy guides.\p"
+	.string "There's also a strange picture LYRA\n"
+	.string "drew of herself next to a bird POKéMON\l"
+	.string "that looks to be exactly as big as she\l"
+	.string "is.$"

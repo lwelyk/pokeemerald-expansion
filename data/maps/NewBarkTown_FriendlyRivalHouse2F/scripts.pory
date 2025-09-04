@@ -25,7 +25,7 @@ script NewBarkTown_FriendlyRivalHouse2F_LyraComputer {
     }	releaseall
 }
 
-script NewBarkTown_FriendlyRivalHouse2F_LyraComputer {
+script NewBarkTown_FriendlyRivalHouse2F_N64 {
 	lockall
 	msgbox(format("It's LYRA's N64.\pShe's still mad at you for beating STARFOX 64 before she could."))
     releaseall
@@ -51,7 +51,7 @@ script NewBarkTown_FriendlyRivalHouse2F_Flowers {
 
 script NewBarkTown_FriendlyRivalHouse2F_Shelf {
 	lockall
-	msgbox(format("LYRA's bookshelf is full of magazines and video game strategy guides.\gThere's also a strange picture LYRA drew of herself next to a bird POKéMON that looks to be exactly as big as she is."))
+	msgbox(format("LYRA's bookshelf is full of magazines and video game strategy guides.\pThere's also a strange picture LYRA drew of herself next to a bird POKéMON that looks to be exactly as big as she is."))
     releaseall
 }
 
