@@ -13,3 +13,32 @@ script Route29_NewBarkSign {
 	msgbox(format("East to NEW BARK TOWN"))
 	release
 }
+
+script Route29_ManNearGate {
+	lock
+	msgbox(format("Hello there!\pI wanted to take a break, so I saved to record my progress.\pI'm not as young as I meant to and this road is all overgrown!"))
+	release
+}
+
+script Route29_WomanNearCherrygrove {
+	lock
+	msgbox(format("Hi, I'm always looking out for new POKéMON."))
+	switch (gettimeofday()) {
+        case TIME_MORNING:
+            msgbox(format("I'm looking for POKéMON that are only found in the morning.\pI heard you can find LEDYBA here in the morning!"))
+        case TIME_DAY:
+            msgbox(format("Some POKéMON are easier to find during different times.\pI heard it's easier to find HOPPIP here during the day!"))
+        case TIME_NIGHT:
+		case TIME_EVENING:
+			msgbox(format("I'm looking for POKéMON that are only found at night.\pI heard you can find SPINARAK here at night!"))
+		default:
+            msgbox("You can find different POKéMON at different time of day.\pBut it's not Morning, Day, Evening, or Night right now!\pWhat time does that mean it is?")
+    }
+	release
+}
+
+script Route29_MiddleBoy {
+	lock
+	msgbox(format("That's a cool POKéMON!\pBe sure to stay out of the tall grass if it's too injured or weak.\pThat's where all the wild POKéMON are."))
+	release
+}

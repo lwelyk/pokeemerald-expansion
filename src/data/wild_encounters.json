@@ -13019,12 +13019,12 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_RATTATA"
+                "species": "SPECIES_LEDYBA"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_LEDYBA"
               },
               {
                 "min_level": 3,
@@ -13093,7 +13093,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SENTRET"
+                "species": "SPECIES_HOPPIP"
               },
               {
                 "min_level": 3,

@@ -4860,6 +4860,36 @@
       "secondary_tileset": "gTileset_Cherrygrove",
       "border_filepath": "data/layouts/Route27/border.bin",
       "blockdata_filepath": "data/layouts/Route27/map.bin"
+    },
+    {
+      "id": "LAYOUT_JOHTO_HOUSE_1",
+      "name": "JOHTO_HOUSE_1_Layout",
+      "width": 8,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/JOHTO_HOUSE_1/border.bin",
+      "blockdata_filepath": "data/layouts/JOHTO_HOUSE_1/map.bin"
+    },
+    {
+      "id": "LAYOUT_JOHTO_GATE_NORTH_SOUTH",
+      "name": "JOHTO_GATE_NORTH_SOUTH_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_laboratory",
+      "border_filepath": "data/layouts/JOHTO_GATE_NORTH_SOUTH/border.bin",
+      "blockdata_filepath": "data/layouts/JOHTO_GATE_NORTH_SOUTH/map.bin"
+    },
+    {
+      "id": "LAYOUT_JOHTO_GATE_EAST_WEST",
+      "name": "JOHTO_GATE_EAST_WEST_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_laboratory",
+      "border_filepath": "data/layouts/JOHTO_GATE_EAST_WEST/border.bin",
+      "blockdata_filepath": "data/layouts/JOHTO_GATE_EAST_WEST/map.bin"
     }
   ]
 }

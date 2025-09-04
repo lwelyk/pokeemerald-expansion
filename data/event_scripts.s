@@ -1247,3 +1247,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route27/scripts.inc"
 
 	.include "data/scripts/dexnav.inc"
+
+	.include "data/maps/JOHTO_HOUSE_1/scripts.inc"
+
+	.include "data/maps/JOHTO_GATE_NORTH_SOUTH/scripts.inc"
+
+	.include "data/maps/JOHTO_GATE_EAST_WEST/scripts.inc"

@@ -12,6 +12,7 @@
     "gMapGroup_IndoorMahogany",
     "gMapGroup_IndoorBlackthorn",
     "gMapGroup_JohtoDungeons",
+    "gMapGroup_JohtoSpecial",
     "gMapGroup_KantoTownsAndRoutes",
     "gMapGroup_IndoorPallet",
     "gMapGroup_IndoorViridian",
@@ -24,6 +25,7 @@
     "gMapGroup_IndoorSaffron",
     "gMapGroup_IndoorCinnabar",
     "gMapGroup_KantoDungeons",
+    "gMapGroup_KantoSpecial",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -117,6 +119,11 @@
   "gMapGroup_IndoorMahogany": [],
   "gMapGroup_IndoorBlackthorn": [],
   "gMapGroup_JohtoDungeons": [],
+  "gMapGroup_JohtoSpecial": [
+    "JOHTO_HOUSE_1",
+    "JOHTO_GATE_NORTH_SOUTH",
+    "JOHTO_GATE_EAST_WEST"
+  ],
   "gMapGroup_KantoTownsAndRoutes": [
     "Route27"
   ],
@@ -131,6 +138,7 @@
   "gMapGroup_IndoorSaffron": [],
   "gMapGroup_IndoorCinnabar": [],
   "gMapGroup_KantoDungeons": [],
+  "gMapGroup_KantoSpecial": [],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
     "SlateportCity",
