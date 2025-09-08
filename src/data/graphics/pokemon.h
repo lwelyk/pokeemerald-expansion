@@ -26732,6 +26732,23 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #endif //OW_POKEMON_OBJECT_EVENTS
 #endif //P_FAMILY_PECHARUNT
 
+//Rinrin Sprites
+    const u32 gMonFrontPic_Rinrin[] = INCBIN_U32("graphics/pokemon/rinrin/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Rinrin[] = INCBIN_U32("graphics/pokemon/rinrin/back.4bpp.lz");
+    const u16 gMonPalette_Rinrin[] = INCBIN_U16("graphics/pokemon/rinrin/normal.gbapal");
+    const u16 gMonShinyPalette_Rinrin[] = INCBIN_U16("graphics/pokemon/rinrin/shiny.gbapal");
+    const u8 gMonIcon_Rinrin[] = INCBIN_U8("graphics/pokemon/rinrin/icon.4bpp");
+    const u8 gMonFootprint_Rinrin[] = INCBIN_U8("graphics/pokemon/rinrin/footprint.1bpp");
+
+//Berunrun
+    const u32 gMonFrontPic_Berunrun[] = INCBIN_U32("graphics/pokemon/berunrun/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Berunrun[] = INCBIN_U32("graphics/pokemon/berunrun/back.4bpp.lz");
+    const u16 gMonPalette_Berunrun[] = INCBIN_U16("graphics/pokemon/berunrun/normal.gbapal");
+    const u16 gMonShinyPalette_Berunrun[] = INCBIN_U16("graphics/pokemon/berunrun/shiny.gbapal");
+    const u8 gMonIcon_Berunrun[] = INCBIN_U8("graphics/pokemon/berunrun/icon.4bpp");
+    const u8 gMonFootprint_Berunrun[] = INCBIN_U8("graphics/pokemon/berunrun/footprint.1bpp");
+
+
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
     const u16 gMonPalette_Egg[] = INCBIN_U16("graphics/pokemon/egg/normal.gbapal");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");

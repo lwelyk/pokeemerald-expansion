@@ -6154,6 +6154,16 @@ Cry_Terapagos::
 Cry_Pecharunt::
 	.incbin "sound/direct_sound_samples/cries/pecharunt.bin"
 .endif @ P_FAMILY_PECHARUNT
+
+	.align 2
+Cry_Rinrin::
+	.incbin "sound/direct_sound_samples/cries/rinrin.bin"
+
+	.align 2
+Cry_Berunrun::
+	.incbin "sound/direct_sound_samples/cries/berunrun.bin"
+
+
 .endif @ P_CRIES_ENABLED
 
 	.align 2

@@ -6308,3 +6308,20 @@ static const u16 sFrigibaxEggMoveLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_FRIGIBAX
+
+static const u16 sRinrinEggMoveLearnset[] = {
+    MOVE_SPITE,
+    MOVE_CHARM,
+    MOVE_HYPNOSIS,
+    MOVE_AMNESIA,
+    MOVE_ASSIST,
+    MOVE_ODOR_SLEUTH,
+    MOVE_FLAIL,
+    MOVE_LAST_RESORT,
+    MOVE_PUNISHMENT,
+    MOVE_TAIL_WHIP,
+    MOVE_SNATCH,
+    MOVE_IRON_TAIL,
+    MOVE_FOUL_PLAY,
+    MOVE_UNAVAILABLE,
+};
