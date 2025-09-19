@@ -1,7 +1,7 @@
 {
-  "id": "MAP_CHERRYGROVE_BAY",
-  "name": "CherrygroveBay",
-  "layout": "LAYOUT_CHERRYGROVE_BAY",
+  "id": "MAP_GATE_ROUTE29ROUTE46",
+  "name": "GateRoute29Route46",
+  "layout": "LAYOUT_JOHTO_GATE_NORTH_SOUTH",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
@@ -12,18 +12,7 @@
   "allow_running": false,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": [
-    {
-      "map": "MAP_CHERRYGROVE_CITY",
-      "offset": 22,
-      "direction": "right"
-    },
-    {
-      "map": "MAP_ROUTE32",
-      "offset": -36,
-      "direction": "left"
-    }
-  ],
+  "connections": null,
   "object_events": [],
   "warp_events": [],
   "coord_events": [],

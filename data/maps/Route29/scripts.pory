@@ -42,3 +42,23 @@ script Route29_MiddleBoy {
 	msgbox(format("That's a cool POKéMON!\pBe sure to stay out of the tall grass if it's too injured or weak.\pThat's where all the wild POKéMON are."))
 	release
 }
+
+script Route29_LadyNearLedge {
+	lock
+	msgbox(format("You see those ledges?\pThey're pretty scary, but if you hop down them you can avoid POKéMON in the tall grass on your way back to NEW BARK TOWN.\pUnfortunately, I'm afraid of POKéMON and heights, so I just moved to Cherrygrove."))
+	release
+}
+
+script Route29_TuscanyOfTuesday {
+	lock
+	msgbox(format("TUSCANY: Hey there, I'm TUSCANY. You know, from Tuesday?\pI'm not sure if days of the week are going to be in this hack, so I don't know what my purpose will be."))
+	if(flag(FLAG_MET_TUSCANY)) {
+		msgbox(format("I'm not sure what to do with myself without Tuesdays."))
+	} else{
+		msgbox(format("Well since you met me anyway, here, please accept this gift, a SILK SCARF."))
+		giveitem(ITEM_SILK_SCARF)
+		msgbox(format("TUSCANY: Wouldn't you agree it is most elegant?\pIt strengthens normal-type moves of the POKéMON that holds it.\pI'm certain it will be of use to you!"))
+		setflag(FLAG_MET_TUSCANY)
+	}
+	release
+}

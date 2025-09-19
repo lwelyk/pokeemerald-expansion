@@ -1253,3 +1253,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/JOHTO_GATE_NORTH_SOUTH/scripts.inc"
 
 	.include "data/maps/JOHTO_GATE_EAST_WEST/scripts.inc"
+
+	.include "data/maps/GateRoute29Route46/scripts.inc"

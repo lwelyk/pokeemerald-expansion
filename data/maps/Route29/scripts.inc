@@ -82,6 +82,42 @@ Route29_MiddleBoy::
 	return
 
 
+Route29_LadyNearLedge::
+# 47 "data/maps/Route29/scripts.pory"
+	lock
+# 48 "data/maps/Route29/scripts.pory"
+	msgbox Route29_LadyNearLedge_Text_0
+# 49 "data/maps/Route29/scripts.pory"
+	release
+	return
+
+
+Route29_TuscanyOfTuesday::
+# 53 "data/maps/Route29/scripts.pory"
+	lock
+# 54 "data/maps/Route29/scripts.pory"
+	msgbox Route29_TuscanyOfTuesday_Text_0
+# 55 "data/maps/Route29/scripts.pory"
+	goto_if_set FLAG_MET_TUSCANY, Route29_TuscanyOfTuesday_2
+# 58 "data/maps/Route29/scripts.pory"
+	msgbox Route29_TuscanyOfTuesday_Text_2
+# 59 "data/maps/Route29/scripts.pory"
+	giveitem ITEM_SILK_SCARF
+# 60 "data/maps/Route29/scripts.pory"
+	msgbox Route29_TuscanyOfTuesday_Text_3
+# 61 "data/maps/Route29/scripts.pory"
+	setflag FLAG_MET_TUSCANY
+Route29_TuscanyOfTuesday_1:
+# 63 "data/maps/Route29/scripts.pory"
+	release
+	return
+
+Route29_TuscanyOfTuesday_2:
+# 56 "data/maps/Route29/scripts.pory"
+	msgbox Route29_TuscanyOfTuesday_Text_1
+	goto Route29_TuscanyOfTuesday_1
+
+
 Route29_CherrygroveSign_Text_0:
 # 7 "data/maps/Route29/scripts.pory"
 	.string "West to CHERRYGROVE CITY$"
@@ -134,3 +170,40 @@ Route29_MiddleBoy_Text_0:
 	.string "Be sure to stay out of the tall grass if\n"
 	.string "it's too injured or weak.\p"
 	.string "That's where all the wild POKéMON are.$"
+
+Route29_LadyNearLedge_Text_0:
+# 48 "data/maps/Route29/scripts.pory"
+	.string "You see those ledges?\p"
+	.string "They're pretty scary, but if you hop\n"
+	.string "down them you can avoid POKéMON in the\l"
+	.string "tall grass on your way back to NEW BARK\l"
+	.string "TOWN.\p"
+	.string "Unfortunately, I'm afraid of POKéMON\n"
+	.string "and heights, so I just moved to\l"
+	.string "Cherrygrove.$"
+
+Route29_TuscanyOfTuesday_Text_0:
+# 54 "data/maps/Route29/scripts.pory"
+	.string "TUSCANY: Hey there, I'm TUSCANY. You\n"
+	.string "know, from Tuesday?\p"
+	.string "I'm not sure if days of the week are\n"
+	.string "going to be in this hack, so I don't know\l"
+	.string "what my purpose will be.$"
+
+Route29_TuscanyOfTuesday_Text_1:
+# 56 "data/maps/Route29/scripts.pory"
+	.string "I'm not sure what to do with myself\n"
+	.string "without Tuesdays.$"
+
+Route29_TuscanyOfTuesday_Text_2:
+# 58 "data/maps/Route29/scripts.pory"
+	.string "Well since you met me anyway, here,\n"
+	.string "please accept this gift, a SILK SCARF.$"
+
+Route29_TuscanyOfTuesday_Text_3:
+# 60 "data/maps/Route29/scripts.pory"
+	.string "TUSCANY: Wouldn't you agree it is most\n"
+	.string "elegant?\p"
+	.string "It strengthens normal-type moves of\n"
+	.string "the POKéMON that holds it.\p"
+	.string "I'm certain it will be of use to you!$"

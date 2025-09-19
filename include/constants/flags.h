@@ -47,7 +47,7 @@
 #define FLAG_CHOSE_CHIKORITA    0x20
 #define FLAG_CHOSE_CYNDAQUIL    0x21
 #define FLAG_CHOSE_TOTODILE     0x22
-#define FLAG_UNUSED_0x023       0x23 // Unused Flag
+#define FLAG_MET_TUSCANY        0x23
 #define FLAG_UNUSED_0x024    0x24 // Unused Flag
 #define FLAG_UNUSED_0x025    0x25 // Unused Flag
 #define FLAG_UNUSED_0x026    0x26 // Unused Flag
@@ -1595,8 +1595,8 @@
 #define FLAG_DAILY_APPRENTICE_LEAVES                (DAILY_FLAGS_START + 0x14)
 
 #define FLAG_ROUTE_29_ORAN_BERRY                    (DAILY_FLAGS_START + 0x15) 
-#define FLAG_UNUSED_0x936                           (DAILY_FLAGS_START + 0x16) // Unused Flag
-#define FLAG_UNUSED_0x937                           (DAILY_FLAGS_START + 0x17) // Unused Flag
+#define FLAG_ROUTE_29_PECHA_BERRY                   (DAILY_FLAGS_START + 0x16) // Unused Flag
+#define FLAG_ROUTE_29_RED_APRICORN                  (DAILY_FLAGS_START + 0x17) // Unused Flag
 #define FLAG_UNUSED_0x938                           (DAILY_FLAGS_START + 0x18) // Unused Flag
 #define FLAG_UNUSED_0x939                           (DAILY_FLAGS_START + 0x19) // Unused Flag
 #define FLAG_UNUSED_0x93A                           (DAILY_FLAGS_START + 0x1A) // Unused Flag

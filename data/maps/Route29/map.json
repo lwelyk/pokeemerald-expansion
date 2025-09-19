@@ -62,7 +62,7 @@
       "flag": "FLAG_TEMP_2"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL_C",
+      "graphics_id": "OBJ_EVENT_GFX_POKE_BALL",
       "x": 48,
       "y": 2,
       "elevation": 0,
@@ -89,12 +89,12 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AROMA_LADY",
-      "x": 15,
-      "y": 12,
+      "x": 6,
+      "y": 13,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
-      "movement_range_x": 1,
-      "movement_range_y": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 2,
+      "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route29_WomanNearCherrygrove",
@@ -110,7 +110,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route29_TuscanyOfTuesday",
       "flag": "0"
     },
     {
@@ -136,7 +136,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ROUTE_29_ORAN_BERRY"
     },
     {
@@ -149,8 +149,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ROUTE_29_PECHA_BERRY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_APRICORN_RED",
@@ -162,7 +162,20 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ROUTE_29_RED_APRICORN"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
+      "x": 16,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route29_LadyNearLedge",
       "flag": "0"
     }
   ],
