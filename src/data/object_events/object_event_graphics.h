@@ -44,6 +44,7 @@ const u16 gObjectEventPal_Npc3[] = INCBIN_U16("graphics/object_events/palettes/n
 const u16 gObjectEventPal_Npc4[] = INCBIN_U16("graphics/object_events/palettes/npc_4.gbapal");
 const u16 gObjectEventPal_GBC[] = INCBIN_U16("graphics/object_events/palettes/gbc.gbapal");
 const u16 gObjectEventPal_GBCBerries[] = INCBIN_U16("graphics/object_events/palettes/gbc_berries.gbapal");
+const u16 gObjectEventPal_GBCObjects[] = INCBIN_U16("graphics/object_events/palettes/gbc_objects.gbapal");
 const u16 gObjectEventPal_Npc1Reflection[] = INCBIN_U16("graphics/object_events/palettes/npc_1_reflection.gbapal");
 const u16 gObjectEventPal_Npc2Reflection[] = INCBIN_U16("graphics/object_events/palettes/npc_2_reflection.gbapal");
 const u16 gObjectEventPal_Npc3Reflection[] = INCBIN_U16("graphics/object_events/palettes/npc_3_reflection.gbapal");
