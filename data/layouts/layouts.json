@@ -4877,7 +4877,7 @@
       "width": 10,
       "height": 8,
       "primary_tileset": "gTileset_Johto_Interior",
-      "secondary_tileset": "gTileset_laboratory",
+      "secondary_tileset": "gTileset_Gate",
       "border_filepath": "data/layouts/JOHTO_GATE_NORTH_SOUTH/border.bin",
       "blockdata_filepath": "data/layouts/JOHTO_GATE_NORTH_SOUTH/map.bin"
     },

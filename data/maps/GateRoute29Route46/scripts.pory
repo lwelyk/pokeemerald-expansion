@@ -1,1 +1,12 @@
 mapscripts GateRoute29Route46_MapScripts {}
+
+script GateRoute29Route46KidM {
+    lock
+    msgbox(format("You can find some rarer POKéMON north of here.\pThey come down the ledges from the north. Some of them can be a lot tougher so you gotta be careful!\pIt's a lot of work if you wanna catch 'em all."))
+    release
+}
+
+script GateRoute29Route46Guard {
+    lock
+    msgbox(format("You can hop down ledges for a shortcut, but you can't climb back up them.\pIt's a convenient shortcut as long as you didn't forget anything up the ledge."))
+}

@@ -228,3 +228,6 @@ const u16 gMetatileAttributes_Azalea[] = INCBIN_U16("data/tilesets/secondary/aza
 
 const u16 gMetatiles_Goldenrod[] = INCBIN_U16("data/tilesets/secondary/goldenrod/metatiles.bin");
 const u16 gMetatileAttributes_Goldenrod[] = INCBIN_U16("data/tilesets/secondary/goldenrod/metatile_attributes.bin");
+
+const u16 gMetatiles_Gate[] = INCBIN_U16("data/tilesets/secondary/gate/metatiles.bin");
+const u16 gMetatileAttributes_Gate[] = INCBIN_U16("data/tilesets/secondary/gate/metatile_attributes.bin");
