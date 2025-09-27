@@ -205,7 +205,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .backPicSizeFemale = MON_COORDS_SIZE(56, 64),
 #endif //P_GENDER_DIFFERENCES
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
-        SHADOW(0, 7, SHADOW_SIZE_XL)
+        SHADOW(0, 7, SHADOW_SIZE_XL_BATTLE_ONLY)
         FOOTPRINT(Meganium)
         OVERWORLD(
             sPicTable_Meganium,

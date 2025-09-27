@@ -1963,7 +1963,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .iconSprite = gMonIcon_Pidgeot,
         .iconPalIndex = 0,
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
-        SHADOW(0, 7, SHADOW_SIZE_XL)
+        SHADOW(0, 7, SHADOW_SIZE_XL_BATTLE_ONLY)
         FOOTPRINT(Pidgeot)
         OVERWORLD(
             sPicTable_Pidgeot,
@@ -4438,7 +4438,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .trainerOffset = 0,
         .frontPic = gMonFrontPic_Nidorina,
         .frontPicSize = MON_COORDS_SIZE(48, 48),
-        .frontPicYOffset = 4
+        .frontPicYOffset = 4,
         .frontAnimFrames = ANIM_FRAMES(
             ANIMCMD_FRAME(1, 40),
             ANIMCMD_FRAME(0, 10),
@@ -5363,7 +5363,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .iconSprite = gMonIcon_Igglybuff,
         .iconPalIndex = 1,
         .pokemonJumpType = PKMN_JUMP_TYPE_SLOW,
-        SHADOW(3, 8, SHADOW_SIZE_MS)
+        SHADOW(3, 8, SHADOW_SIZE_M)
         FOOTPRINT(Igglybuff)
         OVERWORLD(
             sPicTable_Igglybuff,
