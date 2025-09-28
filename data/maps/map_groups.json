@@ -123,7 +123,8 @@
   "gMapGroup_JohtoSpecial": [
     "JOHTO_HOUSE_1",
     "JOHTO_GATE_NORTH_SOUTH",
-    "JOHTO_GATE_EAST_WEST"
+    "JOHTO_GATE_EAST_WEST",
+    "JOHTO_POKEMON_CENTER"
   ],
   "gMapGroup_KantoTownsAndRoutes": [
     "Route27"

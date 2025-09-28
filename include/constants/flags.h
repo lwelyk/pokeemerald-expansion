@@ -1596,7 +1596,7 @@
 
 #define FLAG_ROUTE_29_ORAN_BERRY                    (DAILY_FLAGS_START + 0x15) 
 #define FLAG_ROUTE_29_PECHA_BERRY                   (DAILY_FLAGS_START + 0x16) // Unused Flag
-#define FLAG_ROUTE_29_RED_APRICORN                  (DAILY_FLAGS_START + 0x17) // Unused Flag
+#define FLAG_CHERRYGROVE_RED_APRICORN               (DAILY_FLAGS_START + 0x17) // Unused Flag
 #define FLAG_UNUSED_0x938                           (DAILY_FLAGS_START + 0x18) // Unused Flag
 #define FLAG_UNUSED_0x939                           (DAILY_FLAGS_START + 0x19) // Unused Flag
 #define FLAG_UNUSED_0x93A                           (DAILY_FLAGS_START + 0x1A) // Unused Flag

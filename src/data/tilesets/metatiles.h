@@ -231,3 +231,6 @@ const u16 gMetatileAttributes_Goldenrod[] = INCBIN_U16("data/tilesets/secondary/
 
 const u16 gMetatiles_Gate[] = INCBIN_U16("data/tilesets/secondary/gate/metatiles.bin");
 const u16 gMetatileAttributes_Gate[] = INCBIN_U16("data/tilesets/secondary/gate/metatile_attributes.bin");
+
+const u16 gMetatiles_pkmncenter[] = INCBIN_U16("data/tilesets/secondary/pkmncenter/metatiles.bin");
+const u16 gMetatileAttributes_pkmncenter[] = INCBIN_U16("data/tilesets/secondary/pkmncenter/metatile_attributes.bin");

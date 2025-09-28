@@ -4890,6 +4890,16 @@
       "secondary_tileset": "gTileset_laboratory",
       "border_filepath": "data/layouts/JOHTO_GATE_EAST_WEST/border.bin",
       "blockdata_filepath": "data/layouts/JOHTO_GATE_EAST_WEST/map.bin"
+    },
+    {
+      "id": "LAYOUT_JOHTO_POKEMON_CENTER",
+      "name": "JOHTO_POKEMON_CENTER_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_pkmncenter",
+      "border_filepath": "data/layouts/JOHTO_POKEMON_CENTER/border.bin",
+      "blockdata_filepath": "data/layouts/JOHTO_POKEMON_CENTER/map.bin"
     }
   ]
 }

@@ -918,3 +918,14 @@ const struct Tileset gTileset_Gate =
     .metatileAttributes = gMetatileAttributes_Gate,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_pkmncenter =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_pkmncenter,
+    .palettes = gTilesetPalettes_pkmncenter,
+    .metatiles = gMetatiles_pkmncenter,
+    .metatileAttributes = gMetatileAttributes_pkmncenter,
+    .callback = NULL,
+};
