@@ -2703,8 +2703,8 @@ static void SpawnLightSprite(s16 x, s16 y, s16 camX, s16 camY, u32 lightType)
         break;
     case LIGHT_TYPE_PKMN_CENTER_SIGN:
     case LIGHT_TYPE_POKE_MART_SIGN:
-        sprite->centerToCornerVecX = -(16 >> 1);
-        sprite->centerToCornerVecY = -(16 >> 1);
+        sprite->centerToCornerVecX = 0;
+        sprite->centerToCornerVecY = 0;
         sprite->oam.priority = 2;
         sprite->subpriority = 0xFF;
         sprite->oam.objMode = ST_OAM_OBJ_BLEND;
