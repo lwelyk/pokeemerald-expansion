@@ -2216,8 +2216,8 @@
       "name": "TradeCenter_Layout",
       "width": 12,
       "height": 9,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_CableClub",
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_pkmncenter",
       "border_filepath": "data/layouts/TradeCenter/border.bin",
       "blockdata_filepath": "data/layouts/TradeCenter/map.bin"
     },
@@ -3926,8 +3926,8 @@
       "name": "UnionRoom_Layout",
       "width": 15,
       "height": 12,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_UnionRoom",
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_pkmncenter",
       "border_filepath": "data/layouts/UnionRoom/border.bin",
       "blockdata_filepath": "data/layouts/UnionRoom/map.bin"
     },
@@ -4900,6 +4900,16 @@
       "secondary_tileset": "gTileset_pkmncenter",
       "border_filepath": "data/layouts/JOHTO_POKEMON_CENTER/border.bin",
       "blockdata_filepath": "data/layouts/JOHTO_POKEMON_CENTER/map.bin"
+    },
+    {
+      "id": "LAYOUT_JOHTO_POKEMON_CENTER_2F",
+      "name": "JOHTO_POKEMON_CENTER_2F_Layout",
+      "width": 16,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_pkmncenter",
+      "border_filepath": "data/layouts/JOHTO_POKEMON_CENTER_2F/border.bin",
+      "blockdata_filepath": "data/layouts/JOHTO_POKEMON_CENTER_2F/map.bin"
     }
   ]
 }

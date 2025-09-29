@@ -110,7 +110,10 @@
     "NewBarkTown_FriendlyRivalHouse2F",
     "NewBarkTown_ElmsLab"
   ],
-  "gMapGroup_IndoorCherrygrove": [],
+  "gMapGroup_IndoorCherrygrove": [
+    "CherrygrovePokemonCenter1F",
+    "CherrygrovePokemonCenter2F"
+  ],
   "gMapGroup_IndoorViolet": [],
   "gMapGroup_IndoorAzalea": [],
   "gMapGroup_IndoorGoldenrod": [],
@@ -124,7 +127,8 @@
     "JOHTO_HOUSE_1",
     "JOHTO_GATE_NORTH_SOUTH",
     "JOHTO_GATE_EAST_WEST",
-    "JOHTO_POKEMON_CENTER"
+    "JOHTO_POKEMON_CENTER",
+    "JOHTO_POKEMON_CENTER_2F"
   ],
   "gMapGroup_KantoTownsAndRoutes": [
     "Route27"

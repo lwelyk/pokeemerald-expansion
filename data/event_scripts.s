@@ -1257,3 +1257,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/GateRoute29Route46/scripts.inc"
 
 	.include "data/maps/JOHTO_POKEMON_CENTER/scripts.inc"
+
+	.include "data/maps/JOHTO_POKEMON_CENTER_2F/scripts.inc"
+
+	.include "data/maps/CherrygrovePokemonCenter1F/scripts.inc"
+
+	.include "data/maps/CherrygrovePokemonCenter2F/scripts.inc"
