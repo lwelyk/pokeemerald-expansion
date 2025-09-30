@@ -70,11 +70,11 @@ CherrygroveCity_GuideGentSign::
 	return
 
 
-CherrygroveCity_GuideGentSign::
+CherrygroveCity_FlowerShopSign::
 # 46 "data/maps/CherrygroveCity/scripts.pory"
 	lock
 # 47 "data/maps/CherrygroveCity/scripts.pory"
-	msgbox CherrygroveCity_GuideGentSign_Text_1
+	msgbox CherrygroveCity_FlowerShopSign_Text_0
 # 48 "data/maps/CherrygroveCity/scripts.pory"
 	release
 	return
@@ -115,6 +115,6 @@ CherrygroveCity_GuideGentSign_Text_0:
 # 41 "data/maps/CherrygroveCity/scripts.pory"
 	.string "GUIDE GENT'S HOUSE$"
 
-CherrygroveCity_GuideGentSign_Text_1:
+CherrygroveCity_FlowerShopSign_Text_0:
 # 47 "data/maps/CherrygroveCity/scripts.pory"
 	.string "BLOOMING BLOSSOM'S FLOWER SHOPPE$"

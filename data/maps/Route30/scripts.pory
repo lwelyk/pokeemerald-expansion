@@ -1,0 +1,27 @@
+mapscripts Route30_MapScripts {
+
+}
+
+script Route30_MrPokemonHouseSign {
+    lock
+    msgbox(format("MR.POKéMON'S HOUSE"))
+    release
+}
+
+script Route30_Youngster {
+    lock
+    faceplayer
+    msgbox(format("MR.POKéMON's house? It's a bit farther ahead."))
+    release
+}
+
+script Route30_TrainerTips {
+    lock
+    msgbox(format("TRAINER TIPS\pONly throw POKéBALLs at wild POKéMON!\pPOKéBALLs will block you from catching POKéMON already registered to another trainer's ID!\pPOKéMON theft is not tolerated!"))
+    release
+}
+
+script Route30_Route30Sign {
+    lock
+    msgbox(format("ROUTE 30\nVIOLET CITY - CHERRYGROVE CITY"))
+}

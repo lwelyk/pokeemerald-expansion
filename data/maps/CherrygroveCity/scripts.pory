@@ -42,7 +42,7 @@ script CherrygroveCity_GuideGentSign {
     release
 }
 
-script CherrygroveCity_GuideGentSign {
+script CherrygroveCity_FlowerShopSign {
     lock
     msgbox(format("BLOOMING BLOSSOM'S FLOWER SHOPPE"))
     release

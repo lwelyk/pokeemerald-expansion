@@ -1,1 +1,22 @@
 mapscripts CherrygrovePokemonCenter1F_MapScripts {}
+
+script CherrygrovePokemonCenter1F_Fisher {
+    lock
+    faceplayer
+    msgbox(format("The PC is so great! I can store tons of POKéMON in it for free!\pI wonder how they can afford to do that?"))
+    release
+}
+
+script CherrygrovePokemonCenter1F_Gentleman {
+    lock
+    faceplayer
+    msgbox(format("The PC in the corner is free for anyone to use, it just needs your TRAINER ID.\pThe healing services are also free to use.\pPOKéMON CENTERs are so convenient!"))
+    release
+}
+
+script CherrygrovePokemonCenter1F_Teacher {
+    lock
+    faceplayer
+    msgbox(format("The COMMUNICATION CENTER upstairs is still being setup, but you can still rent a bed there if you need to take a rest while on your journey.\pA good nap always helps time pass more quickly."))
+    release
+}

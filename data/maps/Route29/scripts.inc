@@ -26,94 +26,104 @@ Route29_ManNearGate::
 # 18 "data/maps/Route29/scripts.pory"
 	lock
 # 19 "data/maps/Route29/scripts.pory"
-	msgbox Route29_ManNearGate_Text_0
+	faceplayer
 # 20 "data/maps/Route29/scripts.pory"
+	msgbox Route29_ManNearGate_Text_0
+# 21 "data/maps/Route29/scripts.pory"
 	release
 	return
 
 
 Route29_WomanNearCherrygrove::
-# 24 "data/maps/Route29/scripts.pory"
-	lock
 # 25 "data/maps/Route29/scripts.pory"
-	msgbox Route29_WomanNearCherrygrove_Text_0
+	lock
 # 26 "data/maps/Route29/scripts.pory"
+	faceplayer
+# 27 "data/maps/Route29/scripts.pory"
+	msgbox Route29_WomanNearCherrygrove_Text_0
+# 28 "data/maps/Route29/scripts.pory"
 	gettimeofday
 # 0 "data/maps/Route29/scripts.pory"
 	switch VAR_0x8000
-# 27 "data/maps/Route29/scripts.pory"
-	case TIME_MORNING, Route29_WomanNearCherrygrove_3
 # 29 "data/maps/Route29/scripts.pory"
-	case TIME_DAY, Route29_WomanNearCherrygrove_4
+	case TIME_MORNING, Route29_WomanNearCherrygrove_3
 # 31 "data/maps/Route29/scripts.pory"
+	case TIME_DAY, Route29_WomanNearCherrygrove_4
+# 33 "data/maps/Route29/scripts.pory"
 	case TIME_NIGHT, Route29_WomanNearCherrygrove_5
-# 32 "data/maps/Route29/scripts.pory"
+# 34 "data/maps/Route29/scripts.pory"
 	case TIME_EVENING, Route29_WomanNearCherrygrove_5
-# 35 "data/maps/Route29/scripts.pory"
+# 37 "data/maps/Route29/scripts.pory"
 	msgbox Route29_WomanNearCherrygrove_Text_4
 Route29_WomanNearCherrygrove_1:
-# 37 "data/maps/Route29/scripts.pory"
+# 39 "data/maps/Route29/scripts.pory"
 	release
 	return
 
 Route29_WomanNearCherrygrove_3:
-# 28 "data/maps/Route29/scripts.pory"
+# 30 "data/maps/Route29/scripts.pory"
 	msgbox Route29_WomanNearCherrygrove_Text_1
 	goto Route29_WomanNearCherrygrove_1
 
 Route29_WomanNearCherrygrove_4:
-# 30 "data/maps/Route29/scripts.pory"
+# 32 "data/maps/Route29/scripts.pory"
 	msgbox Route29_WomanNearCherrygrove_Text_2
 	goto Route29_WomanNearCherrygrove_1
 
 Route29_WomanNearCherrygrove_5:
-# 33 "data/maps/Route29/scripts.pory"
+# 35 "data/maps/Route29/scripts.pory"
 	msgbox Route29_WomanNearCherrygrove_Text_3
 	goto Route29_WomanNearCherrygrove_1
 
 
 Route29_MiddleBoy::
-# 41 "data/maps/Route29/scripts.pory"
-	lock
-# 42 "data/maps/Route29/scripts.pory"
-	msgbox Route29_MiddleBoy_Text_0
 # 43 "data/maps/Route29/scripts.pory"
+	lock
+# 44 "data/maps/Route29/scripts.pory"
+	faceplayer
+# 45 "data/maps/Route29/scripts.pory"
+	msgbox Route29_MiddleBoy_Text_0
+# 46 "data/maps/Route29/scripts.pory"
 	release
 	return
 
 
 Route29_LadyNearLedge::
-# 47 "data/maps/Route29/scripts.pory"
+# 50 "data/maps/Route29/scripts.pory"
 	lock
-# 48 "data/maps/Route29/scripts.pory"
+# 51 "data/maps/Route29/scripts.pory"
+	faceplayer
+# 52 "data/maps/Route29/scripts.pory"
 	msgbox Route29_LadyNearLedge_Text_0
-# 49 "data/maps/Route29/scripts.pory"
+# 53 "data/maps/Route29/scripts.pory"
 	release
 	return
 
 
 Route29_TuscanyOfTuesday::
-# 53 "data/maps/Route29/scripts.pory"
+# 57 "data/maps/Route29/scripts.pory"
 	lock
-# 54 "data/maps/Route29/scripts.pory"
-	msgbox Route29_TuscanyOfTuesday_Text_0
-# 55 "data/maps/Route29/scripts.pory"
-	goto_if_set FLAG_MET_TUSCANY, Route29_TuscanyOfTuesday_2
 # 58 "data/maps/Route29/scripts.pory"
-	msgbox Route29_TuscanyOfTuesday_Text_2
+	faceplayer
 # 59 "data/maps/Route29/scripts.pory"
-	giveitem ITEM_SILK_SCARF
+	msgbox Route29_TuscanyOfTuesday_Text_0
 # 60 "data/maps/Route29/scripts.pory"
+	goto_if_set FLAG_MET_TUSCANY, Route29_TuscanyOfTuesday_2
+# 63 "data/maps/Route29/scripts.pory"
+	msgbox Route29_TuscanyOfTuesday_Text_2
+# 64 "data/maps/Route29/scripts.pory"
+	giveitem ITEM_SILK_SCARF
+# 65 "data/maps/Route29/scripts.pory"
 	msgbox Route29_TuscanyOfTuesday_Text_3
-# 61 "data/maps/Route29/scripts.pory"
+# 66 "data/maps/Route29/scripts.pory"
 	setflag FLAG_MET_TUSCANY
 Route29_TuscanyOfTuesday_1:
-# 63 "data/maps/Route29/scripts.pory"
+# 68 "data/maps/Route29/scripts.pory"
 	release
 	return
 
 Route29_TuscanyOfTuesday_2:
-# 56 "data/maps/Route29/scripts.pory"
+# 61 "data/maps/Route29/scripts.pory"
 	msgbox Route29_TuscanyOfTuesday_Text_1
 	goto Route29_TuscanyOfTuesday_1
 
@@ -127,7 +137,7 @@ Route29_NewBarkSign_Text_0:
 	.string "East to NEW BARK TOWN$"
 
 Route29_ManNearGate_Text_0:
-# 19 "data/maps/Route29/scripts.pory"
+# 20 "data/maps/Route29/scripts.pory"
 	.string "Hello there!\p"
 	.string "I wanted to take a break, so I saved to\n"
 	.string "record my progress.\p"
@@ -135,44 +145,44 @@ Route29_ManNearGate_Text_0:
 	.string "road is all overgrown!$"
 
 Route29_WomanNearCherrygrove_Text_0:
-# 25 "data/maps/Route29/scripts.pory"
+# 27 "data/maps/Route29/scripts.pory"
 	.string "Hi, I'm always looking out for new\n"
 	.string "POKéMON.$"
 
 Route29_WomanNearCherrygrove_Text_1:
-# 28 "data/maps/Route29/scripts.pory"
+# 30 "data/maps/Route29/scripts.pory"
 	.string "I'm looking for POKéMON that are only\n"
 	.string "found in the morning.\p"
 	.string "I heard you can find LEDYBA here in the\n"
 	.string "morning!$"
 
 Route29_WomanNearCherrygrove_Text_2:
-# 30 "data/maps/Route29/scripts.pory"
+# 32 "data/maps/Route29/scripts.pory"
 	.string "Some POKéMON are easier to find during\n"
 	.string "different times.\p"
 	.string "I heard it's easier to find HOPPIP here\n"
 	.string "during the day!$"
 
 Route29_WomanNearCherrygrove_Text_3:
-# 33 "data/maps/Route29/scripts.pory"
+# 35 "data/maps/Route29/scripts.pory"
 	.string "I'm looking for POKéMON that are only\n"
 	.string "found at night.\p"
 	.string "I heard you can find SPINARAK here at\n"
 	.string "night!$"
 
 Route29_WomanNearCherrygrove_Text_4:
-# 35 "data/maps/Route29/scripts.pory"
+# 37 "data/maps/Route29/scripts.pory"
 	.string "You can find different POKéMON at different time of day.\pBut it's not Morning, Day, Evening, or Night right now!\pWhat time does that mean it is?$"
 
 Route29_MiddleBoy_Text_0:
-# 42 "data/maps/Route29/scripts.pory"
+# 45 "data/maps/Route29/scripts.pory"
 	.string "That's a cool POKéMON!\p"
 	.string "Be sure to stay out of the tall grass if\n"
 	.string "it's too injured or weak.\p"
 	.string "That's where all the wild POKéMON are.$"
 
 Route29_LadyNearLedge_Text_0:
-# 48 "data/maps/Route29/scripts.pory"
+# 52 "data/maps/Route29/scripts.pory"
 	.string "You see those ledges?\p"
 	.string "They're pretty scary, but if you hop\n"
 	.string "down them you can avoid POKéMON in the\l"
@@ -183,7 +193,7 @@ Route29_LadyNearLedge_Text_0:
 	.string "Cherrygrove.$"
 
 Route29_TuscanyOfTuesday_Text_0:
-# 54 "data/maps/Route29/scripts.pory"
+# 59 "data/maps/Route29/scripts.pory"
 	.string "TUSCANY: Hey there, I'm TUSCANY. You\n"
 	.string "know, from Tuesday?\p"
 	.string "I'm not sure if days of the week are\n"
@@ -191,17 +201,17 @@ Route29_TuscanyOfTuesday_Text_0:
 	.string "what my purpose will be.$"
 
 Route29_TuscanyOfTuesday_Text_1:
-# 56 "data/maps/Route29/scripts.pory"
+# 61 "data/maps/Route29/scripts.pory"
 	.string "I'm not sure what to do with myself\n"
 	.string "without Tuesdays.$"
 
 Route29_TuscanyOfTuesday_Text_2:
-# 58 "data/maps/Route29/scripts.pory"
+# 63 "data/maps/Route29/scripts.pory"
 	.string "Well since you met me anyway, here,\n"
 	.string "please accept this gift, a SILK SCARF.$"
 
 Route29_TuscanyOfTuesday_Text_3:
-# 60 "data/maps/Route29/scripts.pory"
+# 65 "data/maps/Route29/scripts.pory"
 	.string "TUSCANY: Wouldn't you agree it is most\n"
 	.string "elegant?\p"
 	.string "It strengthens normal-type moves of\n"

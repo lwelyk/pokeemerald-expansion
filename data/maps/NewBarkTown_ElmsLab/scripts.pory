@@ -21,6 +21,8 @@ script ElmsLab_Intro {
         msgbox(
             format( "PROFESSOR ELM: There you are, {PLAYER}!\p"
                     "I need to ask you a favor to do with my research.\p"
+                    "I'm conducting new POKéMON research right now, and I was wondering if you could help me with it, {PLAYER}.\p"
+                    "You see... I'm writing a paper that I want to present at a conference and I need some more data.\p"
                     "As you know, POKéMON are carried in POKéBALLs nowadays, but before they were invented we used simpler devices and even walked around with POKéMON.\p"
                     "I'm sure you've noticed your friend LYRA running around with her MARILL.\p"
                     "While POKéBALLs are still needed to catch POKéMON, I wonder what benefits can be had from traveling with POKéMON in this way?\p"
@@ -30,7 +32,13 @@ script ElmsLab_Intro {
         )
         applymovement(PROF_ELM, Common_Movement_FaceRight)
         waitmovement(0)
-        msgbox(format("I have three POKéMON you can choose from over here.\pThey recently hatched and you'll be their first partner, {PLAYER}!\pGo on, pick one!"))
+        msgbox(
+            format(
+                "I have three POKéMON you can choose from over here.\p"
+                "They recently hatched and you'll be their first partner, {PLAYER}!\p"
+                "Go on, pick one!"
+            )
+        )
         release
     }
 }
@@ -178,7 +186,8 @@ script ElmsLab_AfterStarterChoice {
             "PROFESSOR ELM: I have something that I think would be a great way for you to start your POKéMON journey!\p"
             "I have a colleague called MR. POKéMON who keeps finding weird things and raving to me about his discoveries.\p"
             "I just got an e-mail from him saying this time it's real.\p"
-            "An intriguing message, but we're very busy with our research right now. He doesn't live too far away, so if you go in our place, you'll be doing us a great favor and get to explore with your new POKéMON friend!"
+            "An intriguing message, but we're very busy with our research right now.\p"
+            "He doesn't live too far away, so if you go in our place, you'll be doing us a great favor and get to explore with your new POKéMON friend!"
         )
     )
     msgbox(format("What do you say, will you help out?"), MSGBOX_YESNO)
@@ -245,7 +254,7 @@ script ElmsLab_TrashcanText {
 
 script ElmsLab_PCText {
     lockall
-    msgbox(format("OBSERVATIONS ON POKéMON EVOLUTION AND GROWTH - A COMPREHENSIVE REVIEW BY PROFESSOR ELM\p...\p...\pThis seems like a very complicated paper."))
+    msgbox(format("OBSERVATIONS ON POKéMON EGGS AND HATCHING IN THE WILD - A COMPREHENSIVE REVIEW BY PROFESSOR ELM\p...\p...\pThis seems like a very complicated paper."))
     releaseall
 }
 

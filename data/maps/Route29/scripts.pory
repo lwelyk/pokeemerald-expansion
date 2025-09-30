@@ -16,12 +16,14 @@ script Route29_NewBarkSign {
 
 script Route29_ManNearGate {
 	lock
+	faceplayer
 	msgbox(format("Hello there!\pI wanted to take a break, so I saved to record my progress.\pI'm not as young as I meant to and this road is all overgrown!"))
 	release
 }
 
 script Route29_WomanNearCherrygrove {
 	lock
+	faceplayer
 	msgbox(format("Hi, I'm always looking out for new POKéMON."))
 	switch (gettimeofday()) {
         case TIME_MORNING:
@@ -39,18 +41,21 @@ script Route29_WomanNearCherrygrove {
 
 script Route29_MiddleBoy {
 	lock
+	faceplayer
 	msgbox(format("That's a cool POKéMON!\pBe sure to stay out of the tall grass if it's too injured or weak.\pThat's where all the wild POKéMON are."))
 	release
 }
 
 script Route29_LadyNearLedge {
 	lock
+	faceplayer
 	msgbox(format("You see those ledges?\pThey're pretty scary, but if you hop down them you can avoid POKéMON in the tall grass on your way back to NEW BARK TOWN.\pUnfortunately, I'm afraid of POKéMON and heights, so I just moved to Cherrygrove."))
 	release
 }
 
 script Route29_TuscanyOfTuesday {
 	lock
+	faceplayer
 	msgbox(format("TUSCANY: Hey there, I'm TUSCANY. You know, from Tuesday?\pI'm not sure if days of the week are going to be in this hack, so I don't know what my purpose will be."))
 	if(flag(FLAG_MET_TUSCANY)) {
 		msgbox(format("I'm not sure what to do with myself without Tuesdays."))
