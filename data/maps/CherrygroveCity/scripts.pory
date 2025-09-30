@@ -1,0 +1,49 @@
+mapscripts CherrygroveCity_MapScripts {
+
+}
+
+script CherrygroveCity_BeachDude {
+    lock
+	faceplayer
+	msgbox(format("I love hanging out on the beach of CHERRYGROVE BAY!\pYou can see ROUTE 32 from here when the weather's good."))
+    release
+}
+
+script CherrygroveCity_Woman {
+    lock
+    faceplayer
+    msgbox(format("I love going for a stroll through the cherry trees with my boyfriend.\pYou're doing it with your POKéMON.\pI wonder which is better?"))
+    release
+}
+
+script CherrygroveCity_Youngster {
+    lock
+    faceplayer
+    msgbox(format("I don't think that FURRET is supposed to be walking on the flowers.\pAt least my mom told me I wasn't supposed to do it yesterday.\pLife must be great as a POKéMON..."))
+    release
+}
+
+script CherrygroveCity_Guide {
+    lock
+    faceplayer
+    msgbox(format("I'm an old man who will guide."))
+    release
+}
+
+script CherrygroveCity_CitySign {
+    lock
+    msgbox(format("CHERRYGROVE CITY\pThe City of Cute, Fragrant Flowers"))
+    release
+}
+
+script CherrygroveCity_GuideGentSign {
+    lock
+    msgbox(format("GUIDE GENT'S HOUSE"))
+    release
+}
+
+script CherrygroveCity_GuideGentSign {
+    lock
+    msgbox(format("BLOOMING BLOSSOM'S FLOWER SHOPPE"))
+    release
+}
