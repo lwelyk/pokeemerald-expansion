@@ -4910,6 +4910,16 @@
       "secondary_tileset": "gTileset_pkmncenter",
       "border_filepath": "data/layouts/JOHTO_POKEMON_CENTER_2F/border.bin",
       "blockdata_filepath": "data/layouts/JOHTO_POKEMON_CENTER_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NOISY_FOREST",
+      "name": "NoisyForest_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Johto_Primary",
+      "secondary_tileset": "gTileset_violet",
+      "border_filepath": "data/layouts/NoisyForest/border.bin",
+      "blockdata_filepath": "data/layouts/NoisyForest/map.bin"
     }
   ]
 }

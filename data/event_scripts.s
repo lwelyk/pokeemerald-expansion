@@ -1263,3 +1263,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CherrygrovePokemonCenter1F/scripts.inc"
 
 	.include "data/maps/CherrygrovePokemonCenter2F/scripts.inc"
+
+	.include "data/maps/NoisyForest/scripts.inc"

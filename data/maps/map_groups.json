@@ -122,7 +122,9 @@
   "gMapGroup_IndoorCianwood": [],
   "gMapGroup_IndoorMahogany": [],
   "gMapGroup_IndoorBlackthorn": [],
-  "gMapGroup_JohtoDungeons": [],
+  "gMapGroup_JohtoDungeons": [
+    "NoisyForest"
+  ],
   "gMapGroup_JohtoSpecial": [
     "JOHTO_HOUSE_1",
     "JOHTO_GATE_NORTH_SOUTH",

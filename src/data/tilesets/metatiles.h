@@ -234,3 +234,6 @@ const u16 gMetatileAttributes_Gate[] = INCBIN_U16("data/tilesets/secondary/gate/
 
 const u16 gMetatiles_pkmncenter[] = INCBIN_U16("data/tilesets/secondary/pkmncenter/metatiles.bin");
 const u16 gMetatileAttributes_pkmncenter[] = INCBIN_U16("data/tilesets/secondary/pkmncenter/metatile_attributes.bin");
+
+const u16 gMetatiles_JohtoForest[] = INCBIN_U16("data/tilesets/secondary/johto_forest/metatiles.bin");
+const u16 gMetatileAttributes_JohtoForest[] = INCBIN_U16("data/tilesets/secondary/johto_forest/metatile_attributes.bin");
