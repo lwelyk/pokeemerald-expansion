@@ -1,0 +1,3 @@
+JOHTO_HOUSE_TRADITIONAL_1_MapScripts::
+	.byte 0
+

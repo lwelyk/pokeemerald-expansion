@@ -1265,3 +1265,23 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CherrygrovePokemonCenter2F/scripts.inc"
 
 	.include "data/maps/NoisyForest/scripts.inc"
+
+	.include "data/maps/BerryManHouse/scripts.inc"
+
+	.include "data/maps/MrPokemonsHouse/scripts.inc"
+
+	.include "data/maps/JOHTO_HOUSE_2/scripts.inc"
+
+	.include "data/maps/JOHTO_HOUSE_TRADITIONAL_1/scripts.inc"
+
+	.include "data/maps/JOHTO_POKE_MART/scripts.inc"
+
+	.include "data/maps/CherrygroveMart/scripts.inc"
+
+	.include "data/maps/CherrygroveGuideGent/scripts.inc"
+
+	.include "data/maps/CherrygroveHouse1/scripts.inc"
+
+	.include "data/maps/CherrygroveHouse2/scripts.inc"
+
+	.include "data/maps/CherrygroveFlowerShop/scripts.inc"

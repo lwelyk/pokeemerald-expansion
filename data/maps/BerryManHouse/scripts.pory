@@ -1,0 +1,14 @@
+mapscripts BerryManHouse_MapScripts {}
+
+script BerryManHouse_BerryMan {
+    lock
+    faceplayer
+    if(flag(FLAG_MET_BERRY_MAN)) {
+        msgbox(format("Check trees for BERRIES. They just drop right off when they're ripe!"))
+    } else {
+        msgbox(format("You know, POKéMON eat berries if you give them one to hold.\nIt makes them healthier and keeps them going in battle!\nHere, I'll share one with you!"))
+        giveitem(ITEM_CHERI_BERRY)
+        setflag(FLAG_MET_BERRY_MAN)
+    }
+    release
+}

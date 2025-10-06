@@ -19,6 +19,7 @@ script NewBarkTown_PlayersHouse1F_MomScript {
             setflag(FLAG_SYS_POKENAV_GET)
             setflag(FLAG_RECEIVED_POKENAV)
             setflag(FLAG_RECEIVED_RUNNING_SHOES)
+            setflag(FLAG_HAVE_NOT_REPORTED_SILVER)
             msgbox(format("You received the POKéGEAR!"))
             waitfanfare
             waitbuttonpress

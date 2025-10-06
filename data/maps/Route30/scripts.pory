@@ -17,11 +17,73 @@ script Route30_Youngster {
 
 script Route30_TrainerTips {
     lock
-    msgbox(format("TRAINER TIPS\pONly throw POKéBALLs at wild POKéMON!\pPOKéBALLs will block you from catching POKéMON already registered to another trainer's ID!\pPOKéMON theft is not tolerated!"))
+    msgbox(format("TRAINER TIPS\pOnly throw POKéBALLs at wild POKéMON!\pPOKéBALLs will block you from catching POKéMON already registered to another trainer's ID!\pPOKéMON theft is not tolerated!"))
     release
 }
 
 script Route30_Route30Sign {
     lock
     msgbox(format("ROUTE 30\nVIOLET CITY - CHERRYGROVE CITY"))
+    release
+}
+
+script Route30_RattataTrainer {
+    lock
+    msgbox(format("Go, RATTATA!\pUse TACKLE!"))
+    playmoncry(SPECIES_RATTATA, CRY_MODE_NORMAL)
+    waitmoncry
+    applymovement(LOCALID_RATTATA,Route30_Rattata_Movement)
+    playse(SE_PIN)
+    delay(30)
+    applymovement(LOCALID_RATTATA_TRAINER, Route30_Question)
+    delay(30)
+    faceplayer
+    msgbox(format("What? I'm in the middle of a big battle!\pLeave me alone!"))
+    turnobject(LOCALID_RATTATA_TRAINER, DIR_WEST)
+    release
+}
+
+script Route30_Rattata {
+    lock
+    msgbox(format("RATTATA: RATTTA!"))
+    playmoncry(SPECIES_RATTATA, CRY_MODE_NORMAL)
+    waitmoncry
+    release
+}
+
+script Route30_Spearow {
+    lock
+    msgbox(format("SPEAROW: SPRRRRROOWWWW!"))
+    playmoncry(SPECIES_SPEAROW, CRY_MODE_NORMAL)
+    waitmoncry
+    release
+}
+
+
+script Route30_SpearowTrainer {
+    lock
+    msgbox(format("Go, SPEAROW!\pUse PECK!"))
+    playmoncry(SPECIES_SPEAROW, CRY_MODE_NORMAL)
+    waitmoncry
+    applymovement(LOCALID_SPEAROW,Route30_Spearow_Movement)
+    playse(SE_PIN)
+    delay(30)
+    applymovement(LOCALID_SPEAROW_TRAINER, Route30_Question)
+    delay(30)
+    faceplayer
+    msgbox(format("Hey, we're battling here!\pYou gotta wait your turn!"))
+    turnobject(LOCALID_SPEAROW_TRAINER, DIR_EAST)
+    release
+}
+
+movement Route30_Rattata_Movement {
+    jump_in_place_left
+}
+
+movement Route30_Spearow_Movement {
+    jump_in_place_right
+}
+
+movement Route30_Question {
+    emote_question_mark
 }

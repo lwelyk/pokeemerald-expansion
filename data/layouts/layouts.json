@@ -4920,6 +4920,66 @@
       "secondary_tileset": "gTileset_violet",
       "border_filepath": "data/layouts/NoisyForest/border.bin",
       "blockdata_filepath": "data/layouts/NoisyForest/map.bin"
+    },
+    {
+      "id": "LAYOUT_BERRY_MAN_HOUSE",
+      "name": "BerryManHouse_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_UnionRoom",
+      "border_filepath": "data/layouts/BerryManHouse/border.bin",
+      "blockdata_filepath": "data/layouts/BerryManHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_MR_POKEMONS_HOUSE",
+      "name": "MrPokemonsHouse_Layout",
+      "width": 8,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_laboratory",
+      "border_filepath": "data/layouts/MrPokemonsHouse/border.bin",
+      "blockdata_filepath": "data/layouts/MrPokemonsHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_JOHTO_HOUSE_2",
+      "name": "JOHTO_HOUSE_2_Layout",
+      "width": 8,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/JOHTO_HOUSE_2/border.bin",
+      "blockdata_filepath": "data/layouts/JOHTO_HOUSE_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_JOHTO_HOUSE_TRADITIONAL_1",
+      "name": "JOHTO_HOUSE_TRADITIONAL_1_Layout",
+      "width": 8,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/JOHTO_HOUSE_TRADITIONAL_1/border.bin",
+      "blockdata_filepath": "data/layouts/JOHTO_HOUSE_TRADITIONAL_1/map.bin"
+    },
+    {
+      "id": "LAYOUT_JOHTO_POKE_MART",
+      "name": "JOHTO_POKE_MART_Layout",
+      "width": 12,
+      "height": 9,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_Mart",
+      "border_filepath": "data/layouts/JOHTO_POKE_MART/border.bin",
+      "blockdata_filepath": "data/layouts/JOHTO_POKE_MART/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHERRYGROVE_FLOWER_SHOP",
+      "name": "CherrygroveFlowerShop_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Johto_Interior",
+      "secondary_tileset": "gTileset_Mart",
+      "border_filepath": "data/layouts/CherrygroveFlowerShop/border.bin",
+      "blockdata_filepath": "data/layouts/CherrygroveFlowerShop/map.bin"
     }
   ]
 }

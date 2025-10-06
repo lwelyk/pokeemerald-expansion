@@ -53,7 +53,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(JIGGLYPUFF)",
-      "x": 17,
+      "x": 18,
       "y": 6,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_WALK_SLOWLY_IN_PLACE_DOWN",
@@ -113,7 +113,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route30_Youngster",
       "flag": "0"
     },
     {
@@ -127,9 +127,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HAVE_NOT_REPORTED_SILVER"
     },
     {
+      "local_id": "LOCALID_SPEAROW",
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(SPEAROW)",
       "x": 4,
       "y": 25,
@@ -139,10 +140,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route30_Spearow",
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_SPEAROW_TRAINER",
       "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
       "x": 3,
       "y": 25,
@@ -152,10 +154,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route30_SpearowTrainer",
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_RATTATA_TRAINER",
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 6,
       "y": 25,
@@ -165,10 +168,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route30_RattataTrainer",
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_RATTATA",
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(RATTATA)",
       "x": 5,
       "y": 25,
@@ -178,7 +182,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route30_Rattata",
       "flag": "0"
     },
     {
@@ -192,7 +196,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HAVE_NOT_REPORTED_SILVER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ACE_TRAINER_F",
@@ -226,11 +230,11 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 9,
+      "x": 10,
       "y": 43,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route30_TrainerTips"
     },
     {
       "type": "sign",
@@ -238,7 +242,15 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route30_MrPokemonHouseSign"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 16,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route30_TrainerTips"
     }
   ]
 }

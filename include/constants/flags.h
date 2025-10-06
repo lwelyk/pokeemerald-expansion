@@ -44,12 +44,12 @@
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
 // Johto Event Flags
-#define FLAG_CHOSE_CHIKORITA    0x20
-#define FLAG_CHOSE_CYNDAQUIL    0x21
-#define FLAG_CHOSE_TOTODILE     0x22
-#define FLAG_MET_TUSCANY        0x23
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
+#define FLAG_CHOSE_CHIKORITA             0x20
+#define FLAG_CHOSE_CYNDAQUIL             0x21
+#define FLAG_CHOSE_TOTODILE              0x22
+#define FLAG_MET_TUSCANY                 0x23
+#define FLAG_MET_BERRY_MAN               0x24
+#define FLAG_HAVE_NOT_REPORTED_SILVER    0x25
 #define FLAG_UNUSED_0x026    0x26 // Unused Flag
 #define FLAG_UNUSED_0x027    0x27 // Unused Flag
 #define FLAG_UNUSED_0x028    0x28 // Unused Flag

@@ -1,0 +1,52 @@
+mapscripts CherrygroveMart_MapScripts {}
+
+script CherrygroveMartClerk {
+    lock
+    faceplayer
+    msgbox(gText_HowMayIServeYou)
+    if(flag(FLAG_HAVE_NOT_REPORTED_SILVER)) {
+        pokemart(CherryGroveMartPreDex)
+    } else {
+        pokemart(0)
+    }
+    msgbox(gText_PleaseComeAgain)
+    release
+}
+
+script CherrygroveMartClerk2 {
+    lock
+    faceplayer
+    msgbox(gText_HowMayIServeYou)
+    pokemart(CherryGroveMartSpecialItems)
+    msgbox(gText_PleaseComeAgain)
+    release
+}
+
+mart CherryGroveMartPreDex {
+    ITEM_POTION
+    ITEM_ANTIDOTE
+    ITEM_PARALYZE_HEAL
+}
+
+mart CherryGroveMartSpecialItems {
+    ITEM_HEAL_BALL
+    ITEM_FAB_MAIL
+}
+
+script CherrygroveMart_AceTrainerM {
+    lock
+    faceplayer
+    if(flag(FLAG_HAVE_NOT_REPORTED_SILVER)) {
+        msgbox(format("They're all out of POKé BALLS here!\pWhen will they get more of them? I got new POKéMOn to catch!"))
+    } else {
+        msgbox(format("POKé BALLS are back in stock!\nNow I can catch more POKéMON!"))
+    }
+    release
+}
+
+script CherrygroveMart_Youngster {
+    lock
+    faceplayer
+    msgbox(format("I was walking in the tall grass, when a spider POKéMON bit my PIDGEY!\pMy PIDGEY was poisoned and I kept going, but my PIDGEY kept getting weaker and weaker.\pHe didn't feint, but with only 1 HP left, even a SENTRET was able to knock it out.\pI'm keeping an ANTIDOTE with me from now on."))
+    release
+}
