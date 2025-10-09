@@ -20,3 +20,9 @@ script CherrygrovePokemonCenter1F_Teacher {
     msgbox(format("The COMMUNICATION CENTER upstairs is still being setup, but you can still rent a bed there if you need to take a rest while on your journey.\pA good nap always helps time pass more quickly."))
     release
 }
+
+script CherrygrovePokemonCenter1F_Nurse {
+    lock
+    call(Common_EventScript_PkmnCenterNurse)
+    release
+}
