@@ -41,7 +41,22 @@
       "flag": "0"
     }
   ],
-  "warp_events": [],
+  "warp_events": [
+    {
+      "x": 2,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_CHERRYGROVE_CITY",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_CHERRYGROVE_CITY",
+      "dest_warp_id": "4"
+    }
+  ],
   "coord_events": [],
   "bg_events": []
 }

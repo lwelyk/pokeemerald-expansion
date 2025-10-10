@@ -225,7 +225,22 @@
       "flag": "0"
     }
   ],
-  "warp_events": [],
+  "warp_events": [
+    {
+      "x": 16,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_MR_POKEMONS_HOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 8,
+      "y": 38,
+      "elevation": 0,
+      "dest_map": "MAP_BERRY_MAN_HOUSE",
+      "dest_warp_id": "0"
+    }
+  ],
   "coord_events": [],
   "bg_events": [
     {
