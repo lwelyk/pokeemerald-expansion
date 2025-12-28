@@ -472,9 +472,6 @@ void RunTextPrinters(void)
                     if (!sTextPrinters[windowId].active)
                         break;
                 }
-                if (renderCmd != 0)
-                    break;
-                }
             }
             else
             {
