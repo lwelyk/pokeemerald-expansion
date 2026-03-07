@@ -1736,3 +1736,15 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/dexnav.inc"
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
+
+	.include "data/maps/ViridianCavern_Frlg/scripts.inc"
+	.include "data/maps/ViridianCavern_Frlg/text.inc"
+
+	.include "data/maps/Route2_ViridianCavern_SouthEntrance_Frlg/scripts.inc"
+	.include "data/maps/Route2_ViridianCavern_SouthEntrance_Frlg/text.inc"
+
+	.include "data/maps/ViridianCavern_Frlg_2F/scripts.inc"
+	.include "data/maps/ViridianCavern_Frlg_2F/text.inc"
+
+	.include "data/maps/Route2_Frlg_VIridianCavern/scripts.inc"
+	.include "data/maps/Route2_Frlg_VIridianCavern/text.inc"
