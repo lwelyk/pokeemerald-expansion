@@ -793,7 +793,8 @@
     "SixIsland_DottedHole_SapphireRoom_Frlg",
     "SixIsland_PatternBush_Frlg",
     "SixIsland_AlteringCave_Frlg",
-    "ViridianCavern_Frlg"
+    "ViridianCavern_Frlg",
+    "ViridianCavern_Frlg_2F"
   ],
   "gMapGroup_SpecialArea_Frlg": [
     "NavelRock_Exterior_Frlg",
@@ -919,7 +920,8 @@
     "SevenIsland_TrainerTower_Frlg",
     "SevenIsland_SevaultCanyon_Entrance_Frlg",
     "SevenIsland_SevaultCanyon_Frlg",
-    "SevenIsland_TanobyRuins_Frlg"
+    "SevenIsland_TanobyRuins_Frlg",
+    "Route2_Frlg_VIridianCavern"
   ],
   "gMapGroup_IndoorPallet_Frlg": [
     "PalletTown_PlayersHouse_1F_Frlg",
@@ -1039,7 +1041,8 @@
     "Route2_ViridianForest_SouthEntrance_Frlg",
     "Route2_House_Frlg",
     "Route2_EastBuilding_Frlg",
-    "Route2_ViridianForest_NorthEntrance_Frlg"
+    "Route2_ViridianForest_NorthEntrance_Frlg",
+    "Route2_ViridianCavern_SouthEntrance_Frlg"
   ],
   "gMapGroup_IndoorRoute4_Frlg": [
     "Route4_PokemonCenter_1F_Frlg",
