@@ -7,7 +7,7 @@ ViridianCavern_Frlg_2F_MapScripts::
 # 4 "data/maps/ViridianCavern_Frlg_2F/scripts.pory"
 
 # 5 "data/maps/ViridianCavern_Frlg_2F/scripts.pory"
-ViridianCavern_EventScript_Doug::
+ViridianCavern2F_EventScript_Doug::
 # 6 "data/maps/ViridianCavern_Frlg_2F/scripts.pory"
 	trainerbattle_single TRAINER_BUG_CATCHER_DOUG, ViridianCavern_Text_DougIntro, ViridianCavern_Text_DougDefeat
 # 7 "data/maps/ViridianCavern_Frlg_2F/scripts.pory"
@@ -17,7 +17,7 @@ ViridianCavern_EventScript_Doug::
 # 9 "data/maps/ViridianCavern_Frlg_2F/scripts.pory"
 
 # 10 "data/maps/ViridianCavern_Frlg_2F/scripts.pory"
-ViridianCavern_EventScript_TrainerTips3::
+ViridianCavern2F_EventScript_TrainerTips3::
 # 11 "data/maps/ViridianCavern_Frlg_2F/scripts.pory"
 	msgbox ViridianCavern_Text_ContactOakViaPCToRatePokedex, MSGBOX_SIGN
 # 12 "data/maps/ViridianCavern_Frlg_2F/scripts.pory"
@@ -27,7 +27,7 @@ ViridianCavern_EventScript_TrainerTips3::
 # 14 "data/maps/ViridianCavern_Frlg_2F/scripts.pory"
 
 # 15 "data/maps/ViridianCavern_Frlg_2F/scripts.pory"
-ViridianCavern_EventScript_Charlie::
+ViridianCavern2F_EventScript_Charlie::
 # 16 "data/maps/ViridianCavern_Frlg_2F/scripts.pory"
 	trainerbattle_single TRAINER_BUG_CATCHER_CHARLIE, ViridianCavern_Text_CharlieIntro, ViridianCavern_Text_CharlieDefeat
 # 17 "data/maps/ViridianCavern_Frlg_2F/scripts.pory"
