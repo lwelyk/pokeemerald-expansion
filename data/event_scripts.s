@@ -1748,3 +1748,6 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 
 	.include "data/maps/Route2_Frlg_VIridianCavern/scripts.inc"
 	.include "data/maps/Route2_Frlg_VIridianCavern/text.inc"
+
+	.include "data/maps/Route1_Rainy_Frlg/scripts.inc"
+	.include "data/maps/Route1_Rainy_Frlg/text.inc"
