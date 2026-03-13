@@ -10270,6 +10270,19 @@
       "border_filepath": "data/layouts/Route1_Rainy_Frlg/border.bin",
       "blockdata_filepath": "data/layouts/Route1_Rainy_Frlg/map.bin",
       "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_MOON_RUINS1F_FRLG",
+      "name": "MoonRuins1F_Frlg_Layout",
+      "width": 48,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General_Frlg",
+      "secondary_tileset": "gTileset_Ruins_frlg",
+      "border_filepath": "data/layouts/MoonRuins1F_Frlg/border.bin",
+      "blockdata_filepath": "data/layouts/MoonRuins1F_Frlg/map.bin",
+      "layout_version": "frlg"
     }
   ]
 }
