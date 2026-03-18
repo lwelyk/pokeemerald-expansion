@@ -10283,6 +10283,45 @@
       "border_filepath": "data/layouts/MoonRuins1F_Frlg/border.bin",
       "blockdata_filepath": "data/layouts/MoonRuins1F_Frlg/map.bin",
       "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_ARSENNE_MANSION_KITCHEN_FRLG",
+      "name": "ArsenneMansion_Kitchen_Frlg_Layout",
+      "width": 16,
+      "height": 14,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General_Frlg",
+      "secondary_tileset": "gTileset_SSAnne",
+      "border_filepath": "data/layouts/ArsenneMansion_Kitchen_Frlg/border.bin",
+      "blockdata_filepath": "data/layouts/ArsenneMansion_Kitchen_Frlg/map.bin",
+      "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_ANNSENNE_MANSION_ROOF_FRLG",
+      "name": "AnnsenneMansion_Roof_Frlg_Layout",
+      "width": 24,
+      "height": 19,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_BuildingFrlg",
+      "secondary_tileset": "gTileset_Condominiums",
+      "border_filepath": "data/layouts/AnnsenneMansion_Roof_Frlg/border.bin",
+      "blockdata_filepath": "data/layouts/AnnsenneMansion_Roof_Frlg/map.bin",
+      "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_ANNSENNE_MANSION_EXTERIOR_FRLG",
+      "name": "AnnsenneMansion_Exterior_Frlg_Layout",
+      "width": 70,
+      "height": 32,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General_Frlg",
+      "secondary_tileset": "gTileset_VermilionCity",
+      "border_filepath": "data/layouts/AnnsenneMansion_Exterior_Frlg/border.bin",
+      "blockdata_filepath": "data/layouts/AnnsenneMansion_Exterior_Frlg/map.bin",
+      "layout_version": "frlg"
     }
   ]
 }

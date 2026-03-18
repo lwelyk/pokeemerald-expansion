@@ -1754,3 +1754,12 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 
 	.include "data/maps/MoonRuins1F_Frlg/scripts.inc"
 	.include "data/maps/MoonRuins1F_Frlg/text.inc"
+
+	.include "data/maps/ArsenneMansion_Kitchen_Frlg/scripts.inc"
+	.include "data/maps/ArsenneMansion_Kitchen_Frlg/text.inc"
+
+	.include "data/maps/AnnsenneMansion_Roof_Frlg/scripts.inc"
+	.include "data/maps/AnnsenneMansion_Roof_Frlg/text.inc"
+
+	.include "data/maps/AnnsenneMansion_Exterior_Frlg/scripts.inc"
+	.include "data/maps/AnnsenneMansion_Exterior_Frlg/text.inc"

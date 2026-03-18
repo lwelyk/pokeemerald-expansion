@@ -1,7 +1,7 @@
 {
-  "id": "MAP_SSANNE_KITCHEN",
-  "name": "SSAnne_Kitchen_Frlg",
-  "layout": "LAYOUT_SSANNE_KITCHEN",
+  "id": "MAP_ARSENNE_MANSION_KITCHEN_FRLG",
+  "name": "ArsenneMansion_Kitchen_Frlg",
+  "layout": "LAYOUT_ARSENNE_MANSION_KITCHEN_FRLG",
   "music": "MUS_RG_SS_ANNE",
   "region_map_section": "MAPSEC_S_S_ANNE",
   "requires_flash": false,

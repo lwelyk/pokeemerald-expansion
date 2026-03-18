@@ -795,7 +795,10 @@
     "SixIsland_AlteringCave_Frlg",
     "ViridianCavern_Frlg",
     "ViridianCavern_Frlg_2F",
-    "MoonRuins1F_Frlg"
+    "MoonRuins1F_Frlg",
+    "AnnsenneMansion_Exterior_Frlg",
+    "AnnsenneMansion_Roof_Frlg",
+    "ArsenneMansion_Kitchen_Frlg"
   ],
   "gMapGroup_SpecialArea_Frlg": [
     "NavelRock_Exterior_Frlg",
