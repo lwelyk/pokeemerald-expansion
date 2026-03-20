@@ -1540,8 +1540,6 @@ const struct Tileset gTileset_HallOfFame =
     .callback = NULL,
 };
 
-#endif // IS_FRLG
-
 const struct Tileset gTileset_Ruins_frlg =
 {
     .isCompressed = TRUE,
@@ -1552,3 +1550,5 @@ const struct Tileset gTileset_Ruins_frlg =
     .metatileAttributes = gMetatileAttributes_Ruins_frlg,
     .callback = NULL,
 };
+
+#endif // IS_FRLG
