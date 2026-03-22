@@ -1763,3 +1763,6 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 
 	.include "data/maps/AnnsenneMansion_Exterior_Frlg/scripts.inc"
 	.include "data/maps/AnnsenneMansion_Exterior_Frlg/text.inc"
+
+	.include "data/maps/MoonRuins_Room1_Frlg/scripts.inc"
+	.include "data/maps/MoonRuins_Room1_Frlg/text.inc"
